@@ -48,10 +48,10 @@ wget -q -O - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildca
     sed "/^#/d; /^$/d;" |
     sed "s/^/  - '+./; s/$/'/" |
     sed -e '$a\' >>ad
-# Xiaomi 跟踪器
-wget -q -O - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.xiaomi.txt |
-    sed "/^#/d; /^$/d;" |
-    sed "s/^/  - '+./; s/$/'/" >>ad
+# # Xiaomi 跟踪器
+# wget -q -O - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.xiaomi.txt |
+#     sed "/^#/d; /^$/d;" |
+#     sed "s/^/  - '+./; s/$/'/" >>ad
 
 #合并并去重
 cat ad | awk '!seen[$0]++' | sed "/^$/d" >ad.yaml
