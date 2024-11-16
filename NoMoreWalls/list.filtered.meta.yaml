@@ -1,0 +1,427 @@
+proxies:
+- cipher: aes-256-gcm
+  name: '2,3|_US__1 #1'
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 139.64.165.230
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_3 #1'
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 142.202.49.122
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_5 #1'
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 142.202.49.84
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_7 #1'
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 69.50.92.72
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_8 #1'
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 38.110.1.12
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_10 #1'
+  password: lGqs95QkFHo2NV
+  port: 5499
+  server: 142.202.49.119
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_13 #1'
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 69.50.92.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_15 #1'
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 69.50.95.53
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '2,3|🇨_CN_国->_IE_ #1'
+  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
+  port: 10720
+  server: 122.195.189.15
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '2,3|🇨🇳_CN_中国->🇸_US_美国_1 #1'
+  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
+  port: 10712
+  server: yidong1.liulangdiqiu.life
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_22 #1'
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 169.197.142.216
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  name: '2,3|🇺🇸_US_美国->🇺_RU__1 #1'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.37.24.49
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_24 #1'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 69.50.92.55
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_25 #1'
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 69.50.95.179
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_26 #1'
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 69.50.92.110
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_27 #1'
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 169.197.142.120
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_32 #1'
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 167.88.61.235
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 4|江苏省 移动
+  network: tcp
+  port: 15086
+  server: 15086.kuaiyin02.top
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- name: 4|美国+V2CROSS.COM
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20983
+  server: ent1.imyourdaddy.top
+  sni: sale.alibaba.com
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 4|英国+社会保险安全部
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 51.20.156.31
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 4,5|14|香港2|@ripaojiedian
+  network: tcp
+  port: '56601'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alpn:
+  - http/1.1
+  name: 4|德国+黑森州法兰克福Amazon数据中心
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.194.92.223
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: '4|美国+V2CROSS.COM #1'
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20980
+  server: 152.70.249.186
+  skip-cert-verify: false
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 5|14|香港6|@ripaojiedian
+  network: tcp
+  port: '58002'
+  server: 120.232.153.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 5|14|日本2|@ripaojiedian
+  network: tcp
+  port: '30178'
+  server: 45.159.51.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a0dfa194-ce47-409f-b551-ff520181bfab
+- alterId: 0
+  cipher: auto
+  name: 5|14|韩国2|@ripaojiedian
+  network: tcp
+  port: '35448'
+  server: 45.94.68.144
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d
+- alterId: 64
+  cipher: auto
+  name: 5|14|新加坡2|@ripaojiedian
+  network: tcp
+  port: '40002'
+  server: 183.236.48.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 6|AM_speednode_0001
+  password: gNz73UbALLdO4RKGc99Gul
+  port: 15584
+  server: 213.108.23.243
+  type: ss
+- client-fingerprint: chrome
+  name: 6|AT_speednode_0002
+  network: ws
+  port: 130
+  server: 94.177.8.26
+  servername: juzi8186.5112233.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzi8186.5112233.xyz
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 6|DE_speednode_0019
+  network: ws
+  port: 2003
+  server: 152.53.13.241
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- name: 6|FR_speednode_0022
+  network: ws
+  port: 2501
+  server: 77.221.152.41
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 6|FR_speednode_0023
+  network: ws
+  port: 1001
+  server: 193.187.174.174
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 6|HK_speednode_0025
+  network: ws
+  port: 587
+  server: 152.32.129.97
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 6|HK_speednode_0026
+  network: ws
+  port: 23555
+  server: 219.77.65.212
+  servername: juzi8186.5112233.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzi8186.5112233.xyz
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 6|MD_speednode_0032
+  network: ws
+  port: 2003
+  server: 95.164.22.239
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 6|NL_speednode_0035
+  network: ws
+  port: 2501
+  server: 194.246.81.62
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 6|NL_speednode_0036
+  network: ws
+  port: 2501
+  server: 89.110.102.115
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 6|NL_speednode_0038
+  network: ws
+  port: 3001
+  server: 2.58.56.31
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 6|SE_speednode_0044
+  network: ws
+  port: 2501
+  server: 95.164.51.24
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 6|US_speednode_0095
+  network: ws
+  port: 587
+  server: 157.254.227.37
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- name: 6|US_speednode_0107
+  network: ws
+  port: 587
+  server: 38.58.56.130
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560fp=chrome
+- client-fingerprint: chrome
+  name: 6|US_speednode_0108
+  network: ws
+  port: 587
+  server: 38.105.31.9
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- name: 6|US_speednode_0111
+  network: ws
+  port: 587
+  server: 154.64.239.219
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560fp=chrome
+rules:
+- MATCH,PROXY
