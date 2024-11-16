@@ -46,7 +46,8 @@ wget -q -O - https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_do
 #转为yaml格式,添加 +.
 wget -q -O - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.mini-onlydomains.txt |
     sed "/^#/d; /^$/d;" |
-    sed "s/^/  - '+./; s/$/'/" >>ad
+    sed "s/^/  - '+./; s/$/'/" |
+    sed -e '$a\' >>ad
 # Xiaomi 跟踪器
 wget -q -O - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.xiaomi.txt |
     sed "/^#/d; /^$/d;" |
