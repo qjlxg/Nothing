@@ -101,17 +101,17 @@ mv -f cnIP.text cnIP.mrs ../nothing/mrs/
 # ** hijack-d.yaml 和 hijack-i.yaml **
 for url in \
     https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Hijacking/Hijacking_No_Resolve.yaml; do
-    wget -q -O - "$url" | sed '/^#/d; /^$/d;' | sed -e '$a\' | tee hijacking_all
+    wget -q -O - "$url" | sed '/^#/d; /^$/d;' | sed -e '$a\' | tee hijacking_src
 done
 # 分离 DOMAIN 和 IP-CIDR 规则，并在每个文件的开头加上 payload:
 {
     echo "payload:"
-    grep '^  - DOMAIN' hijacking_all
+    grep '^  - DOMAIN' hijacking_src
 } > hijack-d
 
 {
     echo "payload:"
-    grep '^  - IP-CIDR' hijacking_all
+    grep '^  - IP-CIDR' hijacking_src
 } > hijack-i
 # 确保文件末尾有空行
 sed -i -e '$a\' hijack-d
@@ -164,8 +164,7 @@ cat hijack-d | awk '!seen[$0]++' | sed "/^$/d" >hijack-d.yaml
 cat hijack-i | awk '!seen[$0]++' | sed "/^$/d" >hijack-i.yaml
 ./mihomo convert-ruleset domain yaml hijack-d.yaml hijack-d.mrs
 ./mihomo convert-ruleset ipcidr yaml hijack-i.yaml hijack-i.mrs
-mv -f hijack-d.mrs ../nothing/mrs/
-mv -f hijack-i.mrs ../nothing/mrs/
+mv -f hijack-d.yaml hijack-i.yaml hijacking_src hijack-d.mrs hijack-i.mrs ../nothing/mrs/
 
 # ** 完事提交修改 **
 cd ../nothing/
