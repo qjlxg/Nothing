@@ -52,36 +52,7 @@ wget -q -O - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildca
 # wget -q -O - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.xiaomi.txt |
 #     sed "/^#/d; /^$/d;" |
 #     sed "s/^/  - '+./; s/$/'/" >>ad
-# 劫持屏蔽
-wget -q -O - https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Hijacking/Hijacking_No_Resolve.yaml |
-    sed '/^#/d; /^$/d;' |
-    grep '^  - DOMAIN' |
-    sed -e '$a\' >>ad
-#添加自定义规则
-cat <<EOF >>ad
-  - DOMAIN-KEYWORD,96110
-  - DOMAIN-KEYWORD,fqzpt
-  - DOMAIN-KEYWORD,fzlmn
-  - DOMAIN-KEYWORD,chanct
-  - DOMAIN-KEYWORD,fanzha
-  - DOMAIN-KEYWORD,gjfzpt
-  - DOMAIN-KEYWORD,ifcert
-  - DOMAIN-KEYWORD,hicore
-  - DOMAIN-KEYWORD,bestmind
-  - DOMAIN-KEYWORD,hei-tong
-  - DOMAIN-KEYWORD,appbushou
-  - DOMAIN-KEYWORD,loongteam
-  - DOMAIN-KEYWORD,himindtech
-  - DOMAIN-KEYWORD,tendyron
-  - DOMAIN-SUFFIX,f3322.net
-  - DOMAIN-SUFFIX,cert.org.cn
-  - DOMAIN-SUFFIX,cnvd.org.cn
-  - DOMAIN-SUFFIX,certlab.org
-  - DOMAIN-SUFFIX,anva.org.cn
-  - DOMAIN-SUFFIX,fhss.com.cn
-  - DOMAIN-SUFFIX,hailiangyun.cn
-  - DOMAIN-SUFFIX,ics-cert.org.cn
-EOF
+
 #合并并去重
 cat ad | awk '!seen[$0]++' | sed "/^$/d" >ad.yaml
 # 转换为 mrs
@@ -127,20 +98,36 @@ cat cnIP | awk '!seen[$0]++' | sed "/^$/d" >cnIP.text
 ./mihomo convert-ruleset ipcidr text cnIP.text cnIP.mrs
 mv -f cnIP.text cnIP.mrs ../nothing/mrs/
 
-# ** hijack-i.mrs **
+# ** hijacking.yaml **
 for url in \
     https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/Hijacking/Hijacking_No_Resolve.yaml; do
-    wget -q -O - "$url" | sed '/^#/d; /^$/d;' | sed -e '$a\' | tee hijacking_src
+    wget -q -O - "$url" | sed '/^#/d; /^$/d;' | sed -e '$a\' >>hijacking
 done
-# 分离 DOMAIN 和 IP-CIDR 规则，并在每个文件的开头加上 payload:
-{
-    echo "payload:"
-    grep '^  - IP-CIDR' hijacking_src
-} > hijack-i
-# 确保文件末尾有空行
-sed -i -e '$a\' hijack-i
-# 追加内容到各自的文件
-cat <<EOF >>hijack-i
+# 追加yaml列表内容至hijacking末尾
+cat <<EOF >>hijacking
+  - PROCESS-NAME-REGEX,(?i)(antifraud|hicore)
+  - DOMAIN-KEYWORD,96110
+  - DOMAIN-KEYWORD,fqzpt
+  - DOMAIN-KEYWORD,fzlmn
+  - DOMAIN-KEYWORD,chanct
+  - DOMAIN-KEYWORD,fanzha
+  - DOMAIN-KEYWORD,gjfzpt
+  - DOMAIN-KEYWORD,ifcert
+  - DOMAIN-KEYWORD,hicore
+  - DOMAIN-KEYWORD,bestmind
+  - DOMAIN-KEYWORD,hei-tong
+  - DOMAIN-KEYWORD,appbushou
+  - DOMAIN-KEYWORD,loongteam
+  - DOMAIN-KEYWORD,himindtech
+  - DOMAIN-KEYWORD,tendyron
+  - DOMAIN-SUFFIX,f3322.net
+  - DOMAIN-SUFFIX,cert.org.cn
+  - DOMAIN-SUFFIX,cnvd.org.cn
+  - DOMAIN-SUFFIX,certlab.org
+  - DOMAIN-SUFFIX,anva.org.cn
+  - DOMAIN-SUFFIX,fhss.com.cn
+  - DOMAIN-SUFFIX,hailiangyun.cn
+  - DOMAIN-SUFFIX,ics-cert.org.cn
   - IP-CIDR,36.135.82.110/32,no-resolve
   - IP-CIDR,39.102.194.95/32,no-resolve
   - IP-CIDR,61.135.15.244/32,no-resolve
@@ -158,10 +145,8 @@ cat <<EOF >>hijack-i
   - IP-CIDR,221.228.32.13/32,no-resolve
   - IP-CIDR,223.75.236.241/32,no-resolve
 EOF
-# 去重和移动操作
-cat hijack-i | awk '!seen[$0]++' | sed "/^$/d" >hijack-i.yaml
-./mihomo convert-ruleset ipcidr yaml hijack-i.yaml hijack-i.mrs
-mv -f hijack-i.yaml hijacking_src hijack-i.mrs ../nothing/mrs/
+cat hijacking | awk '!seen[$0]++' | sed "/^$/d" >hijacking.yaml
+mv -f hijacking.yaml ../nothing/mrs/
 
 # ** 完事提交修改 **
 cd ../nothing/
