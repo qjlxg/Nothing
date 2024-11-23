@@ -1,107 +1,75 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '2,3|_RU__1 #1'
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '2,3|_US__1 #1'
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 69.50.95.203
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '2,3|🇺_UA_ #1'
-  password: YmFlMDJh
-  port: 8388
-  server: 95.164.4.238
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '2,3|🇦_PA_ #1'
+  name: '2,3|_PA_ #1'
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 138.186.142.4
   type: ss
   udp: true
-- alpn:
-  - http/1.1
-  name: 4|美国+Amazon+EC2服务器
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.76.127.3
-  sni: trojan.burgerip.co.uk
+- cipher: aes-256-gcm
+  name: '2,3|_CN__1 #1'
+  password: 186d82fb-7cd4-45f5-b519-4e95f726cdc1
+  port: 45016
+  server: sy2.xinyeo.cc
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇨🇳_CN_中国_2 #1'
+  password: 186d82fb-7cd4-45f5-b519-4e95f726cdc1
+  port: 45013
+  server: sy1.xinyeo.cc
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|_US_国_1 #1'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 142.202.49.84
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇨🇳_CN_中国_3 #1'
+  password: 186d82fb-7cd4-45f5-b519-4e95f726cdc1
+  port: 45009
+  server: gy1.xinyeo.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '2,3|🇺_RU__1 #1'
+  password: 3MgIhqwp4pjM8SKwixNkYZ
+  port: 33068
+  server: 193.124.22.253
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '2,3|🇺_RU_俄罗斯_2 #1'
+  password: ueLXVkvh4hckhErQ
+  port: 9060
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '2,3|🇺_RU_俄罗斯_3 #1'
+  password: 2fwufOmJ9ELfN4umzcHBfV
+  port: 12224
+  server: 194.87.82.28
+  type: ss
+  udp: true
+- name: 4|江苏省+移动
+  password: QwwHvrnN
+  port: 14505
+  server: 36.151.192.242
+  skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 4|伊朗 V2CROSS.COM
-  network: tcp
-  port: 9090
-  server: 2.182.174.21
-  tls: false
-  type: vmess
-  uuid: fddf88ed-8c70-42ad-c12e-5f40841e6f00
-- name: 4|法国+巴黎Amazon数据中心
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.47.48.218
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: '4|美国+Amazon数据中心 #1'
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.170.235.121
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 4|爱尔兰+都柏林Amazon数据中心
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.19.13.128
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: '4|美国+Amazon+EC2服务器 #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.77.194.77
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '4|美国+Amazon数据中心 #2'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.168.188.63
-  sni: trojan.burgerip.co.uk
+- name: 4|荷兰+V2CROSS.COM
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 21005
+  server: ent1.imyourdaddy.top
+  sni: alibabashop.com
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 5|14|香港3|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 5|14|香港4|@ripaojiedian
-  network: tcp
-  port: '35926'
-  server: 103.224.80.56
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d3c1e9d2-4267-4fe6-a189-de4d641c6af9
-- alterId: 64
-  cipher: auto
-  name: 5|14|香港6|@ripaojiedian
+  name: 4,5|14|香港6|@ripaojiedian
   network: tcp
   port: '58002'
   server: 120.232.153.27
@@ -109,20 +77,104 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 4|美国+Xerox
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.50.150.190
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 4|美国 加利福尼亚州圣何塞PEG TECH
+  network: ws
+  port: 38007
+  server: 142.4.108.131
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/283126261303
 - alterId: 0
   cipher: auto
-  name: 5|13,14|日本2|@ripaojiedian
-  network: ws
-  port: '25758'
-  server: twriyfjhhhh1.hfhfb.homes
+  name: 4|俄罗斯 V2CROSS.COM
+  network: tcp
+  port: 8081
+  server: 194.87.31.160
+  tls: false
+  type: vmess
+  uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3
+- alpn:
+  - http/1.1
+  name: 4|英国+伦敦Amazon数据中心
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.11.33.209
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 4|伊朗 V2CROSS.COM
+  network: tcp
+  port: '2027'
+  server: 89.47.197.52
   servername: ''
   tls: false
   type: vmess
-  uuid: 2744bc46-8b19-40a5-9733-5bc819fa9553
+  uuid: 3699d1a1-9786-43b2-b10c-9dce13160b89
+- alterId: 64
+  cipher: auto
+  name: 4,5|14|香港3|@ripaojiedian
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 5|0|--27
+  network: ws
+  port: 38007
+  server: 38.174.190.80
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
-    headers:
-      Host: app.dingtalk.com
-    path: /?ed
+    path: /path/102206282005
+- alterId: 64
+  cipher: auto
+  name: 5|14|香港5|@ripaojiedian
+  network: tcp
+  port: '58831'
+  server: 183.236.48.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 5|14|日本2|@ripaojiedian
+  network: tcp
+  port: '59952'
+  server: 183.236.48.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 5|14|日本3|@ripaojiedian
+  network: tcp
+  port: '11304'
+  server: 45.159.50.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
 - name: 6|AT_speednode_0001
   network: ws
   port: 2501
