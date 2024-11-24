@@ -1,132 +1,195 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '2,3|_PA_ #1'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 138.186.142.4
+- cipher: aes-256-gcm
+  name: '2,3|_US__1 #1'
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 139.64.165.230
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '2,3|_CN__1 #1'
-  password: 186d82fb-7cd4-45f5-b519-4e95f726cdc1
-  port: 45016
-  server: sy2.xinyeo.cc
+  name: '2,3|🇺🇸_US_美国_3 #1'
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 142.202.49.122
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '2,3|🇨🇳_CN_中国_2 #1'
-  password: 186d82fb-7cd4-45f5-b519-4e95f726cdc1
-  port: 45013
-  server: sy1.xinyeo.cc
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '2,3|_US_国_1 #1'
-  password: PCnnH6SQSnfoS27
-  port: 8090
+  name: '2,3|🇺🇸_US_美国_5 #1'
+  password: g5MeD6Ft3CWlJId
+  port: 5004
   server: 142.202.49.84
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '2,3|🇨🇳_CN_中国_3 #1'
-  password: 186d82fb-7cd4-45f5-b519-4e95f726cdc1
-  port: 45009
-  server: gy1.xinyeo.cc
+  name: '2,3|🇺🇸_US_美国_7 #1'
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 69.50.92.72
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_8 #1'
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 38.110.1.12
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_10 #1'
+  password: lGqs95QkFHo2NV
+  port: 5499
+  server: 142.202.49.119
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_13 #1'
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 69.50.92.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_15 #1'
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 69.50.95.53
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|_CA_ #1'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.154.136.247
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '2,3|🇺_RU__1 #1'
-  password: 3MgIhqwp4pjM8SKwixNkYZ
-  port: 33068
-  server: 193.124.22.253
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '2,3|🇺_RU_俄罗斯_2 #1'
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 217.30.10.18
+  name: '2,3|🇨_CN_国->_IE_ #1'
+  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
+  port: 10720
+  server: 122.195.189.15
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '2,3|🇺_RU_俄罗斯_3 #1'
-  password: 2fwufOmJ9ELfN4umzcHBfV
-  port: 12224
-  server: 194.87.82.28
+  name: '2,3|🇨🇳_CN_中国->🇸_US_美国_1 #1'
+  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
+  port: 10712
+  server: yidong1.liulangdiqiu.life
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_22 #1'
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 169.197.142.216
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  name: '2,3|🇺🇸_US_美国->🇺_RU__1 #1'
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.37.24.49
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_24 #1'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 69.50.92.55
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_25 #1'
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 69.50.95.179
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_26 #1'
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 69.50.92.110
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_27 #1'
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 169.197.142.120
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_32 #1'
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 167.88.61.235
+  type: ss
+  udp: true
+- name: 4|爱尔兰+V2CROSS.COM
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.35.99.192
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 4,5|14|香港5|@ripaojiedian
+  network: tcp
+  port: '58831'
+  server: 183.236.48.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alpn:
+  - http/1.1
+  name: 4|美国+Amazon+EC2服务器
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.139.196.24
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 4|美国+俄勒冈州波特兰Amazon数据中心
+  password: 47072f01-8e77-4136-8e85-b0f0d9d08f1d
+  port: 20230
+  server: us004.421421.xyz
+  sni: 421421.xyz
+  type: trojan
 - name: 4|江苏省+移动
   password: QwwHvrnN
   port: 14505
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- name: 4|荷兰+V2CROSS.COM
+- name: 4|日本+V2CROSS.COM
   password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
   port: 21005
   server: ent1.imyourdaddy.top
   sni: alibabashop.com
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: 4,5|14|香港6|@ripaojiedian
-  network: tcp
-  port: '58002'
-  server: 120.232.153.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 4|美国+Xerox
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.150.190
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: 4|美国 加利福尼亚州圣何塞PEG TECH
-  network: ws
-  port: 38007
-  server: 142.4.108.131
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/283126261303
-- alterId: 0
-  cipher: auto
-  name: 4|俄罗斯 V2CROSS.COM
-  network: tcp
-  port: 8081
-  server: 194.87.31.160
-  tls: false
-  type: vmess
-  uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3
 - alpn:
   - http/1.1
-  name: 4|英国+伦敦Amazon数据中心
+  name: 4|法国+巴黎Amazon数据中心
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 3.11.33.209
+  server: 35.180.13.16
   sni: trojan.burgerip.co.uk
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 4|伊朗 V2CROSS.COM
-  network: tcp
-  port: '2027'
-  server: 89.47.197.52
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3699d1a1-9786-43b2-b10c-9dce13160b89
+- name: '4|广东省广州市+移动 #1'
+  password: ad6e2bae-d580-4117-aa37-a8c111100740
+  port: 13021
+  server: naiu-us.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - alterId: 64
   cipher: auto
-  name: 4,5|14|香港3|@ripaojiedian
+  name: 5|14|香港3|@ripaojiedian
   network: tcp
   port: '53002'
   server: 183.236.51.23
@@ -136,21 +199,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 5|0|--27
-  network: ws
-  port: 38007
-  server: 38.174.190.80
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/102206282005
-- alterId: 64
-  cipher: auto
-  name: 5|14|香港5|@ripaojiedian
+  name: 5|14|香港6|@ripaojiedian
   network: tcp
-  port: '58831'
-  server: 183.236.48.163
+  port: '58002'
+  server: 120.232.153.27
   servername: ''
   tls: false
   type: vmess
@@ -167,669 +219,66 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 5|14|日本3|@ripaojiedian
+  name: 5|14|美国3|@ripaojiedian
   network: tcp
-  port: '11304'
-  server: 45.159.50.143
+  port: '38692'
+  server: 38.147.165.185
   servername: ''
   tls: false
   type: vmess
-  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
-- name: 6|AT_speednode_0001
-  network: ws
-  port: 2501
-  server: 45.138.74.56
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|BG_speednode_0002
+  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
+- name: 6|BG_speednode_0003
   network: ws
   port: 8000
   server: 31.13.248.74
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 6|CA_speednode_0003
+- name: 6|CA_speednode_0004
   network: ws
   port: 2003
   server: 81.19.140.78
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 6|CH_speednode_0004
-  network: ws
-  port: 587
-  server: 144.24.248.38
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|CH_speednode_0005
-  network: ws
-  port: 8000
-  server: 179.43.144.10
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|CN_speednode_0006
-  network: ws
-  port: 587
-  server: 103.142.102.236
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|CZ_speednode_0007
-  network: ws
-  port: 2501
-  server: 194.87.208.88
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|CZ_speednode_0008
-  network: ws
-  port: 8000
-  server: 194.87.11.56
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|DE_speednode_0009
-  network: ws
-  port: 2003
-  server: 89.185.85.196
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|DE_speednode_0010
-  network: ws
-  port: 1001
-  server: 78.46.170.185
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|DE_speednode_0012
-  network: ws
-  port: 1001
-  server: 159.69.22.135
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|DE_speednode_0013
-  network: ws
-  port: 587
-  server: 8.209.109.10
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|DE_speednode_0014
-  network: ws
-  port: 1001
-  server: 49.12.191.34
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|DE_speednode_0015
-  network: ws
-  port: 1001
-  server: 37.120.184.206
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|DE_speednode_0016
-  network: ws
-  port: 854
-  server: 91.107.128.26
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|DE_speednode_0017
+- name: 6|CN_speednode_0005
+  password: QwwHvrnN
+  port: 36900
+  server: 36.151.192.198
+  skip-cert-verify: true
+  sni: 36.151.192.198
+  type: trojan
+- name: 6|DE_speednode_0007
   network: ws
   port: 55555
   server: 92.118.190.71
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 6|FI_speednode_0019
-  network: ws
-  port: 2222
-  server: 65.21.158.255
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|FI_speednode_0020
-  network: ws
-  port: 587
-  server: 95.217.135.15
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|FR_speednode_0022
-  network: ws
-  port: 2003
-  server: 77.221.152.41
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|FR_speednode_0023
-  network: ws
-  port: 587
-  server: 188.165.24.25
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|FR_speednode_0024
-  network: ws
-  port: 587
-  server: 141.94.206.40
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|GB_speednode_0025
-  network: ws
-  port: 587
-  server: 8.211.207.185
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|GB_speednode_0026
-  network: ws
-  port: 587
-  server: 149.5.52.148
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|GB_speednode_0027
-  network: ws
-  port: 587
-  server: 101.36.97.226
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|GB_speednode_0028
-  network: ws
-  port: 587
-  server: 8.208.94.35
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|HK_speednode_0030
-  network: ws
-  port: 587
-  server: 8.217.29.82
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|HK_speednode_0031
-  network: ws
-  port: 587
-  server: 8.218.153.62
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|HK_speednode_0032
-  network: ws
-  port: 587
-  server: 8.218.132.79
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|HK_speednode_0033
-  network: ws
-  port: 587
-  server: 8.218.152.147
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|HK_speednode_0034
-  network: ws
-  port: 587
-  server: 107.150.119.240
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|HK_speednode_0035
-  network: ws
-  port: 54321
-  server: 59.149.204.218
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|HU_speednode_0036
-  network: ws
-  port: 11001
-  server: 45.138.90.43
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|IR_speednode_0037
-  network: ws
-  port: 8000
-  server: 31.14.116.12
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|IR_speednode_0038
-  network: ws
-  port: 2222
-  server: 94.182.136.181
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|JP_speednode_0039
-  network: ws
-  port: 587
-  server: 8.209.217.106
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|JP_speednode_0040
-  network: ws
-  port: 587
-  server: 8.209.220.155
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|JP_speednode_0041
-  network: ws
-  port: 8889
-  server: 160.16.242.208
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|JP_speednode_0042
-  network: ws
-  port: 587
-  server: 64.110.103.142
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|KR_speednode_0043
-  network: ws
-  port: 8000
-  server: 146.56.179.20
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|KR_speednode_0044
-  network: ws
-  port: 587
-  server: 140.238.2.81
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|KR_speednode_0045
-  network: ws
-  port: 33890
-  server: 14.43.88.180
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|KR_speednode_0046
-  network: ws
-  port: 11310
-  server: 222.112.148.240
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|KR_speednode_0047
-  network: ws
-  port: 11211
-  server: 211.107.83.151
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|KR_speednode_0048
-  network: ws
-  port: 33890
-  server: 119.200.244.99
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|KR_speednode_0049
-  network: ws
-  port: 11001
-  server: 61.84.15.163
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|KR_speednode_0050
-  network: ws
-  port: 27018
-  server: 125.128.118.250
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|KR_speednode_0051
-  network: ws
-  port: 11001
-  server: 220.87.185.18
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|KR_speednode_0052
-  network: ws
-  port: 19150
-  server: 121.184.130.110
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|KR_speednode_0053
-  network: ws
-  port: 28006
-  server: 61.80.1.32
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|MD_speednode_0054
-  network: ws
-  port: 2003
-  server: 95.164.22.239
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|NL_speednode_0056
+- name: 6|DE_speednode_0008
   network: ws
   port: 1001
-  server: 45.130.20.40
+  server: 37.120.184.206
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -838,89 +287,77 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 6|NL_speednode_0057
+- name: 6|MD_speednode_0011
   network: ws
-  port: 7000
-  server: 5.2.73.137
+  port: 2501
+  server: 95.164.22.239
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 6|NL_speednode_0058
+- name: 6|NL_speednode_0013
   network: ws
-  port: 2003
+  port: 1001
   server: 45.94.31.109
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 6|NL_speednode_0059
-  network: ws
-  port: 2003
-  server: 45.94.31.75
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|NL_speednode_0060
+- name: 6|NL_speednode_0014
   network: ws
   port: 2003
   server: 2.58.56.31
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 6|NL_speednode_0063
+- name: 6|NL_speednode_0016
   network: ws
-  port: 6060
-  server: 195.200.19.139
+  port: 2003
+  server: 45.94.31.75
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 6|NL_speednode_0064
-  network: ws
-  port: 3001
-  server: 93.185.163.186
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|NL_speednode_0065
+- name: 6|NL_speednode_0018
   network: ws
   port: 587
   server: 103.214.68.133
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 6|NL_speednode_0019
+  network: ws
+  port: 6060
+  server: 195.200.19.139
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -929,118 +366,28 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 6|RU_speednode_0066
+- client-fingerprint: chrome
+  name: 6|RU_speednode_0022
   network: ws
   port: 587
   server: 185.22.155.139
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 6|SE_speednode_0067
-  network: ws
-  port: 2501
-  server: 95.164.51.24
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|SG_speednode_0068
-  network: ws
-  port: 587
-  server: 8.222.129.84
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|SG_speednode_0069
-  network: ws
-  port: 587
-  server: 138.2.109.23
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|SI_speednode_0070
-  network: ws
-  port: 10001
-  server: 212.13.236.132
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|TR_speednode_0071
+- name: 6|TR_speednode_0030
   network: ws
   port: 2501
   server: 95.164.116.22
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|US_speednode_0072
-  network: ws
-  port: 587
-  server: 165.154.134.125
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|US_speednode_0073
-  network: ws
-  port: 587
-  server: 45.43.55.115
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|VN_speednode_0074
-  network: ws
-  port: 587
-  server: 152.32.255.24
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
