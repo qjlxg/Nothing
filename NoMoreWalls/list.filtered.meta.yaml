@@ -42,6 +42,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
+  name: '2,3|🇺🇸_US_美国_14 #1'
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 142.202.49.119
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
   name: '2,3|🇺🇸_US_美国_15 #1'
   password: TEzjfAYq2IjtuoS
   port: 6697
@@ -121,84 +128,18 @@ proxies:
   server: 167.88.61.235
   type: ss
   udp: true
-- alpn:
-  - http/1.1
-  name: 4|爱尔兰+都柏林Amazon数据中心
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 52.30.198.206
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 4|美国+惠普HP
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 16.170.129.178
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 4|澳大利亚+V2CROSS.COM
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20992
-  server: ent1.imyourdaddy.top
-  sni: sale.alibaba.com
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 4|瑞典+斯德哥尔摩Amazon数据中心
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.48.188.137
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 4|加拿大+魁北克省蒙特利尔Amazon数据中心
-  password: telegram-id-directvpn
-  port: 22222
-  server: 35.182.140.174
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
 - alterId: 64
   cipher: auto
   name: 4|广东省广州市 移动
   network: tcp
-  port: '58831'
+  port: '58002'
   server: 120.232.153.27
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 4|德国+黑森州法兰克福Amazon数据中心
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.57.82.42
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 4|英国+社会保险安全部
-  password: telegram-id-directvpn
-  port: 22222
-  server: 51.44.95.168
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 4|俄罗斯 V2CROSS.COM
-  network: ws
-  port: 33026
-  server: 89.169.55.152
-  tls: true
-  type: vmess
-  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
-  ws-opts:
-    headers:
-      Host: socks5tobefree.ydns.eu
-    path: /dangerzone
 - alterId: 64
   cipher: auto
-  name: 5|14|香港3|@ripaojiedian
+  name: 4,5|14|香港3|@ripaojiedian
   network: tcp
   port: '53002'
   server: 183.236.51.23
@@ -206,19 +147,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 5|14|香港4|@ripaojiedian
-  network: tcp
-  port: '18271'
-  server: 38.147.188.139
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3ba5dca3-a24b-48f3-a571-60052ab43fef
+- name: 4|江苏省+移动
+  password: QwwHvrnN
+  port: 14505
+  server: 36.151.192.242
+  skip-cert-verify: true
+  type: trojan
+- name: 4|美国+惠普公司
+  password: telegram-id-directvpn
+  port: 22222
+  server: 15.237.235.15
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - alterId: 64
   cipher: auto
-  name: 5|14|香港5|@ripaojiedian
+  name: 4,5|14|香港5|@ripaojiedian
   network: tcp
   port: '58831'
   server: 183.236.48.163
@@ -226,12 +169,109 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alpn:
+  - http/1.1
+  name: 4|爱尔兰+都柏林Amazon数据中心
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 176.34.117.242
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '4|爱尔兰+都柏林Amazon数据中心 #1'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.209.23.181
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - alterId: 64
   cipher: auto
-  name: 5|14|日本2|@ripaojiedian
+  name: 4|美国 加利福尼亚州森尼韦尔市PEG TECH公司
   network: tcp
-  port: '59952'
-  server: 183.236.48.158
+  port: 45017
+  server: 142.0.134.244
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 4|俄罗斯 V2CROSS.COM
+  network: ws
+  port: 33026
+  server: socks5tobefree.ydns.eu
+  tls: true
+  type: vmess
+  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
+  ws-opts:
+    headers:
+      Host: socks5tobefree.ydns.eu
+    path: /dangerzone
+- alterId: 0
+  cipher: auto
+  name: 4|湖南省 移动
+  network: ws
+  port: '33416'
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
+- alpn:
+  - http%2F1.1
+  name: 4|英国+社会保险安全部
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.44.124.254
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 4|日本+V2CROSS.COM
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20982
+  server: ent1.imyourdaddy.top
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 4|美国 华盛顿Cogent通信公司
+  network: ws
+  port: 37000
+  server: 38.33.56.45
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/120304201707
+- name: '4|爱尔兰+都柏林Amazon数据中心 #2'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.49.64.76
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 5|14|台湾|@ripaojiedian
+  network: tcp
+  port: '40201'
+  server: r1.xinyo.me
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd2c81eb-b93c-4349-96f2-878564878445
+- alterId: 64
+  cipher: auto
+  name: 5|14|美国|@ripaojiedian
+  network: tcp
+  port: '41400'
+  server: 198.2.218.102
   servername: ''
   tls: false
   type: vmess
