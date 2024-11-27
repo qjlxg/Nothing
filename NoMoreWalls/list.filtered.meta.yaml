@@ -1,201 +1,81 @@
 proxies:
 - cipher: aes-256-gcm
   name: '2,3|_US__1 #1'
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 139.64.165.230
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 38.110.1.203
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '2,3|🇺🇸_US_美国_3 #1'
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 142.202.49.122
+  name: '2,3|🇺🇸_US_美国_4 #1'
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 54.37.12.70
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: '2,3|🇺🇸_US_美国_5 #1'
   password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 142.202.49.84
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '2,3|🇺🇸_US_美国_7 #1'
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 69.50.92.72
+  port: 5003
+  server: 142.202.48.105
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: '2,3|🇺🇸_US_美国_8 #1'
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 38.110.1.12
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 142.202.49.119
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '2,3|🇺_RU__1 #1'
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '2,3|🇷🇺_RU_俄罗斯_2 #1'
+  password: 2fwufOmJ9ELfN4umzcHBfV
+  port: 12224
+  server: 194.87.82.28
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: '2,3|🇺🇸_US_美国_13 #1'
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 69.50.92.99
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '2,3|🇺🇸_US_美国_14 #1'
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 142.202.49.119
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '2,3|🇺🇸_US_美国_15 #1'
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 69.50.95.53
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '2,3|_CA_ #1'
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.154.136.247
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '2,3|🇨_CN_国->_IE_ #1'
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10720
-  server: 122.195.189.15
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '2,3|🇨🇳_CN_中国->🇸_US_美国_1 #1'
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10712
-  server: yidong1.liulangdiqiu.life
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '2,3|🇺🇸_US_美国_22 #1'
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 169.197.142.216
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  name: '2,3|🇺🇸_US_美国->🇺_RU__1 #1'
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.37.24.49
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: '2,3|🇺🇸_US_美国_24 #1'
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 69.50.92.55
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '2,3|🇺🇸_US_美国_25 #1'
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 69.50.95.179
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '2,3|🇺🇸_US_美国_26 #1'
   password: cdBIDV42DCwnfIN
   port: 8118
-  server: 69.50.92.110
+  server: 38.110.1.105
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: '2,3|🇺🇸_US_美国_27 #1'
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 169.197.142.120
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '2,3|🇺🇸_US_美国_32 #1'
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 167.88.61.235
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 4|广东省广州市 移动
+- alpn:
+  - http/1.1
+  name: 4|美国+Amazon+EC2服务器
   network: tcp
-  port: '58002'
-  server: 120.232.153.27
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 4,5|14|香港3|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 4|江苏省+移动
-  password: QwwHvrnN
-  port: 14505
-  server: 36.151.192.242
-  skip-cert-verify: true
-  type: trojan
-- name: 4|美国+惠普公司
   password: telegram-id-directvpn
   port: 22222
-  server: 15.237.235.15
+  server: 3.73.20.143
   sni: trojan.burgerip.co.uk
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 4,5|14|香港5|@ripaojiedian
+  name: 4,5|14|美国3|@ripaojiedian
   network: tcp
   port: '58831'
-  server: 183.236.48.163
+  server: 120.232.153.27
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alpn:
   - http/1.1
-  name: 4|爱尔兰+都柏林Amazon数据中心
+  name: '4|美国+Amazon+EC2服务器 #1'
   network: tcp
-  password: telegram-id-privatevpns
+  password: telegram-id-directvpn
   port: 22222
-  server: 176.34.117.242
+  server: 3.139.231.141
   sni: trojan.burgerip.co.uk
   type: trojan
-- alpn:
-  - http/1.1
-  name: '4|爱尔兰+都柏林Amazon数据中心 #1'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.209.23.181
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: 4|美国 加利福尼亚州森尼韦尔市PEG TECH公司
-  network: tcp
-  port: 45017
-  server: 142.0.134.244
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 4|俄罗斯 V2CROSS.COM
@@ -213,7 +93,7 @@ proxies:
   cipher: auto
   name: 4|湖南省 移动
   network: ws
-  port: '33416'
+  port: '33202'
   server: yd2.ainivp.com
   tls: true
   type: vmess
@@ -223,39 +103,44 @@ proxies:
       Host: yd2.ainivp.com
     path: /ray
 - alpn:
-  - http%2F1.1
-  name: 4|英国+社会保险安全部
+  - http/1.1
+  name: 4|瑞典+斯德哥尔摩Amazon数据中心
   network: tcp
-  password: telegram-id-privatevpns
+  password: telegram-id-directvpn
   port: 22222
-  server: 51.44.124.254
+  server: 13.49.251.80
   sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 4|江苏省+移动
+  password: QwwHvrnN
+  port: 14505
+  server: 36.151.192.242
   type: trojan
 - name: 4|日本+V2CROSS.COM
   password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20982
+  port: 20980
   server: ent1.imyourdaddy.top
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 4|美国 华盛顿Cogent通信公司
-  network: ws
-  port: 37000
-  server: 38.33.56.45
-  tls: true
+  name: 5|14|香港3|@ripaojiedian
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/120304201707
-- name: '4|爱尔兰+都柏林Amazon数据中心 #2'
+- alterId: 64
+  cipher: auto
+  name: 5|14|香港5|@ripaojiedian
   network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.49.64.76
-  sni: trojan.burgerip.co.uk
-  type: trojan
+  port: '58831'
+  server: 183.236.48.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 5|14|台湾|@ripaojiedian
@@ -265,10 +150,10 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: cd2c81eb-b93c-4349-96f2-878564878445
+  uuid: 41386ba6-b0fe-4070-be67-a6384cf6beb5
 - alterId: 64
   cipher: auto
-  name: 5|14|美国|@ripaojiedian
+  name: 5|14|美国2|@ripaojiedian
   network: tcp
   port: '41400'
   server: 198.2.218.102
@@ -278,62 +163,72 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 5|14|美国3|@ripaojiedian
+  name: 5|14|马来西亚|@ripaojiedian
   network: tcp
-  port: '38692'
-  server: 38.147.165.185
+  port: '44342'
+  server: 110.42.38.185
   servername: ''
   tls: false
   type: vmess
-  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
+  uuid: f57c973d-9475-4d25-87a3-be0a4482f0b3
+- alterId: 0
+  cipher: auto
+  name: 5|14|泰国|@ripaojiedian
+  network: tcp
+  port: '45851'
+  server: 110.42.36.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 414c79f7-1742-42f1-a7c6-1ccdbdd8e379
 - cipher: chacha20-ietf-poly1305
-  name: 6|CN_speednode_0002
-  password: ed0358e8-c6a1-424e-8fd1-eb2e3ea02af5
+  name: 6|CN_speednode_0001
+  password: 75393bce-9f1d-4263-98f0-27bf0f640a77
   port: 35635
   server: jsyd.yeahfast.com
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|CN_speednode_0005
-  password: 1285ebd4-be55-4a33-b215-006da491db3f
-  port: 31672
-  server: jsyd.yunnode.win
-  type: ss
-- name: 6|CN_speednode_0006
-  password: 51f206cd-7f1f-3bfc-94a0-cc424908ad6d
+- name: 6|CN_speednode_0002
+  password: 60849177-99ec-3fba-9615-c8de9e254409
   port: 20309
   server: gyl.58n.net
   skip-cert-verify: true
   sni: z309.hongkongnode.top
   type: trojan
   udp: true
-- name: 6|DE_speednode_0011
+- cipher: chacha20-ietf-poly1305
+  name: 6|CN_speednode_0004
+  password: d3571b43-f940-410c-bf6b-f35d2db19a17
+  port: 31640
+  server: jsyd.yunnode.win
+  type: ss
+- name: 6|CN_speednode_0011
+  password: QwwHvrnN
+  port: 44673
+  server: 36.151.192.203
+  skip-cert-verify: true
+  sni: 36.151.192.203
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 6|CN_speednode_0012
+  password: 671d1256-bf77-446c-9f43-acd17ef2d1c6
+  port: 30003
+  server: gdgs.tarioblink.me
+  type: ss
+  udp: true
+- name: 6|DE_speednode_0018
   network: tcp
-  port: 22161
-  server: 95.164.117.40
+  port: 13239
+  server: 91.107.248.14
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 3aa78f08-e345-4d83-bda0-f34eebc5fcc8
-- cipher: chacha20-ietf-poly1305
-  name: 6|GB_speednode_0012
-  password: vntxqHhPINXu5Ag6876fXO
-  port: 1080
-  server: 51.195.220.179
-  type: ss
-- name: 6|US_speednode_0047
-  password: 637308bc-fd52-343d-b573-7693835b8e20
-  port: 5535
-  server: 103.136.185.27
-  skip-cert-verify: true
-  sni: steampipe.akamaized.net
-  type: trojan
-  udp: true
-- name: 6|US_speednode_0049
-  password: 637308bc-fd52-343d-b573-7693835b8e20
+  uuid: bf61aa2e-5b05-478e-8e1e-453d27c52107
+- name: 6|US_speednode_0020
+  password: dfe1ef9b-e590-3b93-816a-e58a908bce99
   port: 3516
   server: 103.136.185.28
   skip-cert-verify: true
-  sni: akamai.cdn.steampipe.steamcontent.com
+  sni: origin-a.akamaihd.net
   type: trojan
   udp: true
 rules:
