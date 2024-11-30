@@ -1,19 +1,64 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 4|广东省广州市 移动
-  network: tcp
-  port: '58002'
-  server: 120.232.153.27
+  name: 4|亚太地区 V2CROSS.COM
+  network: ws
+  port: '5452'
+  server: 103.136.68.92
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 4|美国+惠普HP
+  uuid: 28f6d888-cbc5-4210-8cd2-b40cf566d9a8
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alpn:
+  - http/1.1
+  name: 4|加拿大+魁北克省蒙特利尔Amazon数据中心
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 52.60.190.229
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 4|美国+麻省理工学院
+  password: 4aa9ee7a-ffee-4ca4-a588-f5fa9e979c38
+  port: 20230
+  server: sg007.421421.xyz
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 4|美国+惠普公司
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 16.170.93.221
+  server: 15.236.73.124
   sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 4|美国 华盛顿Cogent通信公司
+  network: ws
+  port: 38007
+  server: 38.174.190.88
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/023114310920
+- name: 4|美国+Xerox
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.60.128.205
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 4|韩国+首尔Oracle云计算数据中心
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20982
+  server: ent1.imyourdaddy.top
   type: trojan
 - alterId: 0
   cipher: auto
@@ -28,37 +73,54 @@ proxies:
     headers:
       Host: socks5tobefree.ydns.eu
     path: /dangerzone
-- name: 4|韩国+首尔Oracle云计算数据中心
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20980
-  server: ent1.imyourdaddy.top
+- alterId: 0
+  cipher: auto
+  name: 4|湖南省 移动
+  network: ws
+  port: '33202'
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
+- alpn:
+  - http/1.1
+  name: 4|美国+Amazon数据中心
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.192.220.254
+  sni: trojan.burgerip.co.uk
   type: trojan
-- alterId: 0
+- name: '4|美国+Amazon数据中心 #1'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.43.77.107
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 64
   cipher: auto
-  name: '4|俄罗斯 V2CROSS.COM #1'
+  name: 4|美国 加利福尼亚州圣何塞PEG TECH
   network: ws
-  port: 1200
-  server: 195.58.49.12
-  tls: false
+  port: 38007
+  server: 142.4.108.140
+  tls: true
   type: vmess
-  uuid: b18a6864-ac76-4c33-9e6d-9201cdf44917
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 4|英国 V2CROSS.COM
-  network: ws
-  port: 1200
-  server: 5.39.252.182
-  tls: false
-  type: vmess
-  uuid: f942e9b6-96ff-482b-bae4-1a537748719d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+    path: /path/081412110418
+- name: 4|爱尔兰+都柏林Amazon数据中心
+  password: telegram-id-directvpn
+  port: 22222
+  server: 52.212.45.23
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - name: 4|广东省广州市+移动
   password: 5e2ce79c-170e-484a-8802-40584a1a3a12
   port: 13020
@@ -88,49 +150,42 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 5|13,14|香港7|@ripaojiedian
-  network: ws
-  port: '16622'
-  server: m.cnmjin.net
+  name: 5|14|日本3|@ripaojiedian
+  network: tcp
+  port: '47118'
+  server: 45.159.51.28
   servername: ''
   tls: false
   type: vmess
-  uuid: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
-  ws-opts:
-    headers:
-      Host: 3fe454755ea98eaa00f870f7fa2990c7.mobgslb.tbcache.com
-    path: /
+  uuid: ea034172-f33d-4f2b-a4a7-c700ca773f7a
 - cipher: chacha20-ietf-poly1305
-  name: 6|CN_speednode_0002
-  password: ab4c0396-ff75-4a42-9ed3-484237638d11
-  port: 31640
-  server: jsyd.yunnode.win
+  name: 6|CH_speednode_0002
+  password: LH5o0350poS83OYkcM5s1e
+  port: 19057
+  server: 91.103.253.151
   type: ss
-- name: 6|CN_speednode_0003
-  password: QwwHvrnN
-  port: 44673
-  server: 36.151.192.203
+- alterId: 64
+  cipher: auto
+  name: 6|CN_speednode_0003
+  port: 34565
+  server: 120.232.153.63
   skip-cert-verify: true
-  sni: 36.151.192.203
-  type: trojan
-  udp: true
-- name: 6|RU_speednode_0004
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 6|CN_speednode_0004
+  port: 31878
+  server: 183.236.48.143
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 6|GB_speednode_0022
   network: ws
   port: 587
-  server: 185.22.155.139
-  servername: a.mifeng.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 6|SE_speednode_0005
-  network: ws
-  port: 2501
-  server: 95.164.51.24
+  server: 8.208.94.35
   servername: a.mifeng.us.kg
   skip-cert-verify: false
   tls: true
@@ -141,11 +196,35 @@ proxies:
       Host: a.mifeng.us.kg
     path: /?ed=2560
 - alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 6|TR_speednode_0006
+  - http%2F1.1
+  client-fingerprint: random
+  name: 6|HK_speednode_0024
+  network: ws
+  port: 20443
+  server: 23.26.217.56
+  servername: paged.sosorg.nyc.mn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8caec8c9-869a-4121-9309-4251d4e23200
+  ws-opts:
+    headers:
+      Host: paged.sosorg.nyc.mn
+    path: /?ed=2560
+- name: 6|NL_speednode_0026
+  network: ws
+  port: 1001
+  server: 45.94.31.75
+  servername: a.mifeng.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 6|TR_speednode_0031
   network: ws
   port: 2501
   server: 95.164.116.22
@@ -157,6 +236,22 @@ proxies:
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    path: /?ed=2560
+- alpn:
+  - http%2F1.1
+  client-fingerprint: random
+  name: 6|US_speednode_0038
+  network: ws
+  port: 38609
+  server: 154.17.12.14
+  servername: paged.sosorg.nyc.mn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8caec8c9-869a-4121-9309-4251d4e23200
+  ws-opts:
+    headers:
+      Host: paged.sosorg.nyc.mn
+    path: /?ed=2560
 rules:
 - MATCH,PROXY
