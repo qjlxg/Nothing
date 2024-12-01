@@ -275,13 +275,6 @@ proxies:
   sni: ELiV2RAY.eliv2.top
   tls: false
   type: hysteria2
-- name: 36|SCP1
-  obfs: none
-  password: sharecentrepro
-  port: 4433
-  server: de.sharecentrepro.link
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
   name: 3|_FR_->_RU_
   password: f8f7aCzcPKbsF8p3

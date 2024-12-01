@@ -4760,4 +4760,4 @@ hysteria2://sharecentrepro@de.sharecentrepro.link:4433?obfs=none#36%7CSCP1
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMzZ8U0NQMiIsICJhZGQiOiAid3d3LnNtY2FjcmUuZ292IiwgInBvcnQiOiAiNDQzIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICJ0bHMiLCAiaWQiOiAiM2NjOGUyZDItZTRhNC00ZDg3LWMxNmMtYThmYzcwMjk2YTdiIiwgInNuaSI6ICJ3d3cuc21jYWNyZS5nb3YiLCAiaG9zdCI6ICJsYWppaHVhd2VpLmNvbSIsICJwYXRoIjogIi8zY2M4ZTJkMiJ9
 vless://11916472-4e2c-49c6-b75d-71196b3a7ecf@42.236.73.72:443?sni=www.zitian.cn&alpn=http/1.1&fp=chrome&security=tls#38%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_6%20%235
 trojan://fuck@42.236.73.72:443?sni=www.zitian.cn&alpn=http/1.1#38%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_3%20%236
-https://ThzA37.mcsslk.xyz/d2d9436cb3a2a3729551ee317bc9afb3
+https://Bf2pIo.mcsslk.xyz/56c9a7df3cebeae83ac80cb7f35d3558
