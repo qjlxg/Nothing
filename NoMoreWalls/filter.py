@@ -70,5 +70,37 @@ if "proxy-groups" in data:
 # 将处理后的数据写入新的文件，确保字符不被转义
 with open(filtered_file, "w") as f:
     yaml.safe_dump(data, f, default_flow_style=False, allow_unicode=True)
+    # 追加内容到文件末尾
+    additional_content = """
+    204Set: &204Set
+        url: "https://www.youtube.com/generate_204"
+        expected-status: 204
+        interval: 450
+        timeout: 10000
+        lazy: true
+
+    groupsSet: &groupsSet
+        tfo: true
+        mptcp: true
+        tolerance: 40
+        max-failed-times: 2
+        <<: *204Set
+
+    proxy-groups:
+        - name: PROXY
+            type: select
+            proxies:
+                - 🚀自动选择
+            include-all-proxies: true
+            <<: *groupsSet
+
+        - name: 🚀自动选择
+            type: url-test
+            include-all-proxies: true
+            <<: *groupsSet
+    """
+
+    with open(filtered_file, "a") as f:
+        f.write(additional_content)
 
 print("过滤、去重、保存到新文件 完成！")
