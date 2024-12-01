@@ -732,3 +732,31 @@ proxies:
   uuid: 044f0177-0675-4dcf-89d4-804b6788e518
 rules:
 - MATCH,PROXY
+
+    204Set: &204Set
+        url: "https://www.youtube.com/generate_204"
+        expected-status: 204
+        interval: 450
+        timeout: 10000
+        lazy: true
+
+    groupsSet: &groupsSet
+        tfo: true
+        mptcp: true
+        tolerance: 40
+        max-failed-times: 2
+        <<: *204Set
+
+    proxy-groups:
+        - name: PROXY
+            type: select
+            proxies:
+                - 🚀自动选择
+            include-all-proxies: true
+            <<: *groupsSet
+
+        - name: 🚀自动选择
+            type: url-test
+            include-all-proxies: true
+            <<: *groupsSet
+    

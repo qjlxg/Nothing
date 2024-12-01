@@ -1,4 +1,4 @@
-# Update: 2024-12-01 14:33
+# Update: 2024-12-01 14:39
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-1
@@ -772,75 +772,75 @@ proxy-groups:
   type: select
 - name: 自动选择
   proxies: &id001
-  - 0|-https://t.me/MrXbin-6
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 13,14|美国|@ripaojiedian
-  - 15|NL_speednode_0086
-  - 15|US_speednode_0143
-  - 13,14|美国3|@ripaojiedian
-  - 5|d*********g.com_3
-  - 15|US_speednode_0145
-  - 15|LU_speednode_0077
-  - 15|US_speednode_0144
-  - 0|-https://t.me/MrXbin-12
-  - 14|6aaZ5rivM3xAcmlwYW9qaWVkaWFu
-  - 0|-https://t.me/MrXbin-58
-  - 15|SC_speednode_0109
-  - 14|香港5|@ripaojiedian
-  - 15|RU_speednode_0108
-  - 13,14|香港6|@ripaojiedian
-  - 0|-https://t.me/MrXbin-8
-  - 5|d*********g.com_0
-  - 13|🇭🇰 香港5|@ripaojiedian
-  - 13|🇭🇰 香港7|@ripaojiedian
-  - 13,14|香港|@ripaojiedian
-  - 0|-https://t.me/MrXbin-10
   - 13|🇫🇷 法国|@ripaojiedian
-  - 15|CY_speednode_0012
-  - 15|JO_speednode_0052
-  - 0|-https://t.me/MrXbin-11
-  - 15|MT_speednode_0080
-  - 15|RU_speednode_0106
   - 15|US_speednode_0140
-  - 0|-https://t.me/MrXbin-5
-  - 15|AU_speednode_0002
-  - 15|LU_speednode_0076
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - 15|NL_speednode_0087
-  - 0|-https://t.me/MrXbin-9
-  - 15|NL_speednode_0096
-  - 0|-https://t.me/MrXbin-1
-  - 15|SI_speednode_0113
-  - 15|US_speednode_0142
-  - 14|台湾|@ripaojiedian
-  - 13,14|日本|@ripaojiedian
-  - 15|NL_speednode_0093
-  - 0|-https://t.me/MrXbin-22
-  - 0|-https://t.me/MrXbin-7
-  - 13,14|香港8|@ripaojiedian
-  - 13|🇰🇷 韩国特殊|@ripaojiedian
-  - 13|🇸🇬 狮城特殊|@ripaojiedian
-  - 15|FR_speednode_0032
-  - '16|d*********g.com_3 #1'
-  - 13|🇯🇵 日本特殊|@ripaojiedian
-  - 15|EE_speednode_0031
-  - 0|-https://t.me/MrXbin-4
-  - '16|d*********g.com_2 #1'
-  - 15|NL_speednode_0084
-  - 15|LU_speednode_0079
-  - 5|d*********g.com_2
-  - 15|RU_speednode_0105
-  - 0|-https://t.me/MrXbin-13
-  - 13,14|香港2|@ripaojiedian
-  - 13,14|美国2|@ripaojiedian
-  - 15|GB_speednode_0041
-  - 13,14|新加坡|@ripaojiedian
-  - 13|🇭🇰 香港4|@ripaojiedian
-  - 14|香港7|@ripaojiedian
-  - 15|BR_speednode_0003
+  - 13,14|美国3|@ripaojiedian
   - 13|🇹🇼 台湾|@ripaojiedian
+  - 0|-https://t.me/MrXbin-58
+  - 14|6aaZ5rivM3xAcmlwYW9qaWVkaWFu
+  - 0|-https://t.me/MrXbin-22
+  - '16|d*********g.com_2 #1'
+  - 0|-https://t.me/MrXbin-6
+  - 13|🇯🇵 日本特殊|@ripaojiedian
+  - 15|RU_speednode_0106
+  - 15|EE_speednode_0031
+  - 15|RU_speednode_0105
+  - 15|GB_speednode_0041
+  - 15|RU_speednode_0108
+  - 0|-https://t.me/MrXbin-8
+  - 13,14|新加坡|@ripaojiedian
+  - 15|JO_speednode_0052
+  - 15|NL_speednode_0084
+  - 0|-https://t.me/MrXbin-9
+  - 5|d*********g.com_0
+  - 0|-https://t.me/MrXbin-11
   - 5|d*********g.com_1
+  - 13|🇭🇰 香港4|@ripaojiedian
+  - 15|SC_speednode_0109
+  - 15|SI_speednode_0113
+  - 15|US_speednode_0145
+  - 14|香港7|@ripaojiedian
+  - 13,14|香港8|@ripaojiedian
+  - 13,14|香港2|@ripaojiedian
+  - 15|US_speednode_0142
+  - 15|NL_speednode_0086
+  - '16|d*********g.com_3 #1'
+  - 5|d*********g.com_2
+  - 0|-https://t.me/MrXbin-7
+  - 0|-https://t.me/MrXbin-5
+  - 13,14|香港6|@ripaojiedian
+  - 15|BR_speednode_0003
+  - 13,14|日本|@ripaojiedian
   - 15|GB_speednode_0045
+  - 15|LU_speednode_0077
+  - 13|🇭🇰 香港5|@ripaojiedian
+  - 15|AU_speednode_0002
+  - 15|CY_speednode_0012
+  - 14|香港5|@ripaojiedian
+  - 5|d*********g.com_3
+  - 15|LU_speednode_0079
+  - 15|US_speednode_0144
+  - 13|🇸🇬 狮城特殊|@ripaojiedian
+  - 0|-https://t.me/MrXbin-1
+  - 15|US_speednode_0143
+  - 0|-https://t.me/MrXbin-4
+  - 14|台湾|@ripaojiedian
+  - 15|FR_speednode_0032
+  - 13|🇰🇷 韩国特殊|@ripaojiedian
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 15|NL_speednode_0093
+  - 15|NL_speednode_0096
+  - 15|NL_speednode_0087
+  - 0|-https://t.me/MrXbin-10
+  - 13,14|香港|@ripaojiedian
+  - 15|MT_speednode_0080
+  - 0|-https://t.me/MrXbin-12
+  - 15|LU_speednode_0076
+  - 13,14|美国|@ripaojiedian
+  - 13,14|美国2|@ripaojiedian
+  - 13|🇭🇰 香港7|@ripaojiedian
+  - 0|-https://t.me/MrXbin-13
+  - 13|🇭🇰 香港3|@ripaojiedian
   type: url-test
 - name: 1手动选择
   proxies: *id001
