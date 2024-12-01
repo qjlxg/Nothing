@@ -59,6 +59,9 @@ for proxy in data.get("proxies", []):
     if (server, port) in seen_combinations:
         continue
 
+    if proxy.get("obfs") == "none":
+        continue
+
     # # 去重 (server, type) 组合
     # if (server, proxy_type) in seen_server_type_combinations:
     #     continue
