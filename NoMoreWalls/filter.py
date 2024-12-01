@@ -4,21 +4,21 @@ source_file = "list.meta.yml"
 filtered_file = "list.filtered.meta.yaml"
 
 # 定义需要过滤掉的端口号列表
-ports_to_filter = {
-    443,
-    2053,
-    2083,
-    2087,
-    2096,
-    8443,
-    80,
-    8080,
-    8880,
-    2052,
-    2082,
-    2086,
-    2095,
-}
+# ports_to_filter = {
+#     443,
+#     2053,
+#     2083,
+#     2087,
+#     2096,
+#     8443,
+#     80,
+#     8080,
+#     8880,
+#     2052,
+#     2082,
+#     2086,
+#     2095,
+# }
 
 # 读取 YAML 文件
 with open(source_file, "r") as f:
@@ -34,6 +34,7 @@ for proxy in data.get("proxies", []):
     server = proxy.get("server")
     port = proxy.get("port")
     proxy_type = proxy.get("type")
+    network = proxy.get("network")
 
     # 将 port 转换为整数进行比较（避免字符串 '2095' 和数字 2095 不匹配）
     try:
@@ -41,8 +42,17 @@ for proxy in data.get("proxies", []):
     except (ValueError, TypeError):
         continue  # 如果端口无法转换为数字，则跳过
 
-    # 跳过要过滤的端口
-    if port in ports_to_filter and proxy.get("network") == "ws":
+    # # 跳过要过滤的端口
+    # if port in ports_to_filter and proxy.get("network") == "ws":
+    #     continue
+
+    if proxy_type == "trojan":
+        continue
+
+    if network == "ws" and proxy_type == "vmess":
+        continue
+
+    if network == "ws" and proxy_type == "vless":
         continue
 
     # 去重 (server, port) 组合
@@ -62,6 +72,10 @@ for proxy in data.get("proxies", []):
 
 # 将过滤和去重后的数据重新赋值给 data['proxies']
 data["proxies"] = filtered_proxies
+
+# 按照英文字母表顺序排序
+data["proxies"].sort(key=lambda x: x.get("type", ""))
+
 
 # 删除 proxy-groups 字段
 if "proxy-groups" in data:
