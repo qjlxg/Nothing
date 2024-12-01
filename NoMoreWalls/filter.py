@@ -42,20 +42,20 @@ for proxy in data.get("proxies", []):
         continue  # 如果端口无法转换为数字，则跳过
 
     # 跳过要过滤的端口
-    if port in ports_to_filter:
+    if port in ports_to_filter and proxy.get("network") == "ws":
         continue
 
     # 去重 (server, port) 组合
     if (server, port) in seen_combinations:
         continue
 
-    # 去重 (server, type) 组合
-    if (server, proxy_type) in seen_server_type_combinations:
-        continue
+    # # 去重 (server, type) 组合
+    # if (server, proxy_type) in seen_server_type_combinations:
+    #     continue
 
     # 添加当前组合到对应的去重集合
     seen_combinations.add((server, port))
-    seen_server_type_combinations.add((server, proxy_type))
+    # seen_server_type_combinations.add((server, proxy_type))
 
     # 保留当前 proxy
     filtered_proxies.append(proxy)

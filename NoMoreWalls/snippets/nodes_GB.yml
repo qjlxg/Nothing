@@ -1,27 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|GB_speednode_0059
+- name: 15|GB_speednode_0041
   network: ws
+  password: NISHIKUITAN111
   port: 443
-  server: 149.7.16.174
+  server: 194.36.55.28
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  sni: za.ylks.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: meroiy.icu
-    path: /linkvws
-- alterId: 1
-  cipher: auto
-  name: 0|GB_speednode_0060
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|GB_speednode_0045
   network: ws
+  password: NISHIKUITAN111
   port: 443
-  server: 149.7.16.194
+  server: 77.75.199.86
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  sni: za.ylks.xyz
+  type: trojan
   ws-opts:
-    path: /linkvws
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F

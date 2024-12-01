@@ -1,1102 +1,1897 @@
 proxies:
-- name: 0|BR_speednode_0004
-  network: ws
-  port: 443
-  server: 185.133.35.178
-  servername: ck.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|BR_speednode_0007
-  network: ws
-  port: 443
-  server: 185.133.35.96
-  servername: lk.kpcloud.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.kpcloud.eu.org
-    path: /blue
-- name: 0|BR_speednode_0003
-  network: ws
-  port: 443
-  server: 185.133.35.178
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|BR_speednode_0005
-  network: ws
-  port: 443
-  server: 185.133.35.96
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|BR_speednode_0008
-  network: ws
-  port: 443
-  server: 185.133.35.144
-  servername: ck.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|BR_speednode_0009
-  network: ws
-  port: 443
-  server: 185.133.35.144
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- alterId: -1
-  cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 0|CN_speednode_0010
-  obfs: plain
-  obfs-param: 8195986416.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40202
-  protocol: auth_aes128_md5
-  protocol-param: 86416:SlZFuy
-  server: 95b1cd85a0968ff2.cdn.jiashule.com
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.35.3
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-2
+  password: dongtaiwang.com
+  port: 32233
+  server: 185.22.152.125
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.28.136
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.28.138
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-5
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.28.60
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 211.22.161.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.28.59
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-10
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.35.39
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-11
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.35.37
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-13
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
   type: ssr
-  udp: true
-- alterId: -1
-  client-fingerprint: chrome
-  name: 0|CN_speednode_0011
-  port: 7890
-  server: 182.92.216.171
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- alterId: -1
-  cipher: aes-128-gcm
-  name: 0|CN_speednode_0013
-  password: 26f959e3-1a5e-3b3d-b4cd-fe04c80902bd
-  port: 10004
-  server: cdn.node1.lilisi.link
-  type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  name: 0|CN_speednode_0014
-  password: 5409bf78-b122-4b9b-9050-da36576f5bbc
-  port: 34676
-  server: tg_mfbpn03.52cloud.us.kg
-  type: ss
-- alterId: -1
-  cipher: chacha20-ietf
-  name: 0|CN_speednode_0015
-  obfs: plain
-  obfs-param: 83f38107560.windows.net
-  password: 4wMNkIVsgybXfA2u
-  port: 6246
-  protocol: auth_aes128_sha1
-  protocol-param: 107560:cztSoV
-  server: air.sr.hk.yunti-relay02.com
-  type: ssr
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  name: 0|CN_speednode_0016
-  password: 5409bf78-b122-4b9b-9050-da36576f5bbc
-  port: 25991
-  server: tg_mfbpn03.52cloud.us.kg
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|CN_speednode_0017
-  password: 26f959e3-1a5e-3b3d-b4cd-fe04c80902bd
-  port: 10005
-  server: cdn.node1.lilisi.link
-  type: ss
 - alterId: 0
-  name: 0|CN_speednode_0018
-  password: wwTIozXY
-  port: 27131
+  cipher: auto
+  name: 5|d*********g.com_0
+  network: ws
+  port: 8443
+  server: 104.21.238.200
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: 0
+  cipher: auto
+  name: 5|d*********g.com_1
+  network: ws
+  port: 8443
+  server: 104.21.238.201
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: 0
+  cipher: auto
+  name: 5|d*********g.com_2
+  network: ws
+  port: 8443
+  server: 104.21.238.202
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: 0
+  cipher: auto
+  name: 5|d*********g.com_3
+  network: ws
+  port: 8443
+  server: 104.21.238.203
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- name: '7,12|CHANEL@v2rayngzendegimamad_Aq #1'
+  password: 3a10983a-d8b3-4b16-b3d5-fe3ed7ec724c
+  port: 80
+  server: ru.mochizuki.top
+  sni: ru.mochizuki.top
+  tls: false
+  type: hysteria2
+- name: 8|@v2rayCrow🇹🇷
+  password: 28c05d48e2f470d07a4c392c9bd43849
+  port: 443
+  server: 185.219.132.29
+  skip-cert-verify: false
+  sni: quran.mci.ai
+  tls: false
+  type: hysteria2
+- name: 8|Wifi-MCi-@V2ray_Raha-10
+  password: 28c05d48e2f470d07a4c392c9bd43849
+  port: 443
+  server: jostar-data.nl
+  skip-cert-verify: false
+  sni: jostar-data.nl
+  tls: false
+  type: hysteria2
+- name: 8|+@customv2ray+++++
+  password: 28c05d48e2f470d07a4c392c9bd43849
+  port: 443
+  server: quran.mci.ai
+  skip-cert-verify: false
+  sni: quran.mci.ai
+  tls: false
+  type: hysteria2
+- name: 8|MCI-@V2ray_Raha-7
+  password: 51ed158e-b95b-451b-a48b-60e356de287d
+  port: 30001
+  server: 35afq4514.surfcat.store
+  skip-cert-verify: true
+  sni: 35afq4514.surfcat.store
+  tls: false
+  type: hysteria2
+- name: 8|MCI-@V2ray_Raha-8
+  password: 51ed158e-b95b-451b-a48b-60e356de287d
+  port: 30103
+  server: 35asfq3t.surfcat.store
+  skip-cert-verify: true
+  sni: 35afq4514.surfcat.store
+  tls: false
+  type: hysteria2
+- name: 8|MCI-@V2ray_Raha-5
+  password: 51ed158e-b95b-451b-a48b-60e356de287d
+  port: 30103
+  server: 35f235a.surfcat.store
+  skip-cert-verify: true
+  sni: 35afq4514.surfcat.store
+  tls: false
+  type: hysteria2
+- name: 8|68@ConfigV2RayNG
+  password: 560b1d72-bc85-4154-86b0-fa2c4775cf4b
+  port: 443
+  server: hk.pianyi.info
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 8|🍎65@ConfigV2RayNG
+  password: 560b1d72-bc85-4154-86b0-fa2c4775cf4b
+  port: 443
+  server: ru.pianyi.info
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 8|🍎69@ConfigV2RayNG
+  password: 560b1d72-bc85-4154-86b0-fa2c4775cf4b
+  port: 443
+  server: tw.pianyi.info
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 8|MCi-@V2ray_Raha-06
+  password: 84854B66-8478-4B87-8C0D-CD1699426C41
+  port: 9270
+  server: 43.199.156.119
+  skip-cert-verify: false
+  sni: hk5.ddns-link-b5.uk
+  tls: false
+  type: hysteria2
+- name: 8|MCi-@V2ray_Raha-03
+  password: 84854B66-8478-4B87-8C0D-CD1699426C41
+  port: 1548
+  server: sg1.ddns-link-b5.uk
+  skip-cert-verify: false
+  sni: sg1.ddns-link-b5.uk
+  tls: false
+  type: hysteria2
+- name: 8|MCi-@V2ray_Raha-04
+  password: 84854B66-8478-4B87-8C0D-CD1699426C41
+  port: 3531
+  server: sg2.ddns-link-b5.uk
+  skip-cert-verify: false
+  sni: sg2.ddns-link-b5.uk
+  tls: false
+  type: hysteria2
+- name: 8|MCi-@V2ray_Raha-05
+  password: 84854B66-8478-4B87-8C0D-CD1699426C41
+  port: 5475
+  server: sg3.ddns-link-b5.uk
+  skip-cert-verify: false
+  sni: sg3.ddns-link-b5.uk
+  tls: false
+  type: hysteria2
+- name: 8|Wifi-MCi-@V2ray_Raha-7
+  password: 9d765687-536c-4626-a2e2-6a403219e381
+  port: 30000
+  server: 35afq4514.surfcat.store
+  skip-cert-verify: true
+  sni: 35afq4514.surfcat.store
+  tls: false
+  type: hysteria2
+- name: 8|Wifi-MCi-@V2ray_Raha-8
+  password: 9d765687-536c-4626-a2e2-6a403219e381
+  port: 30103
+  server: 35f235a.surfcat.store
+  skip-cert-verify: true
+  sni: 35afq4514.surfcat.store
+  tls: false
+  type: hysteria2
+- name: 8|Ir-@V2ray_Raha-07
+  obfs: salamander
+  obfs-password: KevinZakarian
+  password: KevinZakarian
+  port: 8443
+  server: 179.61.132.90
+  skip-cert-verify: true
+  sni: 179.61.132.90
+  tls: false
+  type: hysteria2
+- name: 8|Ir-@V2ray_Raha-08
+  obfs: salamander
+  obfs-password: KevinZakarian
+  password: KevinZakarian
+  port: 8443
+  server: 179.61.132.91
+  skip-cert-verify: true
+  sni: 179.61.132.91
+  tls: false
+  type: hysteria2
+- name: 8|@proxy_shadosocks🚀
+  obfs: salamander
+  obfs-password: KevinZakarian
+  password: KevinZakarian
+  port: 8443
+  server: 179.61.132.96
+  skip-cert-verify: true
+  sni: 179.61.132.96
+  tls: false
+  type: hysteria2
+- name: 8|hys2+🇦
+  obfs: salamander
+  obfs-password: MYGaMeOP
+  password: StormXVPN
+  port: 443
+  server: 45.129.185.4
+  skip-cert-verify: true
+  sni: fast.com
+  tls: false
+  type: hysteria2
+- name: 8|IR-@V2ray_Raha-05
+  password: a51c8701-ae69-4976-9b23-cafb8d12ef60
+  port: 8080
+  server: 45.140.169.231
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 8|MCI-@V2ray_Raha-6
+  password: d45e4297-0e1c-4e61-86e3-a2d18d3c2a0e
+  port: 26873
+  server: us.legeth.cc
+  skip-cert-verify: false
+  sni: us.legeth.cc
+  tls: false
+  type: hysteria2
+- name: 8|IR-@V2ray_Raha-1
+  password: e169856c-7c19-4908-9bdf-448dc846163a
+  port: 443
+  server: 129.151.254.139
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 8|IR-@V2ray_Raha-3
+  password: e169856c-7c19-4908-9bdf-448dc846163a
+  port: 443
+  server: 130.162.250.164
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 8|IR-@V2ray_Raha-2
+  password: e169856c-7c19-4908-9bdf-448dc846163a
+  port: 443
+  server: 139.185.36.59
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 8|WiFi-@V2ray_Alpha-1
+  password: e169856c-7c19-4908-9bdf-448dc846163a
+  port: 443
+  server: 207.211.166.131
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 8|WiFi-@V2ray_Alpha-2
+  password: e169856c-7c19-4908-9bdf-448dc846163a
+  port: 443
+  server: 207.211.175.16
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 8|WiFi-@V2ray_Alpha-3
+  password: e169856c-7c19-4908-9bdf-448dc846163a
+  port: 443
+  server: 40.233.91.166
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '8|MCI-@V2ray_Alpha-5 #1'
+  password: e169856c-7c19-4908-9bdf-448dc846163a
+  port: 443
+  server: 64.181.236.144
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 12|akile
+  password: 18d4bcb1-dfab-4af2-b2cb-f8e61384da22
+  port: 10429
+  server: gpt.nai3.cc
+  sni: gpt.nai3.cc
+  tls: false
+  type: hysteria2
+- name: 12|@ToYoTA_PRoXY
+  obfs: salamander
+  obfs-password: 8c3ce17b
+  password: f6e4b19a3110d19d
+  port: 443
+  server: 66.135.28.59
+  skip-cert-verify: true
+  sni: ELiV2RAY.eliv2.top
+  tls: false
+  type: hysteria2
+- name: 13|tg频道:@ripaojiedian
+  port: 4000
+  server: hk9.ftq.ink
+  tls: true
+  type: http
+- name: 13,14|香港|@ripaojiedian
+  network: tcp
+  password: DNUMdmnJ
+  port: 51377
   server: 36.151.192.201
   skip-cert-verify: true
   type: trojan
-  udp: true
-- alterId: -1
-  cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 0|CN_speednode_0019
-  obfs: plain
-  obfs-param: 8195986416.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40207
-  protocol: auth_aes128_md5
-  protocol-param: 86416:SlZFuy
-  server: 95b1cd85a0968ff2.cdn.jiashule.com
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|CN_speednode_0020
-  password: 2baf288e-73ab-4598-a47d-0277f04e8fc0
-  port: 35631
-  server: gdcub.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|CN_speednode_0021
-  password: 7bc1e0f9-ca04-4321-b609-df05409b9715
-  port: 31675
-  server: gdcub.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|CN_speednode_0022
-  password: 2baf288e-73ab-4598-a47d-0277f04e8fc0
-  port: 35635
-  server: gdcub.yunnode.win
-  type: ss
-- alterId: -1
-  cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 0|CN_speednode_0023
-  obfs: plain
-  obfs-param: 8195986416.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40238
-  protocol: auth_aes128_md5
-  protocol-param: 86416:SlZFuy
-  server: 28b09af269781f9b.cdn.jiashule.com
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|CN_speednode_0024
-  password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde
-  port: 22225
-  server: cs2.ni8.me
-  type: ss
-  udp: true
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  name: 0|CN_speednode_0025
-  password: 5409bf78-b122-4b9b-9050-da36576f5bbc
-  port: 53935
-  server: tg_mfbpn03.52cloud.us.kg
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|CN_speednode_0026
-  password: 2baf288e-73ab-4598-a47d-0277f04e8fc0
-  port: 35636
-  server: gdcub.yunnode.win
-  type: ss
-- alterId: -1
-  cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 0|CN_speednode_0028
-  obfs: plain
-  obfs-param: cd5ed74592.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 41227
-  protocol: auth_aes128_md5
-  protocol-param: 74592:o4fbeopsgcf
-  server: 95b1cd85a0968ff2.cdn.jiashule.com
-  type: ssr
-  udp: true
-- name: 0|CN_speednode_0029
-  password: c848d5be-99d0-3998-88bf-e7eec703e802
-  port: 20278
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z278.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: rc4-md5
-  name: 0|CN_speednode_0030
-  obfs: plain
-  obfs-param: 8195986416.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40236
-  protocol: auth_aes128_md5
-  protocol-param: 86416:SlZFuy
-  server: 28b09af269781f9b.cdn.jiashule.com
-  type: ssr
-- client-fingerprint: chrome
-  name: 0|CN_speednode_0031
-  port: 7890
-  server: 139.196.12.200
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|CN_speednode_0032
-  password: 2LF2EhWMqnlf0kRi
-  port: 23961
-  server: 221.181.185.71
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|CN_speednode_0033
-  password: 2baf288e-73ab-4598-a47d-0277f04e8fc0
-  port: 35532
-  server: gdcub.yunnode.win
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|CN_speednode_0034
-  password: UomcSobsfu2SwwCn
-  port: 23278
-  server: 221.181.185.71
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 0|CN_speednode_0037
-  port: 33288
-  server: 183.236.48.166
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 0|CN_speednode_0036
+- name: 13,14|香港2|@ripaojiedian
   network: tcp
-  port: 33288
-  server: 183.236.48.161
+  password: QwwHvrnN
+  port: 42395
+  server: 36.151.192.239
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: -1
-  cipher: aes-256-cfb
-  name: 0|CN_speednode_0038
-  password: JN8psKoncqaqS4ul
-  port: 22064
-  server: 221.181.185.71
-  type: ss
-  udp: true
+  type: trojan
+- cipher: rc4-md5
+  name: 13|🇭🇰 香港3|@ripaojiedian
+  obfs: plain
+  obfs-param: 7cc15102946.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40209
+  protocol: auth_aes128_md5
+  protocol-param: 102946:2LUBMA
+  server: 95b1cd85a0968ff2.cdn.jiashule.com
+  type: ssr
 - cipher: chacha20-ietf-poly1305
-  name: 0|CN_speednode_0039
-  password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde
-  port: 16943
-  server: cs2.ni8.me
-  type: ss
-  udp: true
-- alterId: -1
-  cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|CN_speednode_0042
-  password: JpTYrOJnIhNMXqli
-  port: 23801
-  server: 221.181.185.71
+  name: 13|🇭🇰 香港4|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54002
+  server: h-k02.loveroise.com
   tfo: false
   type: ss
-  udp: true
-- name: 0|CN_speednode_0041
-  password: c848d5be-99d0-3998-88bf-e7eec703e802
-  port: 20305
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z305.hongkongnode.top
+- alterId: 64
+  cipher: auto
+  name: 13|🇭🇰 香港5|@ripaojiedian
+  port: 58831
+  server: 183.236.48.163
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 13,14|香港6|@ripaojiedian
+  network: tcp
+  password: 32a3dba3-7b31-409e-b0bd-15fafe7009ec
+  port: 20049
+  server: iepl04.catcat-123.com
+  skip-cert-verify: false
+  sni: cmhk-01.oneok.link
   type: trojan
-  udp: true
-- name: 0|DE_speednode_0044
-  network: ws
-  port: 443
-  server: 185.103.253.35
-  servername: lk.ylks.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|DE_speednode_0045
-  network: ws
-  port: 443
-  server: 202.61.193.248
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|DE_speednode_0046
-  network: ws
-  port: 443
-  server: 202.61.193.248
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|GB_speednode_0047
-  network: ws
-  port: 443
-  server: 217.163.76.60
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|GB_speednode_0048
-  network: ws
-  port: 443
-  server: 217.163.76.84
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /?proxyip=proxyip.oracll.fxxl.dedyn.io
-- name: 0|GB_speednode_0049
-  network: ws
-  port: 443
-  server: 217.163.76.60
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|GB_speednode_0050
-  network: ws
-  port: 443
-  server: 217.163.76.60
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|GB_speednode_0052
-  network: ws
-  port: 443
-  server: 217.163.76.203
-  servername: ck.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|GB_speednode_0058
-  network: ws
-  port: 443
-  server: 217.163.76.65
-  servername: dk.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|GB_speednode_0054
-  network: ws
-  port: 443
-  server: 217.163.76.60
-  servername: lk.kpcloud.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.kpcloud.eu.org
-    path: /blue
-- name: 0|GB_speednode_0055
-  network: ws
-  port: 443
-  server: 217.163.76.65
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|GB_speednode_0056
-  network: ws
-  port: 443
-  server: 217.163.76.60
-  servername: ll.kpcloud.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.kpcloud.eu.org
-    path: /freecodes
-- name: 0|GB_speednode_0057
-  network: ws
-  port: 443
-  server: 217.163.76.60
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed
+- alterId: 64
+  cipher: auto
+  name: 13|🇭🇰 香港7|@ripaojiedian
+  port: 46602
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 13,14|香港8|@ripaojiedian
+  network: tcp
+  password: 5e2ce79c-170e-484a-8802-40584a1a3a12
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 0|GB_speednode_0059
-  network: ws
-  port: 443
-  server: 149.7.16.174
-  skip-cert-verify: true
-  tls: true
+  name: 13|🇹🇼 台湾|@ripaojiedian
+  port: 20016
+  server: i.needss.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: meroiy.icu
-    path: /linkvws
-- alterId: 1
-  cipher: auto
-  name: 0|GB_speednode_0060
-  network: ws
-  port: 443
-  server: 149.7.16.194
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: -1
-  name: 0|HK_speednode_0061
-  password: 981db44e-9f07-49eb-9ba0-6ab4939919a2
-  port: 443
-  server: hknode07.oportal.cc
+  uuid: b23172e2-eb36-4222-85ac-3d2f61651013
+- name: 13,14|日本|@ripaojiedian
+  network: tcp
+  password: QwwHvrnN
+  port: 27381
+  server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-  udp: true
-- name: 0|HK_speednode_0062
-  network: ws
+- cipher: aes-256-cfb
+  name: 13|🇯🇵 日本2|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: 219.76.13.169
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  server: 43.207.163.206
+  tfo: false
+  type: ss
+- name: 13,14|新加坡|@ripaojiedian
+  network: tcp
+  password: 5e2ce79c-170e-484a-8802-40584a1a3a12
+  port: 13028
+  server: naiu-sg.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13,14|美国|@ripaojiedian
+  network: ws
+  port: '2086'
+  server: 162.159.45.195
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
   ws-opts:
     headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|IN_speednode_0063
+      Host: p1.613055.xyz
+    path: github.com/Alvin9999
+- name: 13,14|美国2|@ripaojiedian
+  network: tcp
+  password: 5e2ce79c-170e-484a-8802-40584a1a3a12
+  port: 13020
+  server: naiu-us.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13,14|美国3|@ripaojiedian
   network: ws
-  port: 443
-  server: 98.70.26.236
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  port: '2095'
+  server: 162.159.45.195
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|KR_speednode_0064
+      Host: c3.6016725.xyz
+    path: github.com/Alvin9999
+- cipher: aes-256-cfb
+  name: 13|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.60.132
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 13|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.45.42
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 13|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.136.207.233
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇫🇷 法国|@ripaojiedian
+  password: 8vFQIjLl0PMh3qc3cJVuma
+  port: 443
+  server: 62.210.88.22
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  name: 14|6aaZ5rivM3xAcmlwYW9qaWVkaWFu
+  obfs: plain
+  obfs-param: N2NjMTUxMDI5NDYuNjYwMmI4NDYzNDY0MTA4NTA2Lm1pY3Jvc29mdC5jb20
+  password: ENZ52K
+  port: '40209'
+  protocol: auth_aes128_md5
+  protocol-param: MTAyOTQ2OjJMVUJNQQ
+  server: 95b1cd85a0968ff2.cdn.jiashule.com
+  type: ssr
+- alterId: 64
+  cipher: auto
+  name: 14|香港5|@ripaojiedian
+  network: tcp
+  port: '58831'
+  server: 183.236.48.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 14|香港7|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 14|台湾|@ripaojiedian
+  network: tcp
+  port: '20016'
+  server: i.needss.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b23172e2-eb36-4222-85ac-3d2f61651013
+- name: 15|AU_speednode_0002
   network: ws
-  port: 16072
-  server: 118.131.41.202
-  servername: global2.ccdd.site
+  password: NISHIKUITAN111
+  port: 443
+  server: 192.65.217.110
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|BR_speednode_0003
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 185.159.247.167
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|CA_speednode_0004
+  network: ws
+  port: 443
+  server: 140.238.158.238
+  servername: pvg.aghabeiki.homes
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: global2.ccdd.site
-    path: /?ed=2560
-- name: 0|KR_speednode_0065
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|CH_speednode_0005
   network: ws
-  port: 18016
-  server: 118.130.23.168
-  servername: global2.ccdd.site
+  port: 443
+  server: 140.238.214.247
+  servername: pvg.aghabeiki.homes
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: global2.ccdd.site
-    path: /?ed=2560
-- name: 0|KR_speednode_0066
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|CH_speednode_0006
   network: ws
-  port: 11965
-  server: 59.29.116.20
-  servername: global2.ccdd.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
-  ws-opts:
-    headers:
-      Host: global2.ccdd.site
-    path: /?ed=2560
-- name: 0|KR_speednode_0067
-  network: ws
-  port: 30063
-  server: 121.182.55.77
-  servername: global2.ccdd.site
+  port: 443
+  server: 140.238.212.95
+  servername: pvg.aghabeiki.homes
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: global2.ccdd.site
-    path: /?ed=2560
-- name: 0|KR_speednode_0068
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- alpn:
+  - h2
+  - http%2F1.1
+  name: 15|CR_speednode_0010
   network: ws
-  port: 12273
-  server: 211.228.180.147
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|KR_speednode_0069
-  network: ws
-  port: 32202
-  server: 211.196.226.172
-  servername: global2.ccdd.site
+  port: 443
+  server: 190.93.245.137
+  servername: DEc80.TehrANsiMAn.co.UK.
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
+  uuid: cd9b98ab-f293-4922-86f5-4b2e4e2eb45d
   ws-opts:
     headers:
-      Host: global2.ccdd.site
+      Host: DEc80.TehrANsiMAn.co.UK.
     path: /?ed=2560
-- name: 0|KR_speednode_0070
-  network: ws
-  port: 12273
-  server: 211.228.180.147
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|KR_speednode_0071
-  network: ws
-  port: 12273
-  server: 211.228.180.147
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|KZ_speednode_0074
+- alpn:
+  - h2
+  - http%2F1.1
+  name: 15|CR_speednode_0011
   network: ws
   port: 443
-  server: 194.76.18.121
-  servername: lk.ylks.us.kg
-  skip-cert-verify: true
+  server: 190.93.245.137
+  servername: Ruc80.TehrANsiMAn.co.UK.
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: cd9b98ab-f293-4922-86f5-4b2e4e2eb45d
   ws-opts:
     headers:
-      Host: lk.ylks.us.kg
+      Host: Ruc80.TehrANsiMAn.co.UK.
     path: /?ed=2560
-- name: 0|KZ_speednode_0073
+- name: 15|CY_speednode_0012
   network: ws
+  password: NISHIKUITAN111
   port: 443
-  server: 194.76.18.121
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  server: 213.109.205.159
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: ll.ylks.us.kg
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|DE_speednode_0013
+  network: ws
+  port: 443
+  server: 130.162.53.148
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0014
+  network: ws
+  port: 443
+  server: 141.144.246.225
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0015
+  network: ws
+  port: 443
+  server: 141.147.0.69
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0016
+  network: ws
+  port: 443
+  server: 132.226.199.230
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0017
+  network: ws
+  port: 443
+  server: 152.70.22.131
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0018
+  network: ws
+  port: 443
+  server: 138.3.254.39
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0019
+  network: ws
+  port: 443
+  server: 193.122.58.158
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0020
+  network: ws
+  port: 443
+  server: 130.162.238.94
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0021
+  network: ws
+  port: 443
+  server: 150.230.144.242
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0022
+  network: ws
+  port: 443
+  server: 130.61.170.78
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0023
+  network: ws
+  port: 443
+  server: 152.70.16.10
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0024
+  network: ws
+  port: 443
+  server: 141.147.63.206
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0025
+  network: ws
+  port: 443
+  server: 129.159.29.120
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0026
+  network: ws
+  port: 443
+  server: 193.122.55.63
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0027
+  network: ws
+  port: 443
+  server: 141.147.20.110
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0028
+  network: ws
+  port: 443
+  server: 132.145.254.162
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0029
+  network: ws
+  port: 443
+  server: 130.162.238.157
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|DE_speednode_0030
+  network: ws
+  port: 443
+  server: 132.145.248.34
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|EE_speednode_0031
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 45.80.108.245
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|FR_speednode_0032
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 141.11.203.203
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|FR_speednode_0033
+  network: ws
+  port: 443
+  server: 144.24.200.164
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0034
+  network: ws
+  port: 443
+  server: 130.162.190.177
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0035
+  network: ws
+  port: 443
+  server: 141.147.73.232
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0036
+  network: ws
+  port: 443
+  server: 141.147.93.181
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0037
+  network: ws
+  port: 443
+  server: 141.147.72.41
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0038
+  network: ws
+  port: 587
+  server: 8.208.94.35
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 0|KZ_speednode_0075
+- name: 15|GB_speednode_0039
   network: ws
   port: 443
-  server: 194.76.18.197
-  servername: ck.ylks.xyz
+  server: 152.67.130.49
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0040
+  network: ws
+  port: 443
+  server: 144.21.53.157
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0041
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 194.36.55.28
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  sni: za.ylks.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|KZ_speednode_0076
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|GB_speednode_0042
   network: ws
   port: 443
-  server: 194.76.18.197
-  servername: cl.ylks.xyz
+  server: 144.21.61.147
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|KZ_speednode_0077
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0043
   network: ws
   port: 443
-  server: 194.76.18.197
-  servername: dl.ylks.xyz
+  server: 132.226.215.79
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|KZ_speednode_0078
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0044
   network: ws
   port: 443
-  server: 194.76.18.197
-  servername: dk.ylks.xyz
+  server: 141.147.76.126
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|KZ_speednode_0079
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0045
   network: ws
+  password: NISHIKUITAN111
   port: 443
-  server: 194.76.18.62
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|KZ_speednode_0084
-  network: ws
-  port: 443
-  server: 194.76.18.62
-  servername: dk.ylks.xyz
+  server: 77.75.199.86
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  sni: za.ylks.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|KZ_speednode_0081
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|GB_speednode_0046
   network: ws
   port: 443
-  server: 194.76.18.243
-  servername: ll.kpcloud.eu.org
+  server: 130.162.184.22
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: ll.kpcloud.eu.org
-    path: /freecodes
-- name: 0|KZ_speednode_0083
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0047
   network: ws
   port: 443
-  server: 194.76.18.243
-  servername: lk.kpcloud.eu.org
+  server: 150.230.120.206
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|GB_speednode_0048
+  network: ws
+  port: 443
+  server: 130.162.164.201
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|HK_speednode_0049
+  network: ws
+  port: 12345
+  server: 42.98.167.229
+  servername: edgetunnel.xiaomayi.nyc.mn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
+  ws-opts:
+    headers:
+      Host: edgetunnel.xiaomayi.nyc.mn
+    path: /telegram🇨🇳+@wangcai2+/?ed=2048
+- name: 15|HK_speednode_0050
+  network: ws
+  port: 443
+  server: 8.218.148.106
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|IT_speednode_0051
+  network: ws
+  port: 443
+  server: 158.180.231.216
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|JO_speednode_0052
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 62.72.166.57
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  sni: za.ylks.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: lk.kpcloud.eu.org
-    path: /blue
-- name: 0|KZ_speednode_0086
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|JP_speednode_0053
   network: ws
   port: 443
-  server: 194.76.18.130
-  servername: ak.ylks.xyz
+  server: 47.91.18.127
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|JP_speednode_0054
+  network: ws
+  port: 443
+  server: 140.83.36.122
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|JP_speednode_0055
+  network: ws
+  port: 443
+  server: 132.226.7.222
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|JP_speednode_0056
+  network: ws
+  port: 8889
+  server: 160.16.242.208
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 15|JP_speednode_0057
+  network: ws
+  port: 443
+  server: 141.147.161.58
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|JP_speednode_0059
+  network: ws
+  port: 443
+  server: 152.69.197.102
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|JP_speednode_0061
+  network: ws
+  port: 443
+  server: 168.138.55.208
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|JP_speednode_0062
+  network: ws
+  port: 443
+  server: 141.147.154.214
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|JP_speednode_0063
+  network: ws
+  port: 443
+  server: 168.138.46.67
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0064
+  network: ws
+  port: 443
+  server: 130.162.144.85
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0065
+  network: ws
+  port: 443
+  server: 150.230.248.166
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0066
+  network: ws
+  port: 443
+  server: 144.24.78.162
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0067
+  network: ws
+  port: 443
+  server: 146.56.153.6
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0068
+  network: ws
+  port: 443
+  server: 146.56.41.215
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0069
+  network: ws
+  port: 443
+  server: 140.238.23.148
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0070
+  network: ws
+  port: 443
+  server: 152.70.88.98
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0071
+  network: ws
+  port: 443
+  server: 131.186.17.132
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0072
+  network: ws
+  port: 443
+  server: 144.24.90.107
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0073
+  network: ws
+  port: 443
+  server: 152.70.232.151
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0074
+  network: ws
+  port: 443
+  server: 132.145.80.224
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|KR_speednode_0075
+  network: ws
+  port: 443
+  server: 146.56.161.138
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|LU_speednode_0076
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 94.242.230.245
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  sni: za.ylks.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|KZ_speednode_0087
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|LU_speednode_0077
   network: ws
+  password: NISHIKUITAN111
   port: 443
-  server: 194.76.18.10
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /?proxyip=proxyip.oracll.fxxl.dedyn.io
-- name: 0|RU_speednode_0088
-  network: ws
-  port: 443
-  server: 31.129.48.139
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|RU_speednode_0089
-  network: ws
-  port: 443
-  server: 45.67.215.95
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|RU_speednode_0090
-  network: ws
-  port: 443
-  server: 45.67.215.144
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|RU_speednode_0091
-  network: ws
-  port: 443
-  server: 45.67.215.53
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|RU_speednode_0092
-  network: ws
-  port: 443
-  server: 45.67.215.70
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|RU_speednode_0093
-  network: ws
-  port: 443
-  server: 45.67.215.42
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|RU_speednode_0094
-  network: ws
-  port: 443
-  server: 45.67.215.6
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|RU_speednode_0095
-  network: ws
-  port: 443
-  server: 45.67.215.167
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|RU_speednode_0096
-  network: ws
-  port: 443
-  server: 45.67.215.42
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|RU_speednode_0097
-  network: ws
-  port: 443
-  server: 45.67.215.161
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|RU_speednode_0098
-  network: ws
-  port: 443
-  server: 45.67.215.42
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|RU_speednode_0108
-  network: ws
-  port: 443
-  server: 45.67.215.95
-  servername: dk.ylks.xyz
+  server: 94.242.229.89
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  sni: za.ylks.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|RU_speednode_0107
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|LU_speednode_0078
   network: ws
   port: 443
-  server: 45.67.215.208
-  servername: ck.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- client-fingerprint: chrome
-  name: 0|RU_speednode_0115
-  network: ws
-  packet-encoding: ''
-  port: 443
-  server: 188.42.145.140
+  server: 188.42.88.78
   servername: g1.youyuan.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e
-  ws-opts:
-    headers:
-      Host: g1.youyuan.us.kg
-    path: /?proxyip=proxyip.multacom.fxxk.dedyn.iofp=chromefp=chrome
-- name: 0|RU_speednode_0102
-  network: ws
-  port: 443
-  server: 45.67.215.172
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|RU_speednode_0110
-  network: ws
-  port: 443
-  server: 45.67.215.53
-  servername: ck.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|RU_speednode_0104
-  network: ws
-  port: 443
-  server: 45.67.215.42
-  servername: ck.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|RU_speednode_0105
-  network: ws
-  port: 443
-  server: 45.67.215.167
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|RU_speednode_0106
-  network: ws
-  port: 443
-  server: 45.67.215.144
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|RU_speednode_0109
-  network: ws
-  port: 443
-  server: 45.67.215.6
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|RU_speednode_0111
-  network: ws
-  port: 443
-  server: 45.67.215.6
-  servername: lk.kpcloud.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.kpcloud.eu.org
-    path: /blue
-- name: 0|RU_speednode_0114
-  network: ws
-  port: 443
-  server: 188.42.145.140
-  servername: g1.youyuan.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
   uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e
   ws-opts:
     headers:
       Host: g1.youyuan.us.kg
     path: /
-- name: 0|RU_speednode_0113
+- name: 15|LU_speednode_0079
   network: ws
+  password: NISHIKUITAN111
   port: 443
-  server: 45.67.215.42
-  servername: ak.ylks.xyz
+  server: 188.42.88.52
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|MT_speednode_0080
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 193.227.99.60
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|NL_speednode_0082
+  network: ws
+  port: 7000
+  server: 5.2.73.137
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 15|NL_speednode_0083
+  network: ws
+  port: 1001
+  server: 45.94.31.75
+  servername: a.mifeng.us.kg
   skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- client-fingerprint: chrome
-  name: 0|RU_speednode_0116
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 15|NL_speednode_0084
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 45.131.209.89
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|NL_speednode_0085
+  network: ws
+  port: 443
+  server: 152.70.49.115
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|NL_speednode_0086
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 5.10.245.142
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|NL_speednode_0087
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 156.229.48.127
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|NL_speednode_0088
+  network: ws
+  port: 2003
+  server: 2.58.56.31
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 15|NL_speednode_0089
+  network: ws
+  port: 443
+  server: 152.70.57.182
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|NL_speednode_0090
+  network: ws
+  port: 443
+  server: 141.144.205.14
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|NL_speednode_0091
+  network: ws
+  port: 3001
+  server: 93.185.163.186
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 15|NL_speednode_0092
+  network: ws
+  port: 443
+  server: 144.21.43.48
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|NL_speednode_0093
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 156.229.48.169
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|NL_speednode_0094
+  network: ws
+  port: 443
+  server: 141.148.232.202
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|NL_speednode_0095
+  network: ws
+  port: 443
+  server: 144.21.38.93
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|NL_speednode_0096
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 45.131.208.126
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|NL_speednode_0097
+  network: ws
+  port: 443
+  server: 141.148.233.106
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|NL_speednode_0098
+  network: ws
+  port: 443
+  server: 141.148.229.106
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|NL_speednode_0099
+  network: ws
+  port: 443
+  server: 143.47.187.243
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|NL_speednode_0100
+  network: ws
+  port: 443
+  server: 158.101.218.58
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|NL_speednode_0101
+  network: ws
+  port: 443
+  server: 158.101.201.46
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|NL_speednode_0102
+  network: ws
+  port: 1001
+  server: 45.94.31.75
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560security=tls
+- name: 15|RU_speednode_0104
+  network: ws
+  port: 587
+  server: 185.22.155.139
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 15|RU_speednode_0105
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 5.182.85.93
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|RU_speednode_0106
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 46.254.92.112
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|RU_speednode_0107
   network: ws
   port: 443
   server: 188.42.145.140
@@ -1104,3274 +1899,543 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e
   ws-opts:
     headers:
       Host: g1.youyuan.us.kg
-    path: /?proxyip=proxyip.multacom.fxxk.dedyn.iofp=chrome
-- name: 0|RU_speednode_0117
+    path: /telegram.v2ray_apha.spacefp
+- name: 15|RU_speednode_0108
   network: ws
+  password: NISHIKUITAN111
   port: 443
-  server: 194.35.119.193
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|SG_speednode_0118
-  network: ws
-  port: 443
-  server: 206.238.236.83
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|SG_speednode_0119
-  network: ws
-  port: 443
-  server: 206.238.236.83
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|SG_speednode_0121
-  network: ws
-  port: 443
-  server: 206.238.236.160
-  servername: lk.kpcloud.eu.org
+  server: 194.53.53.140
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.kpcloud.eu.org
-    path: /blue
-- name: 0|SG_speednode_0122
-  network: ws
-  port: 443
-  server: 206.238.237.133
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|SG_speednode_0124
-  network: ws
-  port: 443
-  server: 206.238.237.133
-  servername: ck.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0125
-  password: c52596bf-eecb-3ef9-ae6b-6b4f6ad83a11
-  port: 5524
-  server: 103.136.185.27
-  skip-cert-verify: true
-  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
+  sni: za.ylks.xyz
   type: trojan
-  udp: true
-- name: 0|US_speednode_0126
-  password: c52596bf-eecb-3ef9-ae6b-6b4f6ad83a11
-  port: 3508
-  server: 103.136.185.28
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|SC_speednode_0109
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 154.197.121.175
   skip-cert-verify: true
-  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
+  sni: za.ylks.xyz
   type: trojan
-  udp: true
-- name: 0|US_speednode_0127
-  network: ws
-  port: 443
-  server: 198.62.62.75
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      Host: ll.ylks.us.kg
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|SE_speednode_0110
+  network: ws
+  port: 2501
+  server: 95.164.51.24
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 0|US_speednode_0128
+- name: 15|SG_speednode_0111
   network: ws
-  port: 443
-  server: 69.84.182.58
-  servername: ll.ylks.us.kg
+  port: 587
+  server: 138.2.109.23
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: ll.ylks.us.kg
+      Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 0|US_speednode_0129
+- name: 15|SI_speednode_0113
   network: ws
+  password: NISHIKUITAN111
   port: 443
-  server: 69.84.182.163
-  servername: ll.ylka.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylka.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0130
-  network: ws
-  port: 443
-  server: 69.84.182.212
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0131
-  network: ws
-  port: 443
-  server: 198.62.62.137
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0132
-  network: ws
-  port: 443
-  server: 69.84.182.165
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0133
-  network: ws
-  port: 443
-  server: 198.62.62.39
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0134
-  network: ws
-  port: 443
-  server: 198.62.62.156
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0135
-  network: ws
-  port: 443
-  server: 69.84.182.53
-  servername: ll.ylka.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylka.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0136
-  network: ws
-  port: 443
-  server: 69.84.182.101
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0137
-  network: ws
-  port: 443
-  server: 69.84.182.178
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0138
-  network: ws
-  port: 443
-  server: 69.84.182.110
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0139
-  network: ws
-  port: 443
-  server: 198.62.62.91
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0140
-  password: '3672449442956713984'
-  port: 443
-  server: sure-mutt.sunbeam921.monster
+  server: 92.53.190.218
   skip-cert-verify: true
-  sni: sure-mutt.sunbeam921.monster
+  sni: za.ylks.xyz
   type: trojan
-  udp: true
-- name: 0|US_speednode_0141
-  network: ws
-  port: 443
-  server: 198.62.62.174
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0142
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|TH_speednode_0114
   network: ws
   port: 443
-  server: 198.62.62.0
-  servername: dl.ylks.xyz
+  server: 8.213.212.96
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: dl.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0143
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|TR_speednode_0115
   network: ws
-  port: 443
-  server: 69.84.182.163
-  servername: dl.ylks.xyz
+  port: 2501
+  server: 95.164.116.22
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: dl.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0144
-  network: ws
-  port: 443
-  server: 198.62.62.13
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0145
-  network: ws
-  port: 443
-  server: 198.62.62.110
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0146
-  network: ws
-  port: 443
-  server: 198.62.62.140
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0147
-  network: ws
-  port: 443
-  server: 69.84.182.41
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0148
-  network: ws
-  port: 443
-  server: 198.62.62.128
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
+      Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 0|US_speednode_0149
+- name: 15|TR_speednode_0116
   network: ws
-  port: 443
-  server: 69.84.182.119
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0150
-  network: ws
-  port: 443
-  server: 198.62.62.170
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0151
-  network: ws
-  port: 443
-  server: 69.84.182.212
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0152
-  network: ws
-  port: 443
-  server: 198.62.62.22
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0153
-  network: ws
-  port: 443
-  server: 69.84.182.163
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0154
-  network: ws
-  port: 443
-  server: 198.62.62.32
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0155
-  network: ws
-  port: 443
-  server: 69.84.182.139
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- alterId: 64
-  cipher: auto
-  name: 0|US_speednode_0156
-  network: ws
-  port: 37000
-  server: 142.4.110.234
+  port: 2501
+  server: 95.164.116.22
+  servername: a.mifeng.us.kg
   skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/313431063115
-- name: 0|US_speednode_0157
-  network: ws
-  port: 443
-  server: 69.84.182.26
-  servername: al.ylks.xyz
-  tls: true
   type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- alterId: 64
-  cipher: auto
-  name: 0|US_speednode_0158
+      Host: a.mifeng.us.kg
+    path: /
+- name: 15|TW_speednode_0117
   network: ws
-  port: 37000
-  server: 38.33.45.66
+  port: 443
+  server: 103.137.63.2
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- alpn:
+  - h2
+  - http%5C1.1
+  name: 15|UA_speednode_0118
+  network: tcp
+  port: 443
+  server: 005188006073.sec1org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7582e721-8c32-4fb1-8669-b3fae590f3eb
+- client-fingerprint: firefox
+  name: 15|US_speednode_0119
+  network: ws
+  port: 443
+  server: 151.101.65.210
+  servername: pooleno.ir
   skip-cert-verify: true
   tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.23365885.xyz
-    path: /path/1707992158285
-- name: 0|US_speednode_0159
-  network: ws
-  port: 443
-  server: 69.84.182.27
-  servername: al.ylks.xyz
-  tls: true
   type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0160
+      Host: pooleno.ir
+    path: /GGPPfZ3NKyOoKNiK?ed=2560
+- client-fingerprint: firefox
+  name: 15|US_speednode_0120
   network: ws
   port: 443
-  server: 198.62.62.139
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0161
-  network: ws
-  port: 443
-  server: 198.62.62.131
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0162
-  network: ws
-  port: 443
-  server: 69.84.182.15
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0163
-  network: ws
-  port: 443
-  server: 69.84.182.30
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0164
-  network: ws
-  port: 443
-  server: 69.84.182.141
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0165
-  network: ws
-  port: 443
-  server: 69.84.182.44
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- alterId: 64
-  cipher: auto
-  name: 0|US_speednode_0166
-  network: ws
-  port: 443
-  server: 162.209.128.83
+  server: 151.101.65.210
+  servername: pooleno.ir
   skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/283431252216
-- name: 0|US_speednode_0167
-  network: ws
-  port: 443
-  server: 198.62.62.227
-  servername: dl.ylks.xyz
-  tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0168
+      Host: pooleno.ir
+    path: /GGPPfZ3NKyOoKNiK?ed=2560fp=firefox
+- alpn:
+  - h2
+  - http%2F1.1
+  client-fingerprint: randomized
+  name: 15|US_speednode_0121
   network: ws
   port: 443
-  server: 198.62.62.122
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0169
-  network: ws
-  port: 443
-  server: 69.84.182.88
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0170
-  network: ws
-  port: 443
-  server: 69.84.182.102
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0171
-  network: ws
-  port: 443
-  server: 69.84.182.179
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0172
-  network: ws
-  port: 443
-  server: 198.62.62.77
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0173
-  network: ws
-  port: 443
-  server: 198.62.62.39
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0174
-  network: ws
-  port: 443
-  server: 198.62.62.215
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0175
-  network: ws
-  port: 443
-  server: 192.200.160.211
-  servername: ll.kpcloud.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.kpcloud.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0176
-  network: ws
-  port: 443
-  server: 198.62.62.1
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0177
-  network: ws
-  port: 443
-  server: 198.62.62.91
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0178
-  network: ws
-  port: 443
-  server: 198.62.62.251
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0179
-  network: ws
-  port: 443
-  server: 69.84.182.186
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0180
-  network: ws
-  port: 443
-  server: 192.200.160.101
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0181
-  network: ws
-  port: 443
-  server: 198.62.62.166
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0182
-  network: ws
-  port: 443
-  server: 69.84.182.134
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0183
-  network: ws
-  port: 443
-  server: 198.62.62.75
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0184
-  network: ws
-  port: 443
-  server: 69.84.182.33
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0185
-  network: ws
-  port: 443
-  server: 192.200.160.44
-  servername: ll.kpcloud.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.kpcloud.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0186
-  network: ws
-  port: 443
-  server: 69.84.182.178
-  servername: ll.ylka.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylka.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0187
-  network: ws
-  port: 443
-  server: 69.84.182.106
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0188
-  network: ws
-  port: 443
-  server: 69.84.182.16
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0189
-  network: ws
-  port: 443
-  server: 198.62.62.161
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0190
-  network: ws
-  port: 443
-  server: 69.84.182.219
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- alterId: 64
-  cipher: auto
-  name: 0|US_speednode_0191
-  network: ws
-  port: 38007
-  server: 38.174.190.80
+  server: 151.101.65.122
+  servername: metrix.ir
   skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/102206282005
-- name: 0|US_speednode_0192
-  network: ws
-  port: 443
-  server: 69.84.182.75
-  servername: cl.ylks.xyz
-  tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0193
+      Host: metrix.ir
+    path: /GGPPfZ3NKyOoKNiK?ed=2560fp=randomized
+- alpn:
+  - h2
+  - http%2F1.1
+  name: 15|US_speednode_0122
   network: ws
   port: 443
-  server: 160.79.105.106
-  servername: ll.kpcloud.eu.org
+  server: 151.101.65.122
+  servername: metrix.ir
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: ll.kpcloud.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0194
+      Host: metrix.ir
+    path: /
+- name: 15|US_speednode_0123
   network: ws
   port: 443
-  server: 198.62.62.137
-  servername: cl.ylks.xyz
+  server: 151.101.65.210
+  servername: pooleno.ir
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0195
+      Host: pooleno.ir
+    path: /
+- alpn:
+  - h2
+  - http%2F1.1
+  client-fingerprint: randomized
+  name: 15|US_speednode_0125
   network: ws
   port: 443
-  server: 69.84.182.236
-  servername: al.ylks.xyz
+  server: 167.82.97.49
+  servername: cosmocare.ir
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0196
+      Host: cosmocare.ir
+    path: /GGPPfZ3NKyOoKNiK?ed=2560
+- alpn:
+  - h2
+  - http%2F1.1
+  name: 15|US_speednode_0126
   network: ws
   port: 443
-  server: 69.84.182.93
-  servername: ll.ylks01.eu.org
+  server: 167.82.97.248
+  servername: backtory.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0197
+      Host: backtory.com
+    path: /
+- alpn:
+  - h2
+  - http%2F1.1
+  client-fingerprint: randomized
+  name: 15|US_speednode_0127
   network: ws
   port: 443
-  server: 69.84.182.232
-  servername: al.ylks.xyz
+  server: 167.82.97.248
+  servername: backtory.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0198
+      Host: backtory.com
+    path: /GGPPfZ3NKyOoKNiK?ed=2560fp=randomized
+- name: 15|US_speednode_0128
   network: ws
   port: 443
-  server: 198.62.62.174
-  servername: ll.ylks.us.kg
+  server: 167.82.97.49
+  servername: cosmocare.ir
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0199
-  network: ws
+      Host: cosmocare.ir
+    path: /
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: bOaxFgn83JABlLyQgf
+  name: 15|US_speednode_0129
+  network: grpc
   port: 443
-  server: 69.84.182.232
-  servername: ll.ylks.us.kg
+  server: 172.66.213.43
+  servername: TvotEd.SPaCe
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0200
-  network: ws
-  port: 443
-  server: 69.84.182.200
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0201
-  network: ws
-  port: 443
-  server: 198.62.62.13
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0202
-  network: ws
-  port: 443
-  server: 198.62.62.227
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0203
-  network: ws
-  port: 443
-  server: 69.84.182.88
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0204
-  network: ws
-  port: 443
-  server: 69.84.182.164
-  servername: ll.ylka.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylka.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0205
-  network: ws
-  port: 443
-  server: 69.84.182.187
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0206
-  network: ws
-  port: 443
-  server: 69.84.182.104
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0207
-  network: ws
-  port: 443
-  server: 198.62.62.60
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0208
-  network: ws
-  port: 443
-  server: 69.84.182.177
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0209
-  network: ws
-  port: 443
-  server: 198.62.62.208
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0210
-  network: ws
-  port: 443
-  server: 69.84.182.59
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0211
-  network: ws
-  port: 443
-  server: 198.62.62.75
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0212
-  network: ws
-  port: 443
-  server: 69.84.182.145
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0213
-  network: ws
-  port: 443
-  server: 69.84.182.39
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0214
-  network: ws
-  port: 443
-  server: 69.84.182.32
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0215
-  network: ws
-  port: 443
-  server: 198.62.62.185
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0216
-  network: ws
-  port: 443
-  server: 69.84.182.251
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0217
-  network: ws
-  port: 443
-  server: 69.84.182.59
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0218
-  network: ws
-  port: 443
-  server: 198.62.62.64
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0219
-  network: ws
-  port: 443
-  server: 198.62.62.237
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0220
-  network: ws
-  port: 443
-  server: 198.62.62.208
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0221
-  network: ws
-  port: 443
-  server: 192.200.160.94
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0222
-  network: ws
-  port: 443
-  server: 69.84.182.84
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0223
-  network: ws
-  port: 443
-  server: 198.62.62.151
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0224
-  network: ws
-  port: 443
-  server: 69.84.182.100
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0225
-  network: ws
-  port: 443
-  server: 69.84.182.86
-  servername: ll.ylka.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylka.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0226
-  network: ws
-  port: 443
-  server: 198.62.62.165
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0227
-  network: ws
-  port: 443
-  server: 198.62.62.22
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0228
-  network: ws
-  port: 443
-  server: 198.62.62.223
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0229
-  network: ws
-  port: 443
-  server: 198.62.62.106
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0230
-  network: ws
-  port: 443
-  server: 69.84.182.38
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0231
-  network: ws
-  port: 443
-  server: 69.84.182.59
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0232
-  network: ws
-  port: 443
-  server: 69.84.182.139
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0233
-  network: ws
-  port: 443
-  server: 198.62.62.220
-  servername: ll.ylka.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylka.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0234
-  network: ws
-  port: 443
-  server: 69.84.182.247
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0235
-  network: ws
-  port: 443
-  server: 69.84.182.39
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0236
+  uuid: 6fbddbd0-6995-4d73-b367-30760d1cefb0
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 15|US_speednode_0130
   network: ws
   port: 80
-  server: 204.110.220.254
-  servername: al.ylks.xyz
-  tls: true
+  server: unlimiteddev.fastly80-2.hosting-ip.com
+  servername: UNLIMITEDDEV.channel-telegram-1.ir
+  skip-cert-verify: false
+  tls: false
   type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  uuid: 8b5cbe33-cc76-4fcf-eeb6-1ee544e767d2
   ws-opts:
     headers:
-      Host: al.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0237
-  network: ws
-  port: 443
-  server: 198.62.62.166
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0238
-  network: ws
-  port: 443
-  server: 198.62.62.84
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0239
-  network: ws
-  port: 443
-  server: 69.84.182.97
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0240
-  network: ws
-  port: 443
-  server: 69.84.182.187
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0241
-  network: ws
-  port: 443
-  server: 69.84.182.38
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0242
-  network: ws
-  port: 443
-  server: 198.62.62.106
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0243
-  network: ws
-  port: 443
-  server: 69.84.182.71
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0244
-  network: ws
-  port: 443
-  server: 198.62.62.208
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0245
-  network: ws
-  port: 443
-  server: 198.62.62.241
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0246
-  network: ws
-  port: 443
-  server: 69.84.182.165
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0247
-  network: ws
-  port: 443
-  server: 69.84.182.186
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0248
-  network: ws
-  port: 443
-  server: 198.62.62.14
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0249
-  network: ws
-  port: 443
-  server: 198.62.62.245
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0250
-  network: ws
-  port: 443
-  server: 69.84.182.140
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0251
-  network: ws
-  port: 443
-  server: 198.62.62.217
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0252
-  network: ws
-  port: 443
-  server: 198.62.62.237
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0253
-  network: ws
-  port: 443
-  server: 160.79.105.99
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0254
-  network: ws
-  port: 443
-  server: 69.84.182.134
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0255
-  network: ws
-  port: 443
-  server: 69.84.182.163
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0256
-  network: ws
-  port: 443
-  server: 69.84.182.200
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0257
-  network: ws
-  port: 443
-  server: 198.62.62.75
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0258
-  network: ws
-  port: 443
-  server: 198.62.62.252
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0259
-  network: ws
-  port: 443
-  server: 198.62.62.14
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0260
-  network: ws
-  port: 443
-  server: 198.62.62.59
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0261
-  network: ws
-  port: 443
-  server: 198.62.62.12
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0262
-  network: ws
-  port: 443
-  server: 192.200.160.2
-  servername: ll.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0263
+      Host: UNLIMITEDDEV.channel-telegram-1.ir
+    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 15|US_speednode_0131
   network: ws
   port: 80
-  server: 204.110.220.135
-  servername: ll.ylks.us.kg
-  tls: true
+  server: unlimiteddev.fastly80-3.hosting-ip.com
+  servername: UNLIMITEDDEV.channel-telegram-1.ir
+  skip-cert-verify: false
+  tls: false
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 8b5cbe33-cc76-4fcf-eeb6-1ee544e767d2
   ws-opts:
     headers:
-      Host: ll.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0264
+      Host: UNLIMITEDDEV.channel-telegram-1.ir
+    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
+- name: 15|US_speednode_0132
   network: ws
   port: 443
-  server: 198.62.62.67
-  servername: dl.ylks.xyz
+  server: 172.66.47.98
+  servername: Elena-v.pageS.dEv
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0265
+      Host: Elena-v.pageS.dEv
+    path: /elenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelenaelena?ed=2560
+- name: 15|US_speednode_0133
   network: ws
   port: 443
-  server: 69.84.182.32
-  servername: dl.ylks.xyz
+  server: 152.67.231.219
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0266
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|US_speednode_0134
+  network: ws
+  port: 8080
+  server: 104.17.234.128
+  servername: join.bede.unlimiteddev.www.speedtest.net.de.abrha.co.unlimiteddev.community.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: ac954fc8-fdf6-4894-b01a-7ba7ec46f312
+  ws-opts:
+    headers:
+      Host: join.bede.unlimiteddev.www.speedtest.net.de.abrha.co.unlimiteddev.community.
+    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880
+- name: 15|US_speednode_0135
+  network: ws
+  port: 443
+  server: 172.66.47.98
+  servername: elena-v.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: elena-v.pages.dev
+    path: /V2RAYNPLUS-|-V2RAYNPLUS-|-V2RAYNPLUS-|-V2RAYNPLUS-|-V2RAYNPLUS-|-V2RAYNPLUS-|-V2RAYNPLUS-|-V2RAYNPLUS-|?ed=2560
+- name: 15|US_speednode_0136
+  network: ws
+  port: 8080
+  server: 104.17.234.128
+  servername: join.bede.UNLIMITEDDEV.www.speedtest.net.de.Abrha.co.sabadyt.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: ac954fc8-fdf6-4894-b01a-7ba7ec46f312
+  ws-opts:
+    headers:
+      Host: join.bede.UNLIMITEDDEV.www.speedtest.net.de.Abrha.co.sabadyt.ir
+    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880
+- name: 15|US_speednode_0137
+  network: ws
+  port: 443
+  server: 172.66.47.98
+  servername: elena-v.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: elena-v.pages.dev
+    path: /@V2RAYNPLUS-|-@V2RAYNPLUS-|-@V2RAYNPLUS-|-@V2RAYNPLUS-|-@V2RAYNPLUS-|-@V2RAYNPLUS-|-@V2RAYNPLUS-|-@V2RAYNPLUS-|?ed=2560
+- name: 15|US_speednode_0138
+  network: ws
+  port: 443
+  server: 129.159.84.71
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|US_speednode_0139
+  network: ws
+  port: 443
+  server: 129.213.136.180
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|US_speednode_0140
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 45.159.218.103
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|US_speednode_0141
+  network: ws
+  port: 443
+  server: 150.230.42.80
+  servername: pvg.aghabeiki.homes
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pvg.aghabeiki.homes
+    path: /?ed=2744
+- name: 15|US_speednode_0142
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 185.148.106.44
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|US_speednode_0143
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 216.205.52.233
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|US_speednode_0144
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 185.148.104.114
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|US_speednode_0145
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 69.48.218.190
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- name: 15|US_speednode_0146
+  network: ws
+  port: 443
+  server: hajlab.ucdavis.edu
+  servername: hajlab.ucdavis.edu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: cf34165b-4383-4768-a795-af90f3b56617
+  ws-opts:
+    headers:
+      Host: joinshhproxybedeeeee.ir
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 15|US_speednode_0147
+  network: ws
+  port: 443
+  server: 162.159.153.80
+  servername: gogogo.CMLiussss.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a38c731b-7dd5-43e4-92ff-16b72457b5a5
+  ws-opts:
+    headers:
+      Host: gogogo.CMLiussss.us.kg
+    path: /Join_my_telegram_channel_CMLiussss_to_unlock_more_premium_nodes?ed=2560
+- name: 15|US_speednode_0148
   network: ws
   port: 80
-  server: 204.110.220.135
-  servername: ll.ylks01.eu.org
-  tls: true
+  server: 151.101.64.155
+  servername: 5776.ir
+  skip-cert-verify: false
+  tls: false
   type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 0cda2421-8ea5-46e6-98ce-f2bdc057f532
   ws-opts:
     headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0267
-  network: ws
-  port: 443
-  server: 198.62.62.110
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0268
-  network: ws
-  port: 443
-  server: 160.79.104.178
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0269
-  network: ws
-  port: 443
-  server: 198.62.62.241
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0270
-  network: ws
-  port: 443
-  server: 69.84.182.110
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0271
-  network: ws
-  port: 443
-  server: 69.84.182.15
-  servername: ll.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylks01.eu.org
-    path: /freecodes
-- name: 0|US_speednode_0272
-  network: ws
-  port: 443
-  server: 198.62.62.52
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0273
-  network: ws
-  port: 443
-  server: 198.62.62.28
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0274
-  network: ws
-  port: 443
-  server: 69.84.182.212
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0275
-  network: ws
-  port: 443
-  server: 69.84.182.88
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0276
-  network: ws
-  port: 443
-  server: 192.200.160.63
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0277
-  network: ws
-  port: 443
-  server: 192.0.54.48
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0278
-  network: ws
-  port: 443
-  server: 198.62.62.39
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0279
-  network: ws
-  port: 443
-  server: 216.221.213.149
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0280
-  network: ws
-  port: 443
-  server: 192.0.63.8
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0281
-  network: ws
-  port: 443
-  server: 69.84.182.178
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0282
-  network: ws
-  port: 443
-  server: 198.62.62.233
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0283
-  network: ws
-  port: 443
-  server: 198.62.62.156
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0284
-  network: ws
-  port: 443
-  server: 198.62.62.220
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0285
-  network: ws
-  port: 443
-  server: 69.84.182.53
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0286
-  network: ws
-  port: 443
-  server: 192.200.160.2
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0287
-  network: ws
-  port: 443
-  server: 198.62.62.156
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0288
-  network: ws
-  port: 443
-  server: 69.84.182.106
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0289
-  network: ws
-  port: 443
-  server: 198.62.62.131
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0290
-  network: ws
-  port: 443
-  server: 69.84.182.163
-  servername: lk.ylka.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylka.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0291
-  network: ws
-  port: 443
-  server: 198.62.62.102
-  servername: ll.ylka.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ll.ylka.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0292
-  network: ws
-  port: 443
-  server: 198.62.62.27
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0293
-  network: ws
-  port: 443
-  server: 69.84.182.85
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0294
-  network: ws
-  port: 443
-  server: 198.62.62.233
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0295
-  network: ws
-  port: 443
-  server: 198.62.62.81
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0296
-  network: ws
-  port: 443
-  server: 198.62.62.185
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0297
-  network: ws
-  port: 443
-  server: 198.62.62.186
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0298
-  network: ws
-  port: 443
-  server: 173.249.197.84
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0299
-  network: ws
-  port: 80
-  server: 204.110.220.254
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxl.dedyn.io
-- name: 0|US_speednode_0300
-  network: ws
-  port: 443
-  server: 69.84.182.177
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0301
-  network: ws
-  port: 443
-  server: 69.84.182.141
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0302
-  network: ws
-  port: 443
-  server: 69.84.182.192
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0303
-  network: ws
-  port: 443
-  server: 198.62.62.227
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0304
-  network: ws
-  port: 443
-  server: 198.62.62.215
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0305
-  network: ws
-  port: 443
-  server: 69.84.182.53
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0306
-  network: ws
-  port: 443
-  server: 69.84.182.127
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0307
-  network: ws
-  port: 443
-  server: 198.62.62.148
-  servername: dl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0308
-  network: ws
-  port: 443
-  server: 69.84.182.38
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0309
-  network: ws
-  port: 443
-  server: 69.84.182.187
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0310
-  network: ws
-  port: 443
-  server: 192.0.54.218
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxk.dedyn.io
-- name: 0|US_speednode_0311
-  network: ws
-  port: 443
-  server: 198.62.62.28
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0312
-  network: ws
-  port: 443
-  server: 69.84.182.176
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxk.dedyn.io
-- name: 0|US_speednode_0313
-  network: ws
-  port: 443
-  server: 198.62.62.81
-  servername: ck.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0388
-  network: ws
-  port: 443
-  server: 192.200.160.44
-  servername: lk.kpcloud.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.kpcloud.eu.org
-    path: /blue
-- name: 0|US_speednode_0315
-  network: ws
-  port: 443
-  server: 198.62.62.92
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0316
-  network: ws
-  port: 443
-  server: 69.84.182.172
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0317
-  network: ws
-  port: 443
-  server: 198.62.62.233
-  servername: ck.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0318
-  network: ws
-  port: 443
-  server: 69.84.182.21
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0319
-  network: ws
-  port: 443
-  server: 69.84.182.39
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0320
-  network: ws
-  port: 443
-  server: 69.84.182.75
-  servername: ck.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0387
-  network: ws
-  port: 443
-  server: 192.200.160.211
-  servername: lk.kpcloud.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.kpcloud.eu.org
-    path: /blue
-- name: 0|US_speednode_0322
-  network: ws
-  port: 443
-  server: 198.62.62.60
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0323
-  network: ws
-  port: 443
-  server: 198.62.62.151
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0324
-  network: ws
-  port: 443
-  server: 69.84.182.52
-  servername: lk.ylka.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylka.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0367
-  network: ws
-  port: 443
-  server: 160.79.104.178
-  servername: dk.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0326
-  network: ws
-  port: 443
-  server: 69.84.182.59
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0327
-  network: ws
-  port: 443
-  server: 69.84.182.32
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0328
-  network: ws
-  port: 443
-  server: 198.62.62.22
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0329
-  network: ws
-  port: 443
-  server: 198.62.62.241
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0330
-  network: ws
-  port: 443
-  server: 198.62.62.15
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0331
-  network: ws
-  port: 443
-  server: 20.246.127.166
-  servername: cl.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cl.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0332
-  network: ws
-  port: 443
-  server: 198.62.62.44
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0333
-  network: ws
-  port: 443
-  server: 69.84.182.196
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0334
-  network: ws
-  port: 443
-  server: 192.200.160.94
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxk.dedyn.io
-- name: 0|US_speednode_0335
-  network: ws
-  port: 443
-  server: 69.84.182.210
-  servername: al.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: al.ylks.xyz
-    path: /freecodes
-- name: 0|US_speednode_0336
-  network: ws
-  port: 443
-  server: 69.84.182.251
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0337
-  network: ws
-  port: 443
-  server: 198.62.62.84
-  servername: lk.ylka.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylka.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0338
-  network: ws
-  port: 443
-  server: 198.62.62.165
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0339
-  network: ws
-  port: 443
-  server: 69.84.182.16
-  servername: ck.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0378
-  network: ws
-  port: 443
-  server: 192.0.63.8
-  servername: ck.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0377
-  network: ws
-  port: 443
-  server: 192.200.160.63
-  servername: ck.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0342
-  network: ws
-  port: 443
-  server: 20.246.127.166
-  servername: ck.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0343
-  network: ws
-  port: 443
-  server: 198.62.62.12
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0344
-  network: ws
-  port: 443
-  server: 198.62.62.211
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0345
-  network: ws
-  port: 443
-  server: 69.84.182.186
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0346
-  network: ws
-  port: 443
-  server: 198.62.62.223
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0347
-  network: ws
-  port: 443
-  server: 69.84.182.127
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0348
-  network: ws
-  port: 443
-  server: 69.84.182.84
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0389
-  network: ws
-  port: 443
-  server: 160.79.105.106
-  servername: lk.kpcloud.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.kpcloud.eu.org
-    path: /blue
-- name: 0|US_speednode_0350
-  network: ws
-  port: 443
-  server: 198.62.62.137
-  servername: ck.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0351
-  network: ws
-  port: 443
-  server: 198.62.62.170
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0352
-  network: ws
-  port: 443
-  server: 69.84.182.139
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0353
-  network: ws
-  port: 443
-  server: 69.84.182.179
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0354
-  network: ws
-  port: 443
-  server: 198.62.62.139
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxk.dedyn.io
-- name: 0|US_speednode_0355
-  network: ws
-  port: 443
-  server: 69.84.182.70
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0356
-  network: ws
-  port: 443
-  server: 198.62.62.220
-  servername: ck.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0357
-  network: ws
-  port: 443
-  server: 69.84.182.101
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxk.dedyn.io
-- name: 0|US_speednode_0358
-  network: ws
-  port: 443
-  server: 69.84.182.197
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0359
-  network: ws
-  port: 443
-  server: 198.62.62.0
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxk.dedyn.io
-- name: 0|US_speednode_0380
-  network: ws
-  port: 443
-  server: 192.200.160.155
-  servername: lk.kpcloud.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.kpcloud.eu.org
-    path: /blue
-- name: 0|US_speednode_0361
-  network: ws
-  port: 443
-  server: 69.84.182.210
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0362
-  network: ws
-  port: 443
-  server: 69.84.182.110
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0363
-  network: ws
-  port: 443
-  server: 69.84.182.119
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0364
-  network: ws
-  port: 443
-  server: 69.84.182.233
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0365
-  network: ws
-  port: 443
-  server: 216.221.213.149
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0366
-  network: ws
-  port: 443
-  server: 69.84.182.97
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0368
-  network: ws
-  port: 443
-  server: 198.62.62.13
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0369
-  network: ws
-  port: 443
-  server: 198.62.62.205
-  servername: lk.ylks.us.kg
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks.us.kg
-    path: /?ed=2560
-- name: 0|US_speednode_0370
-  network: ws
-  port: 443
-  server: 198.62.62.174
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0371
-  network: ws
-  port: 443
-  server: 198.62.62.106
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0372
-  network: ws
-  port: 443
-  server: 69.84.182.102
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0373
-  network: ws
-  port: 443
-  server: 207.174.31.150
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0374
-  network: ws
-  port: 443
-  server: 69.84.182.33
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0375
-  network: ws
-  port: 443
-  server: 69.84.182.77
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0376
-  network: ws
-  port: 443
-  server: 198.62.62.1
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0379
-  network: ws
-  port: 443
-  server: 69.84.182.140
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0381
-  network: ws
-  port: 443
-  server: 198.62.62.208
-  servername: ak.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0382
-  network: ws
-  port: 443
-  server: 69.84.182.234
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxk.dedyn.io
-- name: 0|US_speednode_0383
-  network: ws
-  port: 443
-  server: 198.62.62.59
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxk.dedyn.io
-- name: 0|US_speednode_0384
-  network: ws
-  port: 443
-  server: 192.0.54.48
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /?proxyip=proxyip.us.fxxk.dedyn.io
-- name: 0|US_speednode_0385
-  network: ws
-  port: 443
-  server: 66.81.247.16
-  servername: toujiediansigema.5112233.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4e7b149-8bd8-4266-8cbb-0987604dbc87
-  ws-opts:
-    headers:
-      Host: toujiediansigema.5112233.xyz
-    path: /tg@juzibaipiao偷节点死吗
-- name: 0|US_speednode_0386
-  network: ws
-  port: 443
-  server: 198.62.62.67
-  servername: dk.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0390
-  network: ws
-  port: 443
-  server: 69.84.182.218
-  servername: lk.ylks01.eu.org
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: lk.ylks01.eu.org
-    path: /blue
-- name: 0|US_speednode_0391
-  network: ws
-  port: 443
-  server: 69.84.182.247
-  servername: dk.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: dk.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0392
-  network: ws
-  port: 443
-  server: 192.236.249.102
-  servername: ck.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ck.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0393
-  network: ws
-  port: 443
-  server: 216.221.214.50
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0394
-  network: ws
-  port: 443
-  server: 198.62.62.9
-  servername: ak.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
-- name: 0|US_speednode_0396
-  network: ws
-  port: 443
-  server: 192.0.63.109
-  servername: ak.ylks.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ak.ylks.xyz
-    path: /blue
+      Host: 5776.ir
+    path: /VLESS?ed=80
 - alterId: 0
   cipher: auto
-  name: 1|d*********g.com_2
+  name: '16|d*********g.com_2 #1'
   network: tcp
   port: '443'
   server: 42.236.73.72
@@ -4380,9 +2444,8 @@ proxies:
   type: vmess
   uuid: 044f0177-0675-4dcf-89d4-804b6788e518
 - alpn:
-  - http%2F1.1
-  client-fingerprint: chrome
-  name: 1|d*********g.com_6
+  - http/1.1
+  name: 16|d*********g.com_6
   network: tcp
   port: 443
   server: 42.236.73.72
@@ -4394,8 +2457,8 @@ proxies:
     headers:
       Host: www.zitian.cn
 - alpn:
-  - http%2F1.1
-  name: 1|d*********g.com_3
+  - http/1.1
+  name: '16|d*********g.com_3 #1'
   network: tcp
   password: fuck
   port: 443

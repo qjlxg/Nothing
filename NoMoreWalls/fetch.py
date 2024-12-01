@@ -4,6 +4,12 @@
 # pyright: reportRedeclaration = none
 # pyright: reportMissingParameterType = none
 # pyright: reportUnnecessaryIsInstance = none
+# pyright: reportUnknownVariableType = none
+# pyright: reportUnknownMemberType = none
+# pyright: reportUnknownArgumentType = none
+# pyright: reportArgumentType = none
+# pyright: reportAttributeAccessIssue = none
+# pyright: reportGeneralTypeIssues = none
 import yaml
 import json
 import base64
@@ -137,6 +143,10 @@ DEBUG_NO_DYNAMIC = os.path.exists("local_NO_DYNAMIC")
 # DEBUG_NO_ADBLOCK = os.path.exists("local_NO_ADBLOCK")
 DEBUG_NO_ADBLOCK = True
 STOP = False
+STOP_FAKE_NODES = """vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFOFx1RDgzQ1x1RERGMyBcdTcwRURcdTcwQzhcdTVFODZcdTc5NURcdTRFMkRcdTUzNEVcdTRFQkFcdTZDMTFcdTUxNzFcdTU0OENcdTU2RkRcdTYyMTBcdTdBQ0IgNzUgXHU1NDY4XHU1RTc0IiwNCiAgImFkZCI6ICJ3ZWIuNTEubGEiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJodHRwIiwNCiAgImhvc3QiOiAid2ViLjUxLmxhIiwNCiAgInBhdGgiOiAiL2ltYWdlcy9pbmRleC9zZXJ2aWNlLXBpYy5wbmciLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAid2ViLjUxLmxhIiwNCiAgImFscG4iOiAiaHR0cC8xLjEiLA0KICAiZnAiOiAiY2hyb21lIg0KfQ==
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NTZGRFx1NUU4Nlx1RkYwQ1x1NjZGNFx1NjVCMFx1NjY4Mlx1NTA1QyIsDQogICJhZGQiOiAid2ViLjUxLmxhIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImM2ZTg0MDcyLTJlNjktNDkyOC05MGFmLTQzNmIzZmNkMDY2MyIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAiaHR0cCIsDQogICJob3N0IjogIndlYi41MS5sYSIsDQogICJwYXRoIjogIi9pbWFnZXMvaW5kZXgvc2VydmljZS1waWMucG5nIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NjI1M1x1NTAxMlx1OEQ0NFx1NjcyQ1x1NTc4NFx1NjVBRCBcdTVFRkFcdThCQkVcdTc5M0VcdTRGMUFcdTRFM0JcdTRFNDkiLA0KICAiYWRkIjogIndlYi41MS5sYSIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICJlMGM2YjNiNy05ZjViLTRiZDYtOWFiZi0yNjA2NjNhYTRmMWIiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogImh0dHAiLA0KICAiaG9zdCI6ICJ3ZWIuNTEubGEiLA0KICAicGF0aCI6ICIvaW1hZ2VzL2luZGV4L3NlcnZpY2UtcGljLnBuZyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJ3ZWIuNTEubGEiLA0KICAiYWxwbiI6ICJodHRwLzEuMSIsDQogICJmcCI6ICJjaHJvbWUiDQp9
+"""
 
 
 class UnsupportedType(Exception):
@@ -159,7 +169,7 @@ session.mount("file://", FileAdapter())
 exc_queue: List[str] = []
 
 d = datetime.datetime.now()
-if (d.month, d.day) in ((6, 4), (7, 1), (10, 1)):
+if STOP or (d.month, d.day) in ((6, 4), (7, 1), (10, 1)):
     DEBUG_NO_NODES = DEBUG_NO_DYNAMIC = STOP = True
 
 
@@ -232,6 +242,18 @@ class Node:
                     path += "/" + opts.get("path", "")
                 elif net == "grpc":
                     path += data.get("grpc-opts", {}).get("grpc-service-name", "")
+            elif self.type == "hysteria2":
+                path = data.get("sni", "") + ":"
+                path += data.get("obfs-password", "") + ":"
+                # print(self.url)
+                # return hash(self.url)
+            path += (
+                "@"
+                + ",".join(data.get("alpn", []))
+                + "@"
+                + data.get("password", "")
+                + data.get("uuid", "")
+            )
             hashstr = f"{self.type}:{data['server']}:{data['port']}:{path}"
             return hash(hashstr)
         except Exception:
@@ -254,6 +276,8 @@ class Node:
         if not self.type.isascii():
             self.type = "".join([_ for _ in self.type if _.isascii()])
             url = self.type + "://" + url.split("://")[1]
+        if self.type == "hy2":
+            self.type = "hysteria2"
         # === Fix end ===
         if self.type == "vmess":
             v = VMESS_EXAMPLE.copy()
@@ -362,15 +386,12 @@ class Node:
             if parsed.query:
                 for kv in parsed.query.split("&"):
                     k, v = kv.split("=")
-                    if k == "allowInsecure":
+                    if k in ("allowInsecure", "insecure"):
                         self.data["skip-cert-verify"] = v != "0"
                     elif k == "sni":
                         self.data["sni"] = v
                     elif k == "alpn":
-                        if "%2C" in v:
-                            self.data["alpn"] = ["h2", "http/1.1"]
-                        else:
-                            self.data["alpn"] = [v]
+                        self.data["alpn"] = unquote(v).split(",")
                     elif k == "type":
                         self.data["network"] = v
                     elif k == "serviceName":
@@ -401,15 +422,12 @@ class Node:
             if parsed.query:
                 for kv in parsed.query.split("&"):
                     k, v = kv.split("=")
-                    if k == "allowInsecure":
+                    if k in ("allowInsecure", "insecure"):
                         self.data["skip-cert-verify"] = v != "0"
                     elif k == "sni":
                         self.data["servername"] = v
                     elif k == "alpn":
-                        if "%2C" in v:
-                            self.data["alpn"] = ["h2", "http/1.1"]
-                        else:
-                            self.data["alpn"] = [v]
+                        self.data["alpn"] = unquote(v).split(",")
                     elif k == "type":
                         self.data["network"] = v
                     elif k == "serviceName":
@@ -444,6 +462,39 @@ class Node:
                             self.data["reality-opts"] = {}
                         self.data["reality-opts"]["short-id"] = v
                     # TODO: Unused key encryption
+
+        elif self.type == "hysteria2":
+            parsed = urlparse(url)
+            self.data = {
+                "name": unquote(parsed.fragment),
+                "server": parsed.hostname,
+                "type": "hysteria2",
+                "password": unquote(parsed.username),
+            }  # type: ignore
+            if ":" in parsed.netloc:
+                ports = parsed.netloc.split(":")[1]
+                if "," in ports:
+                    self.data["port"], self.data["ports"] = ports.split(",", 1)
+                else:
+                    self.data["port"] = ports
+                try:
+                    self.data["port"] = int(self.data["port"])
+                except ValueError:
+                    self.data["port"] = 443
+            else:
+                self.data["port"] = 443
+            self.data["tls"] = False
+            if parsed.query:
+                for kv in parsed.query.split("&"):
+                    k, v = kv.split("=")
+                    if k == "insecure":
+                        self.data["skip-cert-verify"] = v != "0"
+                    elif k == "alpn":
+                        self.data["alpn"] = unquote(v).split(",")
+                    elif k in ("sni", "obfs", "obfs-password"):
+                        self.data[k] = v
+                    elif k == "fp":
+                        self.data["fingerprint"] = v
 
         else:
             raise UnsupportedType(self.type)
@@ -550,10 +601,7 @@ class Node:
             if "sni" in data:
                 ret += f"sni={data['sni']}&"
             if "alpn" in data:
-                if len(data["alpn"]) >= 2:
-                    ret += "alpn=h2%2Chttp%2F1.1&"
-                else:
-                    ret += f"alpn={quote(data['alpn'][0])}&"
+                ret += f"alpn={quote(','.join(data['alpn']))}&"
             if "network" in data:
                 if data["network"] == "grpc":
                     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
@@ -578,10 +626,7 @@ class Node:
             if "servername" in data:
                 ret += f"sni={data['servername']}&"
             if "alpn" in data:
-                if len(data["alpn"]) >= 2:
-                    ret += "alpn=h2%2Chttp%2F1.1&"
-                else:
-                    ret += f"alpn={quote(data['alpn'][0])}&"
+                ret += f"alpn={quote(','.join(data['alpn']))}&"
             if "network" in data:
                 if data["network"] == "grpc":
                     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
@@ -607,6 +652,25 @@ class Node:
             elif "reality-opts" in data:
                 opts: Dict[str, str] = data["reality-opts"]
                 ret += f"security=reality&pbk={opts.get('public-key','')}&sid={opts.get('short-id','')}&"
+            ret = ret.rstrip("&") + "#" + name
+            return ret
+
+        if self.type == "hysteria2":
+            passwd = quote(data["password"])
+            name = quote(data["name"])
+            ret = f"hysteria2://{passwd}@{data['server']}:{data['port']}"
+            if "ports" in data:
+                ret += "," + data["ports"]
+            ret += "?"
+            if "skip-cert-verify" in data:
+                ret += f"insecure={int(data['skip-cert-verify'])}&"
+            if "alpn" in data:
+                ret += f"alpn={quote(','.join(data['alpn']))}&"
+            if "fingerprint" in data:
+                ret += f"fp={data['fingerprint']}&"
+            for k in ("sni", "obfs", "obfs-password"):
+                if k in data:
+                    ret += f"{k}={data[k]}&"
             ret = ret.rstrip("&") + "#" + name
             return ret
 
@@ -932,7 +996,7 @@ def merge(source_obj: Source, sourceId=-1) -> None:
         return
     for p in sub:
         if isinstance(p, str):
-            if not p.isascii() or "://" not in p:
+            if "://" not in p:
                 continue
             ok = True
             for ch in "!|`()[]{} ":
@@ -974,12 +1038,12 @@ def raw2fastly(url: str) -> str:
         return url
     url: Union[str, List[str]]
     if url.startswith("https://raw.githubusercontent.com/"):
-        url = url[34:].split("/")
-        url[1] += "@" + url[2]
-        del url[2]
-        url = "https://fastly.jsdelivr.net/gh/" + ("/".join(url))
-        return url
-    #     return "https://ghproxy.com/"+url
+        # url = url[34:].split('/')
+        # url[1] += '@'+url[2]
+        # del url[2]
+        # url = "https://fastly.jsdelivr.net/gh/"+('/'.join(url))
+        # return url
+        return "https://mirror.ghproxy.com/" + url
     return url
 
 
@@ -987,47 +1051,54 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
     print("正在解析 Adblock 列表... ", end="", flush=True)
     blocked: Set[str] = set()
     unblock: Set[str] = set()
-    # for url in ABFURLS:
-    #     url = raw2fastly(url)
-    #     try:
-    #         res = session.get(url)
-    #     except requests.exceptions.RequestException as e:
-    #         try:
-    #             print(f"{url} 下载失败：{e.args[0].reason}")
-    #         except Exception:
-    #             print(f"{url} 下载失败：无法解析的错误！")
-    #             traceback.print_exc()
-    #         continue
-    #     if res.status_code != 200:
-    #         print(url, res.status_code)
-    #         continue
-    #     for line in res.text.strip().splitlines():
-    #         line = line.strip()
-    #         if not line or line[0] in '!#': continue
-    #         elif line[:2] == '@@':
-    #             unblock.add(line.split('^')[0].strip('@|^'))
-    #         elif line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
-    #                         (line[-1] == '^' or line.endswith("$all")):
-    #             blocked.add(line.strip('al').strip('|^$'))
+    for url in ABFURLS:
+        url = raw2fastly(url)
+        try:
+            res = session.get(url)
+        except requests.exceptions.RequestException as e:
+            try:
+                print(f"{url} 下载失败：{e.args[0].reason}")
+            except Exception:
+                print(f"{url} 下载失败：无法解析的错误！")
+                traceback.print_exc()
+            continue
+        if res.status_code != 200:
+            print(url, res.status_code)
+            continue
+        for line in res.text.strip().splitlines():
+            line = line.strip()
+            if not line or line[0] in "!#":
+                continue
+            elif line[:2] == "@@":
+                unblock.add(line.split("^")[0].strip("@|^"))
+            elif (
+                line[:2] == "||"
+                and ("/" not in line)
+                and ("?" not in line)
+                and (line[-1] == "^" or line.endswith("$all"))
+            ):
+                blocked.add(line.strip("al").strip("|^$"))
 
-    # for url in ABFWHITE:
-    #     url = raw2fastly(url)
-    #     try:
-    #         res = session.get(url)
-    #     except requests.exceptions.RequestException as e:
-    #         try:
-    #             print(f"{url} 下载失败：{e.args[0].reason}")
-    #         except Exception:
-    #             print(f"{url} 下载失败：无法解析的错误！")
-    #             traceback.print_exc()
-    #         continue
-    #     if res.status_code != 200:
-    #         print(url, res.status_code)
-    #         continue
-    #     for line in res.text.strip().splitlines():
-    #         line = line.strip()
-    #         if not line or line[0] == '!': continue
-    #         else: unblock.add(line.split('^')[0].strip('|^'))
+    for url in ABFWHITE:
+        url = raw2fastly(url)
+        try:
+            res = session.get(url)
+        except requests.exceptions.RequestException as e:
+            try:
+                print(f"{url} 下载失败：{e.args[0].reason}")
+            except Exception:
+                print(f"{url} 下载失败：无法解析的错误！")
+                traceback.print_exc()
+            continue
+        if res.status_code != 200:
+            print(url, res.status_code)
+            continue
+        for line in res.text.strip().splitlines():
+            line = line.strip()
+            if not line or line[0] == "!":
+                continue
+            else:
+                unblock.add(line.split("^")[0].strip("|^"))
 
     domain_root = DomainTree()
     domain_keys: Set[str] = set()
@@ -1073,7 +1144,7 @@ def main():
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已启用无节点调试，程序产生的配置不能被直接使用 !!!")
         sources = []
-    elif DEBUG_NO_DYNAMIC:
+    if DEBUG_NO_DYNAMIC:
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已选择不抓取动态节点 !!!")
         AUTOURLS = AUTOFETCH = []
@@ -1198,14 +1269,9 @@ def main():
             print(exc_queue.pop(0), file=sys.stderr, flush=True)
 
     if STOP:
-        merged = {
-            1: Node(
-                "vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIjEg5pWP5oSf5pe25pyf77yM5pu05paw5pqC5YGc77yM5aaC5pyJ6ZyA6KaB77yM6Ieq6KGM5pCt5bu6IiwNCiAgImFkZCI6ICJjZDAwMS53d3cuZHViYS5uZXQiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiNDQ0NDQ0NDQtNDQ0NC00NDQ0LTQ0NDQtNDQ0NDQ0NDQ0NDQ0NCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAiaHR0cCIsDQogICJob3N0IjogImNkMDAxLnd3dy5kdWJhLm5ldCIsDQogICJwYXRoIjogIi9kdWJhL2luc3RhbGwvcGFja2FnZXMvZXZlci9kdWJhXzEwMF8xMDAuZXhlIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogImNkMDAxLnd3dy5kdWJhLm5ldCIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogIjM2MCINCn0="
-            ),
-            2: Node(
-                "vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIjIg5pWP5oSf5pe25pyf77yM5pu05paw5pqC5YGc77yM5aaC5pyJ6ZyA6KaB77yM6Ieq6KGM5pCt5bu6IiwNCiAgImFkZCI6ICJjZDAwMS53d3cuZHViYS5uZXQiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiNDQ0NDQ0NDQtNDQ0NC00NDQ0LTQ0NDQtNDQ0NDQ0NDQ0NDQ0NCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJjZDAwMS53d3cuZHViYS5uZXQiLA0KICAiYWxwbiI6ICJodHRwLzEuMSIsDQogICJmcCI6ICIzNjAiDQp9"
-            ),
-        }
+        merged = {}
+        for nid, nd in enumerate(STOP_FAKE_NODES.splitlines()):
+            merged[nid] = Node(nd)
 
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
@@ -1236,9 +1302,9 @@ def main():
         f"个。{unsupports} 个节点不被 V2Ray 支持。",
     )
 
-    with open("list_raw.txt", "w") as f:
+    with open("list_raw.txt", "w", encoding="utf-8") as f:
         f.write(txt)
-    with open("list.txt", "w") as f:
+    with open("list.txt", "w", encoding="utf-8") as f:
         f.write(b64encodes(txt))
     print("写出完成！")
 
