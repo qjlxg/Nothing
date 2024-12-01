@@ -1,4 +1,4 @@
-# Update: 2024-12-01 14:39
+# Update: 2024-12-01 14:41
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-1
@@ -8,10 +8,20 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.35.59
+  server: 60.249.28.59
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.28.60
   type: ss
 - cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-4
+  name: 0|-https://t.me/MrXbin-3
   password: dongtaiwang.com
   port: 32233
   server: 185.22.152.125
@@ -24,7 +34,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.35.39
+  server: 60.249.28.138
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-6
@@ -34,7 +44,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.35.38
+  server: 211.22.161.134
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-7
@@ -44,7 +54,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.60
+  server: 60.249.35.59
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-8
@@ -54,7 +64,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.59
+  server: 60.249.28.137
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-9
@@ -64,17 +74,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.138
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-10
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
-    mode: tls
-  port: 2377
-  server: 60.249.28.136
+  server: 60.249.35.38
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-11
@@ -84,42 +84,25 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 211.22.161.134
+  server: 60.249.28.136
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-12
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
-    mode: tls
-  port: 2377
-  server: 60.249.28.137
-  type: ss
-- cipher: aes-256-cfb
+- cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-13
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13316
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: lld9k6.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-22
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-22
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13302
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  type: ssr
-- name: 0|-https://t.me/MrXbin-58
-  password: 9a745aad-7df7-480b-8f6b-068ca21f6954
-  port: 443
-  server: sgtestngxqisel.57257597.xyz
-  sni: sgtestngxqisel.57257597.xyz
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 5|d*********g.com_0
@@ -2561,221 +2544,219 @@ proxy-groups:
   type: select
 - name: 自动选择
   proxies: &id001
-  - 15|LU_speednode_0078
-  - 15|KR_speednode_0073
-  - 15|US_speednode_0138
-  - 15|US_speednode_0146
-  - 15|US_speednode_0129
-  - 15|GB_speednode_0035
-  - 8|@v2rayCrow
-  - 15|RU_speednode_0108
-  - 15|JP_speednode_0061
-  - 0|-https://t.me/MrXbin-8
-  - 15|RU_speednode_0104
-  - 13|🇭🇰 香港4|@ripaojiedian
-  - 5|d*********g.com_1
-  - 15|US_speednode_0121
-  - 15|US_speednode_0130
-  - 15|DE_speednode_0022
-  - 15|JP_speednode_0059
-  - 15|KR_speednode_0071
-  - 5|d*********g.com_2
-  - 15|NL_speednode_0091
-  - 8|Wifi-MCi-@V2ray_Raha-10
-  - 15|DE_speednode_0013
-  - 15|US_speednode_0139
-  - 8|MCI-@V2ray_Raha-6
-  - 15|CY_speednode_0012
-  - 15|LU_speednode_0079
-  - 15|US_speednode_0135
-  - 15|US_speednode_0144
-  - 8|MCI-@V2ray_Alpha-3
-  - 15|US_speednode_0143
-  - 15|SG_speednode_0111
-  - 15|FR_speednode_0032
-  - 15|GB_speednode_0034
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - 15|NL_speednode_0098
-  - 15|NL_speednode_0096
-  - 15|DE_speednode_0016
-  - 15|JP_speednode_0053
-  - 8|🍋h1@ConfigV2RayNG
-  - 15|US_speednode_0128
-  - 8|MCI-@V2ray_Raha-5
-  - 15|KR_speednode_0066
-  - 15|CR_speednode_0011
-  - '7,12|CHANEL@v2rayngzendegimamad_Aq #1'
-  - 15|US_speednode_0131
-  - 16|d*********g.com_6
-  - 0|-https://t.me/MrXbin-13
-  - 15|US_speednode_0140
-  - 15|KR_speednode_0070
-  - 8|Ir-@V2ray_Raha-07
-  - 15|US_speednode_0132
-  - 15|GB_speednode_0048
-  - 15|US_speednode_0134
-  - 15|US_speednode_0126
-  - 14|6aaZ5rivM3xAcmlwYW9qaWVkaWFu
-  - 0|-https://t.me/MrXbin-6
-  - 15|NL_speednode_0089
-  - 15|JP_speednode_0062
-  - 15|GB_speednode_0041
-  - 15|DE_speednode_0027
-  - 0|-https://t.me/MrXbin-11
-  - 15|TW_speednode_0117
-  - 15|NL_speednode_0090
-  - 8|@proxy_shadosocks🚀
-  - 15|KR_speednode_0065
-  - 15|NL_speednode_0092
-  - 15|UA_speednode_0118
-  - 13,14|香港8|@ripaojiedian
-  - 15|JP_speednode_0056
-  - 13,14|香港2|@ripaojiedian
-  - '16|d*********g.com_3 #1'
-  - 15|IT_speednode_0051
-  - 0|-https://t.me/MrXbin-7
-  - 15|US_speednode_0147
-  - 15|DE_speednode_0025
-  - 0|-https://t.me/MrXbin-5
-  - 13,14|香港6|@ripaojiedian
-  - 15|DE_speednode_0030
-  - 15|KR_speednode_0064
-  - 15|NL_speednode_0083
-  - 15|GB_speednode_0038
-  - 14|台湾|@ripaojiedian
-  - 8|MCi-@V2ray_Raha-03
-  - 15|NL_speednode_0093
-  - 15|US_speednode_0133
-  - 15|US_speednode_0141
-  - 15|CH_speednode_0005
-  - 13,14|香港|@ripaojiedian
-  - 15|DE_speednode_0023
-  - 15|LU_speednode_0076
-  - 15|CR_speednode_0010
-  - 15|BR_speednode_0003
-  - 13|🇭🇰 香港7|@ripaojiedian
-  - 8|MCi-@V2ray_Raha-04
-  - 8|MCi-@V2ray_Raha-05
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 15|NL_speednode_0086
-  - 15|NL_speednode_0094
-  - 15|RU_speednode_0107
-  - 15|DE_speednode_0015
-  - 15|GB_speednode_0047
-  - 15|NL_speednode_0099
-  - 15|GB_speednode_0036
-  - 8|hys2+🇦
-  - 13,14|美国3|@ripaojiedian
-  - 15|DE_speednode_0021
-  - 15|KR_speednode_0075
-  - 0|-https://t.me/MrXbin-22
-  - 15|DE_speednode_0029
-  - 8|Wifi-MCi-@V2ray_Raha-8
-  - 15|US_speednode_0120
-  - 13|🇯🇵 日本特殊|@ripaojiedian
-  - 15|RU_speednode_0105
-  - 15|JO_speednode_0052
-  - 15|US_speednode_0137
-  - 0|-https://t.me/MrXbin-9
-  - 15|KR_speednode_0068
-  - 8|IR-@V2ray_Alpha-3
-  - 15|KR_speednode_0072
-  - 15|CH_speednode_0006
-  - 15|SC_speednode_0109
-  - 8|MCI-@V2ray_Alpha-4
-  - 14|香港7|@ripaojiedian
-  - 15|US_speednode_0136
-  - 8|🍋h4@ConfigV2RayNG
-  - 15|GB_speednode_0040
-  - 8|IR-@V2ray_Raha-05
-  - 8|MCI-@V2ray_Raha-7
-  - 15|CA_speednode_0004
-  - 15|LU_speednode_0077
-  - 8|Ir-@V2ray_Raha-08
-  - 15|SE_speednode_0110
-  - 15|JP_speednode_0055
-  - 14|香港5|@ripaojiedian
-  - 5|d*********g.com_3
-  - 15|DE_speednode_0026
-  - 15|NL_speednode_0085
-  - 15|NL_speednode_0100
-  - 8|MCI-@V2ray_Raha-8
-  - 8|🍋h7@ConfigV2RayNG
-  - 15|NL_speednode_0101
-  - 13|🇸🇬 狮城特殊|@ripaojiedian
-  - 8|MCi-@V2ray_Raha-06
-  - 15|US_speednode_0119
-  - 15|US_speednode_0148
-  - 15|JP_speednode_0063
-  - 15|DE_speednode_0017
-  - 15|NL_speednode_0088
-  - 13|🇰🇷 韩国特殊|@ripaojiedian
-  - 15|FR_speednode_0033
-  - 8|🍋h5@ConfigV2RayNG
-  - 15|US_speednode_0123
-  - 0|-https://t.me/MrXbin-10
-  - 15|MT_speednode_0080
-  - 15|US_speednode_0127
-  - 0|-https://t.me/MrXbin-12
-  - 15|NL_speednode_0095
-  - 13,14|美国|@ripaojiedian
-  - 15|NL_speednode_0102
-  - 13|🇫🇷 法国|@ripaojiedian
-  - '8|MCI-@V2ray_Alpha-5 #1'
-  - 15|DE_speednode_0018
-  - 13|🇹🇼 台湾|@ripaojiedian
-  - 0|-https://t.me/MrXbin-58
-  - 15|DE_speednode_0024
-  - '16|d*********g.com_2 #1'
-  - 15|KR_speednode_0067
-  - 15|KR_speednode_0069
-  - 15|EE_speednode_0031
-  - 15|RU_speednode_0106
-  - 8|@meli_proxyy
-  - 13,14|新加坡|@ripaojiedian
-  - 15|HK_speednode_0049
-  - 15|GB_speednode_0043
-  - 15|NL_speednode_0084
-  - 5|d*********g.com_0
-  - 15|SI_speednode_0113
-  - 8|+@customv2ray+++++
-  - 15|US_speednode_0145
-  - 15|US_speednode_0122
-  - 15|TR_speednode_0116
-  - 8|IR-@V2ray_Alpha-2
-  - 13|tg频道:@ripaojiedian
-  - 15|TH_speednode_0114
-  - 15|US_speednode_0142
-  - 15|GB_speednode_0044
-  - 15|JP_speednode_0057
-  - 8|Wifi-MCi-@V2ray_Raha-7
-  - 13,14|日本|@ripaojiedian
-  - 15|DE_speednode_0014
-  - 15|GB_speednode_0039
-  - 15|GB_speednode_0045
-  - 15|GB_speednode_0046
-  - 15|GB_speednode_0042
-  - 13|🇭🇰 香港5|@ripaojiedian
-  - 8|IR-@V2ray_Alpha-1
   - 15|AU_speednode_0002
-  - 15|JP_speednode_0054
-  - 15|KR_speednode_0074
-  - 15|NL_speednode_0097
-  - 15|US_speednode_0125
-  - 15|DE_speednode_0020
-  - 15|NL_speednode_0082
-  - 0|-https://t.me/MrXbin-1
-  - 8|MCI-@V2ray_Alpha-2
-  - 15|DE_speednode_0028
-  - 0|-https://t.me/MrXbin-4
-  - 15|DE_speednode_0019
-  - 15|TR_speednode_0115
-  - 15|NL_speednode_0087
+  - 15|DE_speednode_0016
+  - 15|GB_speednode_0035
+  - 15|US_speednode_0119
+  - 15|US_speednode_0129
+  - 15|GB_speednode_0040
+  - 15|GB_speednode_0047
   - 15|HK_speednode_0050
-  - 15|GB_speednode_0037
+  - 8|@meli_proxyy
+  - 15|DE_speednode_0024
+  - 15|JP_speednode_0059
+  - 0|-https://t.me/MrXbin-22
+  - 15|US_speednode_0137
+  - 15|CH_speednode_0006
+  - 15|US_speednode_0146
+  - 15|DE_speednode_0030
+  - 8|IR-@V2ray_Raha-05
+  - 15|MT_speednode_0080
+  - 8|MCI-@V2ray_Raha-5
+  - 15|EE_speednode_0031
+  - 14|香港5|@ripaojiedian
+  - 13,14|香港2|@ripaojiedian
+  - 15|NL_speednode_0098
+  - 15|US_speednode_0133
+  - 15|DE_speednode_0027
+  - 15|SG_speednode_0111
+  - 15|US_speednode_0139
+  - 15|US_speednode_0127
+  - 8|@v2rayCrow
+  - 15|IT_speednode_0051
+  - 13,14|新加坡|@ripaojiedian
+  - 15|KR_speednode_0065
+  - 13|tg频道:@ripaojiedian
+  - 15|NL_speednode_0097
+  - 15|TH_speednode_0114
+  - 15|GB_speednode_0041
+  - 13|🇸🇬 狮城特殊|@ripaojiedian
+  - 15|TR_speednode_0116
+  - 15|DE_speednode_0022
+  - 15|US_speednode_0142
+  - 13|🇭🇰 香港4|@ripaojiedian
+  - 15|CA_speednode_0004
+  - 15|CY_speednode_0012
+  - 15|KR_speednode_0069
+  - 15|NL_speednode_0095
+  - 15|DE_speednode_0020
+  - 15|SC_speednode_0109
   - 12|@ToYoTA_PRoXY
-  - 12|akile
+  - 15|JO_speednode_0052
+  - 15|NL_speednode_0085
+  - 15|GB_speednode_0046
+  - 15|NL_speednode_0086
+  - 15|LU_speednode_0078
+  - 15|LU_speednode_0077
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 15|US_speednode_0125
+  - 15|NL_speednode_0102
+  - 8|@proxy_shadosocks🚀
+  - 8|MCi-@V2ray_Raha-06
+  - 13|🇰🇷 韩国特殊|@ripaojiedian
+  - 15|CR_speednode_0010
+  - 15|DE_speednode_0017
+  - 15|JP_speednode_0055
+  - 15|GB_speednode_0045
+  - 15|US_speednode_0131
+  - 14|台湾|@ripaojiedian
+  - 15|JP_speednode_0057
+  - 8|🍋h5@ConfigV2RayNG
+  - 15|GB_speednode_0048
+  - 15|US_speednode_0148
   - 13,14|美国2|@ripaojiedian
+  - 15|NL_speednode_0100
+  - 15|FR_speednode_0033
+  - 15|TR_speednode_0115
+  - 15|GB_speednode_0037
+  - 15|US_speednode_0141
+  - 15|US_speednode_0132
+  - 0|-https://t.me/MrXbin-6
+  - 15|GB_speednode_0042
+  - 8|MCi-@V2ray_Raha-04
+  - 15|GB_speednode_0038
+  - 15|NL_speednode_0092
+  - 8|MCi-@V2ray_Raha-05
+  - 8|MCI-@V2ray_Alpha-4
+  - 15|US_speednode_0138
+  - 15|NL_speednode_0082
+  - 15|US_speednode_0135
+  - 15|KR_speednode_0075
+  - 8|Wifi-MCi-@V2ray_Raha-7
+  - 15|NL_speednode_0090
+  - 15|US_speednode_0145
+  - 8|Wifi-MCi-@V2ray_Raha-10
+  - 0|-https://t.me/MrXbin-13
+  - 0|-https://t.me/MrXbin-7
+  - 15|DE_speednode_0015
+  - 13,14|美国|@ripaojiedian
+  - 15|NL_speednode_0094
+  - 15|DE_speednode_0025
+  - '8|MCI-@V2ray_Alpha-5 #1'
+  - 15|CH_speednode_0005
+  - 15|KR_speednode_0074
+  - 5|d*********g.com_1
+  - 15|US_speednode_0144
+  - 15|DE_speednode_0026
+  - 15|GB_speednode_0034
+  - 15|US_speednode_0122
+  - 15|US_speednode_0136
+  - 15|DE_speednode_0029
+  - 8|Ir-@V2ray_Raha-07
+  - 8|IR-@V2ray_Alpha-3
+  - 5|d*********g.com_2
+  - 5|d*********g.com_3
+  - 8|🍋h7@ConfigV2RayNG
+  - 15|DE_speednode_0018
+  - 0|-https://t.me/MrXbin-3
+  - 15|RU_speednode_0106
+  - 8|MCI-@V2ray_Raha-7
+  - 13|🇯🇵 日本特殊|@ripaojiedian
+  - 15|GB_speednode_0044
+  - 15|JP_speednode_0062
+  - 15|US_speednode_0126
+  - 13|🇫🇷 法国|@ripaojiedian
+  - 14|香港7|@ripaojiedian
+  - 15|KR_speednode_0066
+  - 15|UA_speednode_0118
+  - 15|RU_speednode_0105
+  - 0|-https://t.me/MrXbin-5
+  - 13,14|日本|@ripaojiedian
+  - 15|JP_speednode_0054
+  - 8|🍋h4@ConfigV2RayNG
+  - 15|KR_speednode_0064
+  - 15|NL_speednode_0088
+  - 15|JP_speednode_0063
+  - 15|KR_speednode_0068
+  - 12|akile
+  - 15|NL_speednode_0091
+  - 0|-https://t.me/MrXbin-2
+  - 0|-https://t.me/MrXbin-11
+  - 15|RU_speednode_0107
+  - 15|US_speednode_0140
+  - '16|d*********g.com_3 #1'
+  - 15|DE_speednode_0021
+  - 15|KR_speednode_0073
+  - 15|US_speednode_0128
+  - 15|KR_speednode_0067
+  - 15|JP_speednode_0061
+  - 15|NL_speednode_0096
+  - 8|IR-@V2ray_Alpha-2
+  - 13,14|香港|@ripaojiedian
+  - 8|MCI-@V2ray_Alpha-2
+  - 15|US_speednode_0123
+  - 15|DE_speednode_0019
+  - 15|FR_speednode_0032
+  - 8|Wifi-MCi-@V2ray_Raha-8
+  - 15|KR_speednode_0070
+  - 15|LU_speednode_0076
+  - 15|KR_speednode_0071
+  - 13|🇭🇰 香港7|@ripaojiedian
+  - 15|NL_speednode_0099
+  - 15|DE_speednode_0023
+  - 15|DE_speednode_0028
+  - 15|NL_speednode_0083
+  - 8|🍋h1@ConfigV2RayNG
+  - 15|US_speednode_0134
+  - 5|d*********g.com_0
+  - 8|MCI-@V2ray_Alpha-3
+  - 8|IR-@V2ray_Alpha-1
+  - '16|d*********g.com_2 #1'
+  - 0|-https://t.me/MrXbin-8
+  - 13|🇭🇰 香港5|@ripaojiedian
+  - 15|US_speednode_0121
+  - 8|Ir-@V2ray_Raha-08
+  - 15|NL_speednode_0089
+  - 13,14|香港8|@ripaojiedian
+  - 15|BR_speednode_0003
+  - 15|SE_speednode_0110
+  - 15|US_speednode_0147
+  - 15|NL_speednode_0087
+  - 15|KR_speednode_0072
+  - 15|CR_speednode_0011
+  - 15|GB_speednode_0039
+  - 15|JP_speednode_0053
+  - 15|NL_speednode_0101
+  - 15|NL_speednode_0084
+  - 15|US_speednode_0120
+  - 15|NL_speednode_0093
+  - 15|TW_speednode_0117
+  - 15|DE_speednode_0014
+  - 15|DE_speednode_0013
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - 15|GB_speednode_0043
+  - 0|-https://t.me/MrXbin-9
+  - 15|US_speednode_0130
+  - 15|JP_speednode_0056
+  - 16|d*********g.com_6
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 8|MCI-@V2ray_Raha-8
+  - 8|MCi-@V2ray_Raha-03
+  - 13,14|香港6|@ripaojiedian
+  - 14|6aaZ5rivM3xAcmlwYW9qaWVkaWFu
+  - 15|RU_speednode_0104
+  - 8|hys2+🇦
+  - 15|SI_speednode_0113
+  - 15|LU_speednode_0079
+  - 13,14|美国3|@ripaojiedian
+  - 8|MCI-@V2ray_Raha-6
+  - 15|GB_speednode_0036
+  - 15|US_speednode_0143
+  - '7,12|CHANEL@v2rayngzendegimamad_Aq #1'
+  - 15|HK_speednode_0049
+  - 8|+@customv2ray+++++
+  - 15|RU_speednode_0108
+  - 0|-https://t.me/MrXbin-1
   type: url-test
 - name: 1手动选择
   proxies: *id001
