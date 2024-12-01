@@ -1,26 +1,4 @@
-# Update: 2024-12-01 14:18
-allow-lan: false
-dns:
-  enable: true
-  enhanced-mode: redir-host
-  fallback:
-  - tls://8.8.4.4
-  - tls://1.1.1.1
-  - https://dns.rubyfish.cn/dns-query
-  fallback-filter:
-    ipcidr:
-    - 61.160.148.90/32
-  ipv6: true
-  listen: :1053
-  nameserver:
-  - 223.5.5.5
-  - 114.114.114.114
-external-controller: 0.0.0.0:9090
-global-client-fingerprint: chrome
-ipv6: true
-log-level: warning
-mixed-port: 7890
-mode: rule
+# Update: 2024-12-01 14:33
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-1
@@ -30,19 +8,13 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.35.38
+  server: 60.249.35.59
   type: ss
 - cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-2
+  name: 0|-https://t.me/MrXbin-4
   password: dongtaiwang.com
   port: 32233
   server: 185.22.152.125
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-3
-  password: 3MgIhqwp4pjM8SKwixNkYZ
-  port: 33068
-  server: 193.124.22.253
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-5
@@ -52,7 +24,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.138
+  server: 60.249.35.39
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-6
@@ -62,7 +34,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.136
+  server: 60.249.35.38
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-7
@@ -72,7 +44,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 211.22.161.135
+  server: 60.249.28.60
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-8
@@ -82,7 +54,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.60
+  server: 60.249.28.59
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-9
@@ -92,7 +64,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.59
+  server: 60.249.28.138
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-10
@@ -102,7 +74,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 211.22.161.134
+  server: 60.249.28.136
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-11
@@ -112,7 +84,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.137
+  server: 211.22.161.134
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-12
@@ -122,35 +94,26 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.35.59
+  server: 60.249.28.137
   type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-21
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13171
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: z5is.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-22
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13682
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: z5is.cdn.node.a.tddns-ounk.com
-  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-24
+  name: 0|-https://t.me/MrXbin-13
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- name: 0|-https://t.me/MrXbin-75
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-22
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13302
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: mjk6.cdn.node.a.tddns-ounk.com
+  type: ssr
+- name: 0|-https://t.me/MrXbin-58
   password: 9a745aad-7df7-480b-8f6b-068ca21f6954
   port: 443
   server: sgtestngxqisel.57257597.xyz
@@ -513,14 +476,16 @@ proxies:
   server: hk9.ftq.ink
   tls: true
   type: http
-- name: 13,14|香港|@ripaojiedian
+- client-fingerprint: chrome
+  name: 13,14|香港|@ripaojiedian
   network: tcp
   password: DNUMdmnJ
   port: 51377
   server: 36.151.192.201
   skip-cert-verify: true
   type: trojan
-- name: 13,14|香港2|@ripaojiedian
+- client-fingerprint: chrome
+  name: 13,14|香港2|@ripaojiedian
   network: tcp
   password: QwwHvrnN
   port: 42395
@@ -528,6 +493,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - cipher: rc4-md5
+  client-fingerprint: chrome
   name: 13|🇭🇰 香港3|@ripaojiedian
   obfs: plain
   obfs-param: 7cc15102946.6602b8463464108506.microsoft.com
@@ -538,6 +504,7 @@ proxies:
   server: 95b1cd85a0968ff2.cdn.jiashule.com
   type: ssr
 - cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 13|🇭🇰 香港4|@ripaojiedian
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54002
@@ -546,6 +513,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
+  client-fingerprint: chrome
   name: 13|🇭🇰 香港5|@ripaojiedian
   port: 58831
   server: 183.236.48.163
@@ -554,7 +522,8 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13,14|香港6|@ripaojiedian
+- client-fingerprint: chrome
+  name: 13,14|香港6|@ripaojiedian
   network: tcp
   password: 32a3dba3-7b31-409e-b0bd-15fafe7009ec
   port: 20049
@@ -564,6 +533,7 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
+  client-fingerprint: chrome
   name: 13|🇭🇰 香港7|@ripaojiedian
   port: 46602
   server: 183.236.51.23
@@ -572,7 +542,8 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13,14|香港8|@ripaojiedian
+- client-fingerprint: chrome
+  name: 13,14|香港8|@ripaojiedian
   network: tcp
   password: 5e2ce79c-170e-484a-8802-40584a1a3a12
   port: 13007
@@ -582,6 +553,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   name: 13|🇹🇼 台湾|@ripaojiedian
   port: 20016
   server: i.needss.top
@@ -590,7 +562,8 @@ proxies:
   tls: false
   type: vmess
   uuid: b23172e2-eb36-4222-85ac-3d2f61651013
-- name: 13,14|日本|@ripaojiedian
+- client-fingerprint: chrome
+  name: 13,14|日本|@ripaojiedian
   network: tcp
   password: QwwHvrnN
   port: 27381
@@ -598,13 +571,15 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - cipher: aes-256-cfb
+  client-fingerprint: chrome
   name: 13|🇯🇵 日本2|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.207.163.206
   tfo: false
   type: ss
-- name: 13,14|新加坡|@ripaojiedian
+- client-fingerprint: chrome
+  name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 5e2ce79c-170e-484a-8802-40584a1a3a12
   port: 13028
@@ -614,6 +589,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   name: 13,14|美国|@ripaojiedian
   network: ws
   port: '2086'
@@ -628,7 +604,8 @@ proxies:
     headers:
       Host: p1.613055.xyz
     path: github.com/Alvin9999
-- name: 13,14|美国2|@ripaojiedian
+- client-fingerprint: chrome
+  name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 5e2ce79c-170e-484a-8802-40584a1a3a12
   port: 13020
@@ -638,6 +615,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   name: 13,14|美国3|@ripaojiedian
   network: ws
   port: '2095'
@@ -653,6 +631,7 @@ proxies:
       Host: c3.6016725.xyz
     path: github.com/Alvin9999
 - cipher: aes-256-cfb
+  client-fingerprint: chrome
   name: 13|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
@@ -660,6 +639,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
+  client-fingerprint: chrome
   name: 13|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
@@ -667,6 +647,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
+  client-fingerprint: chrome
   name: 13|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
@@ -674,6 +655,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 13|🇫🇷 法国|@ripaojiedian
   password: 8vFQIjLl0PMh3qc3cJVuma
   port: 443
@@ -786,6 +768,7 @@ proxies:
 - alpn:
   - h2
   - http%2F1.1
+  client-fingerprint: chrome
   name: 15|CR_speednode_0010
   network: ws
   port: 443
@@ -802,6 +785,7 @@ proxies:
 - alpn:
   - h2
   - http%2F1.1
+  client-fingerprint: chrome
   name: 15|CR_speednode_0011
   network: ws
   port: 443
@@ -1381,7 +1365,8 @@ proxies:
     headers:
       Host: pvg.aghabeiki.homes
     path: /?ed=2744
-- name: 15|JP_speednode_0056
+- client-fingerprint: chrome
+  name: 15|JP_speednode_0056
   network: ws
   port: 8889
   server: 160.16.242.208
@@ -1639,7 +1624,8 @@ proxies:
     headers:
       Host: za.ylks.xyz
     path: /%2F
-- name: 15|LU_speednode_0078
+- client-fingerprint: chrome
+  name: 15|LU_speednode_0078
   network: ws
   port: 443
   server: 188.42.88.78
@@ -1676,7 +1662,8 @@ proxies:
     headers:
       Host: za.ylks.xyz
     path: /%2F
-- name: 15|NL_speednode_0082
+- client-fingerprint: chrome
+  name: 15|NL_speednode_0082
   network: ws
   port: 7000
   server: 5.2.73.137
@@ -1751,7 +1738,8 @@ proxies:
     headers:
       Host: za.ylks.xyz
     path: /%2F
-- name: 15|NL_speednode_0088
+- client-fingerprint: chrome
+  name: 15|NL_speednode_0088
   network: ws
   port: 2003
   server: 2.58.56.31
@@ -1790,7 +1778,8 @@ proxies:
     headers:
       Host: pvg.aghabeiki.homes
     path: /?ed=2744
-- name: 15|NL_speednode_0091
+- client-fingerprint: chrome
+  name: 15|NL_speednode_0091
   network: ws
   port: 3001
   server: 93.185.163.186
@@ -2258,6 +2247,7 @@ proxies:
     path: /
 - alpn:
   - h2
+  client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: bOaxFgn83JABlLyQgf
@@ -2274,6 +2264,7 @@ proxies:
   - h3
   - h2
   - http/1.1
+  client-fingerprint: chrome
   name: 15|US_speednode_0130
   network: ws
   port: 80
@@ -2291,6 +2282,7 @@ proxies:
   - h3
   - h2
   - http/1.1
+  client-fingerprint: chrome
   name: 15|US_speednode_0131
   network: ws
   port: 80
@@ -2343,7 +2335,8 @@ proxies:
     headers:
       Host: join.bede.unlimiteddev.www.speedtest.net.de.abrha.co.unlimiteddev.community.
     path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880
-- name: 15|US_speednode_0135
+- client-fingerprint: chrome
+  name: 15|US_speednode_0135
   network: ws
   port: 443
   server: 172.66.47.98
@@ -2369,7 +2362,8 @@ proxies:
     headers:
       Host: join.bede.UNLIMITEDDEV.www.speedtest.net.de.Abrha.co.sabadyt.ir
     path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880
-- name: 15|US_speednode_0137
+- client-fingerprint: chrome
+  name: 15|US_speednode_0137
   network: ws
   port: 443
   server: 172.66.47.98
@@ -2535,6 +2529,7 @@ proxies:
   uuid: 044f0177-0675-4dcf-89d4-804b6788e518
 - alpn:
   - http/1.1
+  client-fingerprint: chrome
   name: 16|d*********g.com_6
   network: tcp
   port: 443
@@ -2559,272 +2554,233 @@ proxies:
     headers:
       Host: www.zitian.cn
 proxy-groups:
-- name: 🚀 选择代理
+- include-all: true
+  name: PROXY
   proxies:
-  - ♻ 自动选择
-  - 🔰 延迟最低
-  - ✅ 手动选择
-  - 🗺️ 选择地区
+  - 自动选择
   type: select
-- interval: 300
-  name: ♻ 自动选择
+- name: 自动选择
   proxies: &id001
-  - 0|-https://t.me/MrXbin-1
-  - '16|d*********g.com_2 #1'
-  - 15|DE_speednode_0022
-  - 15|KR_speednode_0073
-  - 15|DE_speednode_0016
-  - 15|US_speednode_0147
-  - 15|GB_speednode_0040
-  - 15|NL_speednode_0087
-  - 15|LU_speednode_0079
-  - 15|FR_speednode_0033
-  - 15|DE_speednode_0021
-  - 15|DE_speednode_0029
-  - 15|US_speednode_0141
-  - 12|@ToYoTA_PRoXY
-  - 15|US_speednode_0138
-  - 15|NL_speednode_0091
-  - 15|GB_speednode_0036
-  - 8|MCI-@V2ray_Raha-8
-  - 8|Wifi-MCi-@V2ray_Raha-8
-  - 8|MCI-@V2ray_Alpha-2
-  - 13,14|香港8|@ripaojiedian
-  - 15|GB_speednode_0044
-  - 15|LU_speednode_0078
-  - 8|MCI-@V2ray_Raha-6
-  - 15|NL_speednode_0088
-  - 8|MCI-@V2ray_Raha-5
-  - 13,14|香港6|@ripaojiedian
-  - 15|US_speednode_0136
-  - 8|@proxy_shadosocks🚀
-  - 15|DE_speednode_0028
-  - 15|NL_speednode_0090
-  - 13|🇹🇼 台湾|@ripaojiedian
-  - 15|TR_speednode_0116
-  - 8|Ir-@V2ray_Raha-07
-  - 15|US_speednode_0144
-  - 15|DE_speednode_0025
-  - 15|US_speednode_0139
-  - 15|RU_speednode_0108
-  - 14|台湾|@ripaojiedian
-  - 12|akile
-  - 13|🇰🇷 韩国特殊|@ripaojiedian
-  - '8|MCI-@V2ray_Alpha-5 #1'
-  - 15|NL_speednode_0084
-  - 15|KR_speednode_0074
-  - 15|NL_speednode_0092
-  - 15|US_speednode_0128
-  - 8|🍋h7@ConfigV2RayNG
-  - 15|DE_speednode_0017
-  - 15|JP_speednode_0055
-  - 15|CH_speednode_0006
-  - 15|JP_speednode_0056
-  - 15|DE_speednode_0030
-  - 8|@v2rayCrow
-  - 13|🇭🇰 香港7|@ripaojiedian
-  - 0|-https://t.me/MrXbin-75
-  - 15|GB_speednode_0034
-  - 15|KR_speednode_0068
-  - 0|-https://t.me/MrXbin-9
-  - 15|CH_speednode_0005
-  - 15|JP_speednode_0061
-  - 8|Wifi-MCi-@V2ray_Raha-10
-  - 15|JP_speednode_0063
-  - 13,14|美国|@ripaojiedian
-  - 15|CR_speednode_0010
-  - 15|SI_speednode_0113
   - 16|d*********g.com_6
-  - 14|香港7|@ripaojiedian
-  - 15|GB_speednode_0041
-  - 15|US_speednode_0134
-  - 0|-https://t.me/MrXbin-5
-  - 15|KR_speednode_0075
-  - 15|BR_speednode_0003
-  - 8|🍋h1@ConfigV2RayNG
-  - 15|KR_speednode_0070
-  - 13,14|香港2|@ripaojiedian
-  - 15|GB_speednode_0039
-  - 15|DE_speednode_0024
-  - 8|MCI-@V2ray_Raha-7
-  - 15|NL_speednode_0099
-  - '16|d*********g.com_3 #1'
-  - 14|6aaZ5rivM3xAcmlwYW9qaWVkaWFu
-  - 8|MCi-@V2ray_Raha-03
-  - 15|GB_speednode_0037
-  - 15|US_speednode_0132
-  - '7,12|CHANEL@v2rayngzendegimamad_Aq #1'
-  - 0|-https://t.me/MrXbin-12
-  - 8|🍋h5@ConfigV2RayNG
-  - 5|d*********g.com_1
-  - 15|DE_speednode_0019
-  - 8|MCi-@V2ray_Raha-05
-  - 15|DE_speednode_0014
-  - 15|JP_speednode_0053
-  - 8|@meli_proxyy
-  - 15|GB_speednode_0046
-  - 15|US_speednode_0121
-  - 15|GB_speednode_0043
-  - 15|JP_speednode_0062
-  - 15|US_speednode_0145
-  - 5|d*********g.com_2
-  - 5|d*********g.com_3
-  - 8|MCi-@V2ray_Raha-06
-  - 15|LU_speednode_0076
-  - 15|TW_speednode_0117
-  - 13|🇭🇰 香港4|@ripaojiedian
-  - 15|US_speednode_0127
-  - 0|-https://t.me/MrXbin-8
-  - 8|🍋h4@ConfigV2RayNG
-  - 15|KR_speednode_0072
-  - 15|KR_speednode_0065
-  - 8|MCI-@V2ray_Alpha-4
-  - 15|DE_speednode_0027
-  - 13,14|美国2|@ripaojiedian
-  - 15|CA_speednode_0004
-  - 15|UA_speednode_0118
-  - 0|-https://t.me/MrXbin-7
-  - 8|+@customv2ray+++++
-  - 0|-https://t.me/MrXbin-10
-  - 15|DE_speednode_0013
-  - 13|🇫🇷 法国|@ripaojiedian
-  - 15|GB_speednode_0035
-  - 15|GB_speednode_0048
-  - 15|RU_speednode_0107
-  - 15|US_speednode_0142
-  - 15|US_speednode_0143
-  - 0|-https://t.me/MrXbin-21
-  - 15|RU_speednode_0104
-  - 13,14|新加坡|@ripaojiedian
-  - 13,14|香港|@ripaojiedian
-  - 15|DE_speednode_0015
-  - 15|GB_speednode_0047
-  - 15|US_speednode_0133
-  - 15|JO_speednode_0052
-  - 0|-https://t.me/MrXbin-24
-  - 15|NL_speednode_0089
-  - 15|US_speednode_0126
-  - 13,14|日本|@ripaojiedian
-  - 15|KR_speednode_0067
-  - 15|TR_speednode_0115
-  - 15|GB_speednode_0038
-  - 15|US_speednode_0123
-  - 15|KR_speednode_0066
-  - 15|AU_speednode_0002
-  - 15|NL_speednode_0085
-  - 15|SG_speednode_0111
-  - 0|-https://t.me/MrXbin-3
-  - 15|IT_speednode_0051
-  - 15|TH_speednode_0114
-  - 0|-https://t.me/MrXbin-6
-  - 15|JP_speednode_0054
-  - 15|MT_speednode_0080
-  - 15|US_speednode_0125
-  - 15|FR_speednode_0032
-  - 8|IR-@V2ray_Raha-05
-  - 15|CR_speednode_0011
-  - 15|NL_speednode_0101
-  - 15|RU_speednode_0106
-  - 15|US_speednode_0122
-  - 15|US_speednode_0131
-  - 8|hys2+🇦
-  - 15|CY_speednode_0012
-  - 0|-https://t.me/MrXbin-11
-  - 15|EE_speednode_0031
-  - 15|LU_speednode_0077
-  - 13|🇸🇬 狮城特殊|@ripaojiedian
-  - 15|US_speednode_0129
-  - 15|RU_speednode_0105
-  - 15|US_speednode_0120
-  - 15|US_speednode_0130
-  - 15|NL_speednode_0082
-  - 15|US_speednode_0146
-  - 15|NL_speednode_0094
-  - 15|US_speednode_0119
-  - 15|DE_speednode_0020
-  - 15|GB_speednode_0042
-  - 13|🇭🇰 香港3|@ripaojiedian
-  - 13|🇯🇵 日本2|@ripaojiedian
-  - 15|NL_speednode_0083
-  - 15|US_speednode_0135
-  - 15|NL_speednode_0100
-  - 15|NL_speednode_0097
-  - 15|NL_speednode_0098
-  - 15|JP_speednode_0059
-  - 8|IR-@V2ray_Alpha-3
-  - 8|MCI-@V2ray_Alpha-3
-  - 15|HK_speednode_0050
-  - 15|SC_speednode_0109
-  - 13|tg频道:@ripaojiedian
-  - 5|d*********g.com_0
-  - 15|HK_speednode_0049
-  - 15|NL_speednode_0093
-  - 0|-https://t.me/MrXbin-2
-  - 0|-https://t.me/MrXbin-22
-  - 8|IR-@V2ray_Alpha-1
-  - 15|DE_speednode_0018
-  - 13|🇯🇵 日本特殊|@ripaojiedian
-  - 15|NL_speednode_0095
-  - 15|JP_speednode_0057
-  - 13,14|美国3|@ripaojiedian
-  - 14|香港5|@ripaojiedian
-  - 15|KR_speednode_0071
-  - 15|NL_speednode_0102
-  - 8|IR-@V2ray_Alpha-2
-  - 13|🇭🇰 香港5|@ripaojiedian
-  - 15|SE_speednode_0110
-  - 15|US_speednode_0140
-  - 15|DE_speednode_0023
-  - 15|GB_speednode_0045
-  - 8|MCi-@V2ray_Raha-04
-  - 15|KR_speednode_0064
-  - 8|Wifi-MCi-@V2ray_Raha-7
-  - 15|DE_speednode_0026
-  - 15|NL_speednode_0096
-  - 15|US_speednode_0137
-  - 15|KR_speednode_0069
+  - 15|DE_speednode_0022
   - 15|NL_speednode_0086
+  - 15|LU_speednode_0078
+  - 15|US_speednode_0136
+  - 5|d*********g.com_3
+  - 15|DE_speednode_0023
+  - 15|KR_speednode_0075
+  - 15|RU_speednode_0107
+  - 15|CR_speednode_0010
+  - 8|MCI-@V2ray_Raha-7
+  - 15|JP_speednode_0054
+  - 15|KR_speednode_0064
+  - 15|DE_speednode_0020
+  - 15|SC_speednode_0109
+  - 15|GB_speednode_0046
+  - 15|US_speednode_0122
   - 15|US_speednode_0148
+  - 15|GB_speednode_0035
+  - 0|-https://t.me/MrXbin-10
+  - 15|GB_speednode_0040
+  - 0|-https://t.me/MrXbin-11
+  - 15|IT_speednode_0051
+  - 15|RU_speednode_0106
+  - 15|GB_speednode_0044
+  - 15|TH_speednode_0114
+  - 15|DE_speednode_0016
+  - 13|🇯🇵 日本2|@ripaojiedian
+  - 15|DE_speednode_0028
+  - 15|HK_speednode_0050
+  - 8|🍋h1@ConfigV2RayNG
+  - 8|@proxy_shadosocks🚀
+  - 15|JP_speednode_0062
+  - 15|NL_speednode_0096
+  - 15|NL_speednode_0094
+  - 15|US_speednode_0142
+  - 15|NL_speednode_0082
+  - 15|GB_speednode_0038
+  - 15|KR_speednode_0072
+  - 15|US_speednode_0141
+  - 13,14|香港8|@ripaojiedian
+  - 13|🇸🇬 狮城特殊|@ripaojiedian
+  - 15|FR_speednode_0032
+  - 15|SE_speednode_0110
+  - 15|US_speednode_0119
+  - 13|tg频道:@ripaojiedian
+  - 15|US_speednode_0120
+  - 15|LU_speednode_0079
+  - 15|DE_speednode_0014
+  - 15|NL_speednode_0095
+  - 8|+@customv2ray+++++
+  - 15|GB_speednode_0041
+  - 15|DE_speednode_0015
+  - 15|US_speednode_0125
+  - 13|🇭🇰 香港4|@ripaojiedian
+  - 8|MCI-@V2ray_Raha-6
+  - 15|BR_speednode_0003
+  - 15|US_speednode_0133
+  - 15|GB_speednode_0048
+  - 15|UA_speednode_0118
+  - 5|d*********g.com_1
+  - 15|US_speednode_0147
+  - '8|MCI-@V2ray_Alpha-5 #1'
+  - 15|SG_speednode_0111
+  - '7,12|CHANEL@v2rayngzendegimamad_Aq #1'
+  - 15|CH_speednode_0005
+  - 0|-https://t.me/MrXbin-6
+  - 15|JP_speednode_0059
+  - 12|@ToYoTA_PRoXY
+  - 15|DE_speednode_0026
+  - 15|DE_speednode_0013
+  - 8|@meli_proxyy
+  - 15|US_speednode_0131
+  - 15|GB_speednode_0037
+  - 15|NL_speednode_0091
+  - 8|MCI-@V2ray_Raha-5
+  - 8|MCI-@V2ray_Alpha-4
+  - 15|KR_speednode_0074
+  - 0|-https://t.me/MrXbin-58
+  - 8|MCi-@V2ray_Raha-04
+  - 15|US_speednode_0135
+  - 14|香港5|@ripaojiedian
+  - 13,14|香港6|@ripaojiedian
+  - 15|CA_speednode_0004
+  - 15|KR_speednode_0071
+  - 15|CY_speednode_0012
+  - 8|MCI-@V2ray_Alpha-2
+  - 15|GB_speednode_0036
+  - 15|DE_speednode_0017
+  - 8|🍋h7@ConfigV2RayNG
+  - 15|NL_speednode_0092
+  - 15|SI_speednode_0113
+  - 15|TR_speednode_0116
+  - 15|US_speednode_0139
+  - 15|NL_speednode_0093
+  - 0|-https://t.me/MrXbin-7
+  - 15|GB_speednode_0039
+  - 15|NL_speednode_0089
+  - 8|MCi-@V2ray_Raha-03
+  - 8|Wifi-MCi-@V2ray_Raha-8
+  - 15|KR_speednode_0067
+  - 15|NL_speednode_0083
+  - 15|TR_speednode_0115
+  - 15|NL_speednode_0101
+  - 8|Ir-@V2ray_Raha-07
+  - 13,14|美国2|@ripaojiedian
+  - 15|GB_speednode_0043
+  - 13,14|新加坡|@ripaojiedian
+  - 15|TW_speednode_0117
+  - 14|香港7|@ripaojiedian
+  - 15|US_speednode_0134
+  - 13|🇹🇼 台湾|@ripaojiedian
+  - 15|RU_speednode_0108
+  - 15|FR_speednode_0033
+  - 15|NL_speednode_0100
+  - 15|US_speednode_0123
+  - 15|US_speednode_0144
+  - 15|US_speednode_0127
+  - 15|GB_speednode_0042
+  - 13|🇭🇰 香港7|@ripaojiedian
+  - 13|🇫🇷 法国|@ripaojiedian
+  - 5|d*********g.com_0
+  - 15|US_speednode_0145
+  - 8|IR-@V2ray_Alpha-1
+  - 13,14|香港|@ripaojiedian
+  - 15|KR_speednode_0069
+  - 15|US_speednode_0140
+  - 8|IR-@V2ray_Raha-05
+  - 0|-https://t.me/MrXbin-5
+  - 15|LU_speednode_0076
   - 8|Ir-@V2ray_Raha-08
-  type: fallback
-  url: https://www.google.com/
-- interval: 300
-  name: 🔰 延迟最低
-  proxies: *id001
-  tolerance: 20
+  - 15|JP_speednode_0055
+  - 15|JP_speednode_0063
+  - 8|Wifi-MCi-@V2ray_Raha-10
+  - 15|US_speednode_0146
+  - 8|MCI-@V2ray_Raha-8
+  - 15|US_speednode_0126
+  - 0|-https://t.me/MrXbin-1
+  - 15|RU_speednode_0104
+  - 14|台湾|@ripaojiedian
+  - 13,14|日本|@ripaojiedian
+  - 0|-https://t.me/MrXbin-22
+  - 15|NL_speednode_0088
+  - 15|GB_speednode_0047
+  - 8|🍋h5@ConfigV2RayNG
+  - 13|🇰🇷 韩国特殊|@ripaojiedian
+  - 15|JP_speednode_0057
+  - 8|MCi-@V2ray_Raha-06
+  - '16|d*********g.com_2 #1'
+  - 15|KR_speednode_0073
+  - 15|KR_speednode_0068
+  - 15|JP_speednode_0053
+  - 15|JP_speednode_0056
+  - 15|NL_speednode_0099
+  - 15|NL_speednode_0084
+  - 15|RU_speednode_0105
+  - 5|d*********g.com_2
+  - 0|-https://t.me/MrXbin-13
+  - 15|NL_speednode_0085
+  - 15|GB_speednode_0034
+  - 15|DE_speednode_0027
+  - 15|EE_speednode_0031
+  - 15|GB_speednode_0045
+  - 8|IR-@V2ray_Alpha-2
+  - 15|NL_speednode_0090
+  - 13|🇭🇰 香港3|@ripaojiedian
+  - 13,14|美国|@ripaojiedian
+  - 15|KR_speednode_0070
+  - 15|US_speednode_0143
+  - 13,14|美国3|@ripaojiedian
+  - 15|JP_speednode_0061
+  - 15|US_speednode_0132
+  - 15|CR_speednode_0011
+  - 15|LU_speednode_0077
+  - 15|US_speednode_0121
+  - 0|-https://t.me/MrXbin-12
+  - 8|@v2rayCrow
+  - 14|6aaZ5rivM3xAcmlwYW9qaWVkaWFu
+  - 8|MCi-@V2ray_Raha-05
+  - 8|🍋h4@ConfigV2RayNG
+  - 15|DE_speednode_0029
+  - 15|HK_speednode_0049
+  - 15|DE_speednode_0024
+  - 15|US_speednode_0137
+  - 15|MT_speednode_0080
+  - 0|-https://t.me/MrXbin-8
+  - 13|🇭🇰 香港5|@ripaojiedian
+  - 15|US_speednode_0130
+  - 8|MCI-@V2ray_Alpha-3
+  - 15|CH_speednode_0006
+  - 15|JO_speednode_0052
+  - 15|KR_speednode_0066
+  - 15|NL_speednode_0098
+  - 15|AU_speednode_0002
+  - 15|US_speednode_0128
+  - 15|NL_speednode_0097
+  - 15|DE_speednode_0018
+  - 8|hys2+🇦
+  - 15|NL_speednode_0087
+  - 15|DE_speednode_0025
+  - 0|-https://t.me/MrXbin-9
+  - 8|Wifi-MCi-@V2ray_Raha-7
+  - 15|US_speednode_0129
+  - '16|d*********g.com_3 #1'
+  - 15|DE_speednode_0021
+  - 15|DE_speednode_0019
+  - 12|akile
+  - 15|KR_speednode_0065
+  - 13|🇯🇵 日本特殊|@ripaojiedian
+  - 0|-https://t.me/MrXbin-4
+  - 8|IR-@V2ray_Alpha-3
+  - 15|NL_speednode_0102
+  - 15|US_speednode_0138
+  - 13,14|香港2|@ripaojiedian
+  - 15|DE_speednode_0030
   type: url-test
-  url: https://www.google.com/
-- name: ✅ 手动选择
+- name: 1手动选择
   proxies: *id001
   type: select
-- name: 🌐 突破锁区
-  proxies:
-  - DIRECT
-  - 🚀 选择代理
-  type: select
-- name: ❓ 疑似国内
-  proxies:
-  - DIRECT
-  - 🚀 选择代理
-  - REJECT
-  type: select
-- name: 🐟 漏网之鱼
-  proxies:
-  - 🚀 选择代理
-  - DIRECT
-  type: select
-- name: 🚨 病毒网站
-  proxies:
-  - REJECT
-  - DIRECT
-  type: select
-- name: ⛔ 广告拦截
-  proxies:
-  - REJECT
-  - DIRECT
-  - 🚀 选择代理
-  type: select
-- name: 🗺️ 选择地区
+- name: 手动选择
   proxies:
   - 🇭🇰 香港
   type: select
@@ -2844,979 +2800,4 @@ proxy-groups:
   - 15|HK_speednode_0050
   type: select
 rules:
-- DOMAIN,cdn.bootcss.com,🚨 病毒网站
-- DOMAIN,cdn.bootcdn.net,🚨 病毒网站
-- DOMAIN,cdn.staticfile.net,🚨 病毒网站
-- DOMAIN,cdn.staticfile.org,🚨 病毒网站
-- DOMAIN-SUFFIX,polyfill.io,🚨 病毒网站
-- DOMAIN,search.kiwibrowser.org,🚨 病毒网站
-- DOMAIN-SUFFIX,kiwibrowser.org,⛔ 广告拦截
-- DOMAIN-KEYWORD,kiwisearchservices,🚨 病毒网站
-- DOMAIN,img-c.heytapimage.com,⛔ 广告拦截
-- DOMAIN,adsbdfs.heytapimage.com,⛔ 广告拦截
-- DOMAIN,adsfs.heytapimage.com,⛔ 广告拦截
-- DOMAIN-SUFFIX,signalr.net,DIRECT
-- DOMAIN-KEYWORD,onedrive,🚀 选择代理
-- DOMAIN-SUFFIX,live.com,DIRECT
-- DOMAIN,global.bing.com,🚀 选择代理
-- DOMAIN-SUFFIX,bing.com,🌐 突破锁区
-- DOMAIN-SUFFIX,bing.net,🌐 突破锁区
-- DOMAIN-KEYWORD,bingapi,🌐 突破锁区
-- DOMAIN-KEYWORD,fastgit,DIRECT
-- DOMAIN-KEYWORD,fgit,DIRECT
-- DOMAIN-KEYWORD,ghproxy,DIRECT
-- DOMAIN-KEYWORD,gh-proxy,DIRECT
-- DOMAIN-SUFFIX,zzko.cn,DIRECT
-- DOMAIN-SUFFIX,jsdelivr.us,DIRECT
-- DOMAIN-SUFFIX,jsdelivr.net,DIRECT
-- DOMAIN-KEYWORD,clash,🚀 选择代理
-- DOMAIN-KEYWORD,v2ray,🚀 选择代理
-- DOMAIN-KEYWORD,v2fly,🚀 选择代理
-- DOMAIN-KEYWORD,vmess,🚀 选择代理
-- DOMAIN-KEYWORD,vless,🚀 选择代理
-- DOMAIN-KEYWORD,shadowsocks,🚀 选择代理
-- DOMAIN-KEYWORD,hysteria,🚀 选择代理
-- DOMAIN-KEYWORD,gfw,🚀 选择代理
-- DOMAIN-KEYWORD,sagernet,🚀 选择代理
-- DOMAIN-SUFFIX,trafficmanager.net,DIRECT
-- DOMAIN-SUFFIX,ivonblog.com,🚀 选择代理
-- DOMAIN-KEYWORD,telegram,🚀 选择代理
-- DOMAIN-KEYWORD,discord,🚀 选择代理
-- DOMAIN-SUFFIX,v1.mk,🚀 选择代理
-- DOMAIN-SUFFIX,outlook.com,DIRECT
-- DOMAIN-SUFFIX,googleapis.cn,DIRECT
-- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT
-- DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT
-- DOMAIN-SUFFIX,gvt1-cn.com,DIRECT
-- DOMAIN,redirector.gvt1.com,DIRECT
-- DOMAIN-SUFFIX,gitlab.io,🚀 选择代理
-- DOMAIN-KEYWORD,js96110,⛔ 广告拦截
-- IP-CIDR,61.160.148.90/32,❓ 疑似国内
-- DOMAIN-KEYWORD,wiki.arch,DIRECT
-- DOMAIN-KEYWORD,archlinuxcn,DIRECT
-- DOMAIN-SUFFIX,996.icu,DIRECT
-- DOMAIN-SUFFIX,chinadigitaltimes.net,🚀 选择代理
-- DOMAIN-SUFFIX,savefrom.net,🚀 选择代理
-- DOMAIN-SUFFIX,yout.com,🚀 选择代理
-- DOMAIN-SUFFIX,hydro.ac,DIRECT
-- DOMAIN-SUFFIX,tuna.moe,DIRECT
-- DOMAIN-KEYWORD,qbittorrent,🐟 漏网之鱼
-- DOMAIN-SUFFIX,greatfire.org,🚀 选择代理
-- DOMAIN-KEYWORD,dongtaiwang,REJECT
-- DOMAIN,safebrowsing.googleapis.com,DIRECT
-- DOMAIN,dl.google.com,🐟 漏网之鱼
-- DOMAIN-SUFFIX,taptap.io,🚀 选择代理
-- DOMAIN-SUFFIX,tap.io,🚀 选择代理
-- DOMAIN-SUFFIX,tapapis.com,🌐 突破锁区
-- DOMAIN-KEYWORD,tapsdk,🌐 突破锁区
-- DOMAIN-KEYWORD,taptap,🌐 突破锁区
-- DOMAIN-SUFFIX,cn,DIRECT
-- DOMAIN-KEYWORD,-cn,DIRECT
-- DOMAIN-KEYWORD,amazon,🚀 选择代理
-- DOMAIN-KEYWORD,google,🚀 选择代理
-- DOMAIN-KEYWORD,gmail,🚀 选择代理
-- DOMAIN-KEYWORD,youtube,🚀 选择代理
-- DOMAIN-KEYWORD,facebook,🚀 选择代理
-- DOMAIN-SUFFIX,fb.me,🚀 选择代理
-- DOMAIN-SUFFIX,fbcdn.net,🚀 选择代理
-- DOMAIN-KEYWORD,twitter,🚀 选择代理
-- DOMAIN-KEYWORD,instagram,🚀 选择代理
-- DOMAIN-KEYWORD,dropbox,🚀 选择代理
-- DOMAIN-SUFFIX,twimg.com,🚀 选择代理
-- DOMAIN-KEYWORD,blogspot,🚀 选择代理
-- DOMAIN-SUFFIX,youtu.be,🚀 选择代理
-- DOMAIN-KEYWORD,whatsapp,🚀 选择代理
-- DOMAIN-SUFFIX,wikipedia.org,🚀 选择代理
-- DOMAIN-SUFFIX,wikinews.org,🚀 选择代理
-- DOMAIN-SUFFIX,wikidata.org,🚀 选择代理
-- DOMAIN-SUFFIX,wiktionary.org,🚀 选择代理
-- DOMAIN-SUFFIX,wikiquote.org,🚀 选择代理
-- DOMAIN-SUFFIX,wikibooks.org,🚀 选择代理
-- DOMAIN-SUFFIX,wikisource.org,🚀 选择代理
-- DOMAIN-SUFFIX,wikiversity.org,🚀 选择代理
-- DOMAIN-SUFFIX,wikivoyage.org,🚀 选择代理
-- DOMAIN-SUFFIX,mediawiki.org,🚀 选择代理
-- DOMAIN-SUFFIX,wikimedia.org,🚀 选择代理
-- DOMAIN-SUFFIX,wikimediafoundation.org,🚀 选择代理
-- DOMAIN-SUFFIX,wmfusercontent.org,🚀 选择代理
-- DOMAIN,w.wiki,🚀 选择代理
-- DOMAIN-KEYWORD,announce,DIRECT
-- DOMAIN-KEYWORD,torrent,DIRECT
-- DOMAIN-KEYWORD,tracker,DIRECT
-- DOMAIN-SUFFIX,smtp,DIRECT
-- DOMAIN-SUFFIX,local,DIRECT
-- DOMAIN-SUFFIX,arpa,DIRECT
-- IP-CIDR,192.168.0.0/16,DIRECT
-- IP-CIDR,10.0.0.0/8,DIRECT
-- IP-CIDR,172.16.0.0/12,DIRECT
-- IP-CIDR,127.0.0.0/8,DIRECT
-- IP-CIDR,100.64.0.0/10,DIRECT
-- DOMAIN-SUFFIX,edgedatg.com,🚀 选择代理
-- DOMAIN-SUFFIX,go.com,🚀 选择代理
-- DOMAIN-SUFFIX,abema.io,🚀 选择代理
-- DOMAIN-SUFFIX,abema.tv,🚀 选择代理
-- DOMAIN-SUFFIX,akamaized.net,🚀 选择代理
-- DOMAIN-SUFFIX,ameba.jp,🚀 选择代理
-- DOMAIN-SUFFIX,hayabusa.io,🚀 选择代理
-- DOMAIN-SUFFIX,aiv-cdn.net,🚀 选择代理
-- DOMAIN-SUFFIX,llnwd.net,🚀 选择代理
-- DOMAIN-SUFFIX,bahamut.com.tw,🚀 选择代理
-- DOMAIN-SUFFIX,gamer.com.tw,🚀 选择代理
-- DOMAIN-SUFFIX,hinet.net,🚀 选择代理
-- DOMAIN-KEYWORD,bbcfmt,🚀 选择代理
-- DOMAIN-KEYWORD,co.uk,🚀 选择代理
-- DOMAIN-KEYWORD,uk-live,🚀 选择代理
-- DOMAIN-SUFFIX,bbc.co,🚀 选择代理
-- DOMAIN-SUFFIX,bbc.com,🚀 选择代理
-- DOMAIN-SUFFIX,bbci.co,🚀 选择代理
-- DOMAIN-SUFFIX,chocotv.com.tw,🚀 选择代理
-- DOMAIN-KEYWORD,epicgames,🚀 选择代理
-- DOMAIN-SUFFIX,helpshift.com,🚀 选择代理
-- DOMAIN-KEYWORD,foxplus,🚀 选择代理
-- DOMAIN-SUFFIX,config.fox.com,🚀 选择代理
-- DOMAIN-SUFFIX,emome.net,🚀 选择代理
-- DOMAIN-SUFFIX,fox.com,🚀 选择代理
-- DOMAIN-SUFFIX,foxdcg.com,🚀 选择代理
-- DOMAIN-SUFFIX,foxnow.com,🚀 选择代理
-- DOMAIN-SUFFIX,foxplay.com,🚀 选择代理
-- DOMAIN-SUFFIX,ipinfo.io,🚀 选择代理
-- DOMAIN-SUFFIX,mstage.io,🚀 选择代理
-- DOMAIN-SUFFIX,now.com,🚀 选择代理
-- DOMAIN-SUFFIX,theplatform.com,🚀 选择代理
-- DOMAIN-SUFFIX,urlload.net,🚀 选择代理
-- DOMAIN-SUFFIX,hbo.com,🚀 选择代理
-- DOMAIN-SUFFIX,hboasia.com,🚀 选择代理
-- DOMAIN-SUFFIX,hbogo.com,🚀 选择代理
-- DOMAIN-SUFFIX,hbogoasia.hk,🚀 选择代理
-- DOMAIN-SUFFIX,happyon.jp,🚀 选择代理
-- DOMAIN-SUFFIX,hulu.com,🚀 选择代理
-- DOMAIN-SUFFIX,huluim.com,🚀 选择代理
-- DOMAIN-SUFFIX,hulustream.com,🚀 选择代理
-- DOMAIN-SUFFIX,imkan.tv,🚀 选择代理
-- DOMAIN-SUFFIX,joox.com,🚀 选择代理
-- DOMAIN-KEYWORD,nowtv100,🚀 选择代理
-- DOMAIN-KEYWORD,rthklive,🚀 选择代理
-- DOMAIN-SUFFIX,mytvsuper.com,🚀 选择代理
-- DOMAIN-SUFFIX,tvb.com,🚀 选择代理
-- DOMAIN-SUFFIX,netflix.com,🚀 选择代理
-- DOMAIN-SUFFIX,netflix.net,🚀 选择代理
-- DOMAIN-SUFFIX,nflxext.com,🚀 选择代理
-- DOMAIN-SUFFIX,nflximg.com,🚀 选择代理
-- DOMAIN-SUFFIX,nflximg.net,🚀 选择代理
-- DOMAIN-SUFFIX,nflxso.net,🚀 选择代理
-- DOMAIN-SUFFIX,nflxvideo.net,🚀 选择代理
-- DOMAIN-SUFFIX,pandora.com,🚀 选择代理
-- DOMAIN-SUFFIX,sky.com,🚀 选择代理
-- DOMAIN-SUFFIX,skygo.co.nz,🚀 选择代理
-- DOMAIN-KEYWORD,spotify,🚀 选择代理
-- DOMAIN-SUFFIX,scdn.co,🚀 选择代理
-- DOMAIN-SUFFIX,spoti.fi,🚀 选择代理
-- DOMAIN-SUFFIX,viu.tv,🚀 选择代理
-- DOMAIN-SUFFIX,gvt2.com,🚀 选择代理
-- DOMAIN-KEYWORD,bilibili,DIRECT
-- DOMAIN-SUFFIX,acg.tv,DIRECT
-- DOMAIN-SUFFIX,acgvideo.com,DIRECT
-- DOMAIN-SUFFIX,b23.tv,DIRECT
-- DOMAIN-SUFFIX,biliapi.com,DIRECT
-- DOMAIN-SUFFIX,biliapi.net,DIRECT
-- DOMAIN-SUFFIX,biligame.com,DIRECT
-- DOMAIN-SUFFIX,biligame.net,DIRECT
-- DOMAIN-SUFFIX,hdslb.com,DIRECT
-- DOMAIN-SUFFIX,im9.com,DIRECT
-- DOMAIN-KEYWORD,qiyi,DIRECT
-- DOMAIN-SUFFIX,qy.net,DIRECT
-- DOMAIN-SUFFIX,api.mob.app.letv.com,DIRECT
-- DOMAIN-SUFFIX,microsoft.com,DIRECT
-- DOMAIN-SUFFIX,windows.com,DIRECT
-- DOMAIN-SUFFIX,windows.net,DIRECT
-- DOMAIN-SUFFIX,sfx.ms,DIRECT
-- DOMAIN-SUFFIX,sharepoint.com,DIRECT
-- DOMAIN-KEYWORD,officecdn,DIRECT
-- DOMAIN-SUFFIX,blizzard.com,DIRECT
-- DOMAIN-SUFFIX,battle.net,DIRECT
-- DOMAIN,blzddist1-a.akamaihd.net,DIRECT
-- DOMAIN-SUFFIX,steampowered.com,🚀 选择代理
-- DOMAIN-SUFFIX,steam-chat.com,🌐 突破锁区
-- DOMAIN-KEYWORD,steamcdn,🌐 突破锁区
-- DOMAIN-KEYWORD,steamstore,🌐 突破锁区
-- DOMAIN-KEYWORD,steamuserimages,🌐 突破锁区
-- DOMAIN-KEYWORD,steambroadcast,🌐 突破锁区
-- DOMAIN-SUFFIX,qq.com,DIRECT
-- DOMAIN-SUFFIX,tencent.com,DIRECT
-- DOMAIN-SUFFIX,alibaba.com,DIRECT
-- DOMAIN-SUFFIX,alicdn.com,DIRECT
-- DOMAIN-SUFFIX,amap.com,DIRECT
-- DOMAIN-SUFFIX,dingtalk.com,DIRECT
-- DOMAIN-SUFFIX,taobao.com,DIRECT
-- DOMAIN-SUFFIX,tmall.com,DIRECT
-- DOMAIN-SUFFIX,ykimg.com,DIRECT
-- DOMAIN-SUFFIX,youku.com,DIRECT
-- DOMAIN-SUFFIX,xiami.com,DIRECT
-- DOMAIN-SUFFIX,xiami.net,DIRECT
-- DOMAIN-SUFFIX,163.com,DIRECT
-- DOMAIN-SUFFIX,126.net,DIRECT
-- DOMAIN-SUFFIX,163yun.com,DIRECT
-- DOMAIN-SUFFIX,sohu.com,DIRECT
-- DOMAIN-SUFFIX,v-56.com,DIRECT
-- DOMAIN-SUFFIX,weibo.com,DIRECT
-- DOMAIN-SUFFIX,jd.com,DIRECT
-- DOMAIN-SUFFIX,jd.hk,DIRECT
-- DOMAIN-SUFFIX,360buyimg.com,DIRECT
-- DOMAIN-SUFFIX,duokan.com,DIRECT
-- DOMAIN-SUFFIX,mi-img.com,DIRECT
-- DOMAIN-SUFFIX,xiaomi.com,DIRECT
-- DOMAIN-SUFFIX,71.am.com,DIRECT
-- DOMAIN-SUFFIX,hitv.com,DIRECT
-- DOMAIN-SUFFIX,mgtv.com,DIRECT
-- DOMAIN-SUFFIX,meitu.com,DIRECT
-- DOMAIN-SUFFIX,meitudata.com,DIRECT
-- DOMAIN-SUFFIX,meipai.com,DIRECT
-- DOMAIN-SUFFIX,zmzapi.com,DIRECT
-- DOMAIN-SUFFIX,zimuzu.tv,DIRECT
-- DOMAIN-SUFFIX,zmzfile.com,DIRECT
-- DOMAIN-SUFFIX,zmzapi.net,DIRECT
-- DOMAIN-SUFFIX,baduziyuan.com,DIRECT
-- DOMAIN-SUFFIX,com-hs-hkdy.com,DIRECT
-- DOMAIN-SUFFIX,czybjz.com,DIRECT
-- DOMAIN-SUFFIX,dandanzan.com,DIRECT
-- DOMAIN-SUFFIX,fjhps.com,DIRECT
-- DOMAIN-SUFFIX,kuyunbo.club,DIRECT
-- DOMAIN-SUFFIX,baidu.com,DIRECT
-- DOMAIN-SUFFIX,baidubcr.com,DIRECT
-- DOMAIN-SUFFIX,bdstatic.com,DIRECT
-- DOMAIN-SUFFIX,21cn.com,DIRECT
-- DOMAIN-SUFFIX,pstatp.com,DIRECT
-- DOMAIN-SUFFIX,snssdk.com,DIRECT
-- DOMAIN-SUFFIX,toutiao.com,DIRECT
-- DOMAIN-SUFFIX,akadns.net,DIRECT
-- DOMAIN-SUFFIX,chinanetcenter.com,DIRECT
-- DOMAIN-SUFFIX,wangsu.com,DIRECT
-- DOMAIN-SUFFIX,ipip.net,DIRECT
-- DOMAIN-SUFFIX,ip.la,DIRECT
-- DOMAIN-SUFFIX,ip-cdn.com,DIRECT
-- DOMAIN-SUFFIX,ipv6-test.com,DIRECT
-- DOMAIN-SUFFIX,test-ipv6.com,DIRECT
-- DOMAIN-SUFFIX,whatismyip.com,DIRECT
-- DOMAIN,ip.bjango.com,DIRECT
-- DOMAIN-SUFFIX,broadcasthe.net,DIRECT
-- DOMAIN-SUFFIX,cailianpress.com,DIRECT
-- DOMAIN-SUFFIX,chdbits.co,DIRECT
-- DOMAIN-SUFFIX,chushou.tv,DIRECT
-- DOMAIN-SUFFIX,cmbchina.com,DIRECT
-- DOMAIN-SUFFIX,cmbimg.com,DIRECT
-- DOMAIN-SUFFIX,cmct.tv,DIRECT
-- DOMAIN-SUFFIX,cnlang.org,DIRECT
-- DOMAIN-SUFFIX,doubanio.com,DIRECT
-- DOMAIN-SUFFIX,douyu.com,DIRECT
-- DOMAIN-SUFFIX,dxycdn.com,DIRECT
-- DOMAIN-SUFFIX,hicloud.com,DIRECT
-- DOMAIN-SUFFIX,hdchina.org,DIRECT
-- DOMAIN-SUFFIX,hdcmct.org,DIRECT
-- DOMAIN-SUFFIX,ithome.com,DIRECT
-- DOMAIN-SUFFIX,kkmh.com,DIRECT
-- DOMAIN-SUFFIX,ksosoft.com,DIRECT
-- DOMAIN-SUFFIX,maoyun.tv,DIRECT
-- DOMAIN-SUFFIX,meituan.net,DIRECT
-- DOMAIN-SUFFIX,mobike.com,DIRECT
-- DOMAIN-SUFFIX,mubu.com,DIRECT
-- DOMAIN-SUFFIX,myzaker.com,DIRECT
-- DOMAIN-SUFFIX,ourbits.club,DIRECT
-- DOMAIN-SUFFIX,passthepopcorn.me,DIRECT
-- DOMAIN-SUFFIX,paypal.com,DIRECT
-- DOMAIN-SUFFIX,paypalobjects.com,DIRECT
-- DOMAIN-SUFFIX,privatehd.to,DIRECT
-- DOMAIN-SUFFIX,redacted.ch,DIRECT
-- DOMAIN-SUFFIX,ruguoapp.com,DIRECT
-- DOMAIN-SUFFIX,smzdm.com,DIRECT
-- DOMAIN-SUFFIX,sogou.com,DIRECT
-- DOMAIN-SUFFIX,teamviewer.com,DIRECT
-- DOMAIN-SUFFIX,totheglory.im,DIRECT
-- DOMAIN-SUFFIX,tp.m-team.cc,DIRECT
-- DOMAIN-SUFFIX,udacity.com,DIRECT
-- DOMAIN-SUFFIX,xmcdn.com,DIRECT
-- DOMAIN-SUFFIX,yangkeduo.com,DIRECT
-- DOMAIN-SUFFIX,zhihu.com,DIRECT
-- DOMAIN-SUFFIX,zhimg.com,DIRECT
-- DOMAIN-SUFFIX,appspot.com,🚀 选择代理
-- DOMAIN-SUFFIX,blogger.com,🚀 选择代理
-- DOMAIN-SUFFIX,getoutline.org,🚀 选择代理
-- DOMAIN-SUFFIX,gvt0.com,🚀 选择代理
-- DOMAIN-SUFFIX,gvt3.com,🚀 选择代理
-- DOMAIN-SUFFIX,fb.com,🚀 选择代理
-- DOMAIN-SUFFIX,fbaddins.com,🚀 选择代理
-- DOMAIN-SUFFIX,fbsbx.com,🚀 选择代理
-- DOMAIN-SUFFIX,fbworkmail.com,🚀 选择代理
-- DOMAIN-SUFFIX,m.me,🚀 选择代理
-- DOMAIN-SUFFIX,messenger.com,🚀 选择代理
-- DOMAIN-SUFFIX,oculus.com,🚀 选择代理
-- DOMAIN-SUFFIX,oculuscdn.com,🚀 选择代理
-- DOMAIN-SUFFIX,rocksdb.org,🚀 选择代理
-- DOMAIN-SUFFIX,pscp.tv,🚀 选择代理
-- DOMAIN-SUFFIX,periscope.tv,🚀 选择代理
-- DOMAIN-SUFFIX,t.co,🚀 选择代理
-- DOMAIN-SUFFIX,twimg.co,🚀 选择代理
-- DOMAIN-SUFFIX,twitpic.com,🚀 选择代理
-- DOMAIN-SUFFIX,vine.co,🚀 选择代理
-- DOMAIN-SUFFIX,x.com,🚀 选择代理
-- DOMAIN-SUFFIX,t.me,🚀 选择代理
-- DOMAIN-SUFFIX,tdesktop.com,🚀 选择代理
-- DOMAIN-SUFFIX,telegra.ph,🚀 选择代理
-- DOMAIN-SUFFIX,line.me,🚀 选择代理
-- DOMAIN-SUFFIX,line-apps.com,🚀 选择代理
-- DOMAIN-SUFFIX,line-scdn.net,🚀 选择代理
-- DOMAIN-SUFFIX,naver.jp,🚀 选择代理
-- DOMAIN-KEYWORD,github,🚀 选择代理
-- DOMAIN-KEYWORD,pinterest,🚀 选择代理
-- DOMAIN-KEYWORD,porn,⛔ 广告拦截
-- DOMAIN-KEYWORD,wikileaks,🚀 选择代理
-- DOMAIN-SUFFIX,4shared.com,🚀 选择代理
-- DOMAIN-SUFFIX,881903.com,🚀 选择代理
-- DOMAIN-SUFFIX,abc.net.au,🚀 选择代理
-- DOMAIN-SUFFIX,abebooks.com,🚀 选择代理
-- DOMAIN-SUFFIX,apigee.com,🚀 选择代理
-- DOMAIN-SUFFIX,apk-dl.com,🚀 选择代理
-- DOMAIN-SUFFIX,apkmirror.com,🚀 选择代理
-- DOMAIN-SUFFIX,apkmonk.com,🚀 选择代理
-- DOMAIN-SUFFIX,apkpure.com,🚀 选择代理
-- DOMAIN-SUFFIX,aptoide.com,🚀 选择代理
-- DOMAIN-SUFFIX,archive.is,🚀 选择代理
-- DOMAIN-SUFFIX,archive.org,🚀 选择代理
-- DOMAIN-SUFFIX,arte.tv,🚀 选择代理
-- DOMAIN-SUFFIX,ask.com,🚀 选择代理
-- DOMAIN-SUFFIX,avgle.com,🚀 选择代理
-- DOMAIN-SUFFIX,badoo.com,🚀 选择代理
-- DOMAIN-SUFFIX,bandwagonhost.com,🚀 选择代理
-- DOMAIN-SUFFIX,behance.net,🚀 选择代理
-- DOMAIN-SUFFIX,bibox.com,🚀 选择代理
-- DOMAIN-SUFFIX,biggo.com.tw,🚀 选择代理
-- DOMAIN-SUFFIX,binance.com,🚀 选择代理
-- DOMAIN-SUFFIX,bitcointalk.org,🚀 选择代理
-- DOMAIN-SUFFIX,bitfinex.com,🚀 选择代理
-- DOMAIN-SUFFIX,bitmex.com,🚀 选择代理
-- DOMAIN-SUFFIX,bit-z.com,🚀 选择代理
-- DOMAIN-SUFFIX,bloglovin.com,🚀 选择代理
-- DOMAIN-SUFFIX,bloomberg.com,🚀 选择代理
-- DOMAIN-SUFFIX,book.com.tw,🚀 选择代理
-- DOMAIN-SUFFIX,booklive.jp,🚀 选择代理
-- DOMAIN-SUFFIX,books.com.tw,🚀 选择代理
-- DOMAIN-SUFFIX,box.com,🚀 选择代理
-- DOMAIN-SUFFIX,brookings.edu,🚀 选择代理
-- DOMAIN-SUFFIX,businessinsider.com,🚀 选择代理
-- DOMAIN-SUFFIX,bwh1.net,🚀 选择代理
-- DOMAIN-SUFFIX,castbox.fm,🚀 选择代理
-- DOMAIN-SUFFIX,cbc.ca,🚀 选择代理
-- DOMAIN-SUFFIX,cdw.com,🚀 选择代理
-- DOMAIN-SUFFIX,change.org,🚀 选择代理
-- DOMAIN-SUFFIX,ck101.com,🚀 选择代理
-- DOMAIN-SUFFIX,clarionproject.org,🚀 选择代理
-- DOMAIN-SUFFIX,clyp.it,🚀 选择代理
-- DOMAIN-SUFFIX,cna.com.tw,🚀 选择代理
-- DOMAIN-SUFFIX,comparitech.com,🚀 选择代理
-- DOMAIN-SUFFIX,conoha.jp,🚀 选择代理
-- DOMAIN-SUFFIX,crucial.com,🚀 选择代理
-- DOMAIN-SUFFIX,cts.com.tw,🚀 选择代理
-- DOMAIN-SUFFIX,cw.com.tw,🚀 选择代理
-- DOMAIN-SUFFIX,cyberctm.com,🚀 选择代理
-- DOMAIN-SUFFIX,dailymotion.com,🚀 选择代理
-- DOMAIN-SUFFIX,dailyview.tw,🚀 选择代理
-- DOMAIN-SUFFIX,daum.net,🚀 选择代理
-- DOMAIN-SUFFIX,daumcdn.net,🚀 选择代理
-- DOMAIN-SUFFIX,dcard.tw,🚀 选择代理
-- DOMAIN-SUFFIX,deepdiscount.com,🚀 选择代理
-- DOMAIN-SUFFIX,deezer.com,🚀 选择代理
-- DOMAIN-SUFFIX,depositphotos.com,🚀 选择代理
-- DOMAIN-SUFFIX,disconnect.me,🚀 选择代理
-- DOMAIN-SUFFIX,disqus.com,🚀 选择代理
-- DOMAIN-SUFFIX,dns2go.com,🚀 选择代理
-- DOMAIN-SUFFIX,duckduckgo.com,🚀 选择代理
-- DOMAIN-SUFFIX,dw.com,🚀 选择代理
-- DOMAIN-SUFFIX,dynu.com,🚀 选择代理
-- DOMAIN-SUFFIX,earthcam.com,🚀 选择代理
-- DOMAIN-SUFFIX,ebookservice.tw,🚀 选择代理
-- DOMAIN-SUFFIX,economist.com,🚀 选择代理
-- DOMAIN-SUFFIX,edgecastcdn.net,🚀 选择代理
-- DOMAIN-SUFFIX,edu,🚀 选择代理
-- DOMAIN-SUFFIX,elpais.com,🚀 选择代理
-- DOMAIN-SUFFIX,enanyang.my,🚀 选择代理
-- DOMAIN-SUFFIX,euronews.com,🚀 选择代理
-- DOMAIN-SUFFIX,feedly.com,🚀 选择代理
-- DOMAIN-SUFFIX,files.wordpress.com,🚀 选择代理
-- DOMAIN-SUFFIX,flickr.com,🚀 选择代理
-- DOMAIN-SUFFIX,flitto.com,🚀 选择代理
-- DOMAIN-SUFFIX,foreignpolicy.com,🚀 选择代理
-- DOMAIN-SUFFIX,friday.tw,🚀 选择代理
-- DOMAIN-SUFFIX,gate.io,🚀 选择代理
-- DOMAIN-SUFFIX,getlantern.org,🚀 选择代理
-- DOMAIN-SUFFIX,getsync.com,🚀 选择代理
-- DOMAIN-SUFFIX,globalvoices.org,🚀 选择代理
-- DOMAIN-SUFFIX,goo.ne.jp,🚀 选择代理
-- DOMAIN-SUFFIX,goodreads.com,🚀 选择代理
-- DOMAIN-SUFFIX,gov.tw,🚀 选择代理
-- DOMAIN-SUFFIX,gumroad.com,🚀 选择代理
-- DOMAIN-SUFFIX,hbg.com,🚀 选择代理
-- DOMAIN-SUFFIX,hightail.com,🚀 选择代理
-- DOMAIN-SUFFIX,hk01.com,🚀 选择代理
-- DOMAIN-SUFFIX,hkbf.org,🚀 选择代理
-- DOMAIN-SUFFIX,hkbookcity.com,🚀 选择代理
-- DOMAIN-SUFFIX,hkej.com,🚀 选择代理
-- DOMAIN-SUFFIX,hket.com,🚀 选择代理
-- DOMAIN-SUFFIX,hkgolden.com,🚀 选择代理
-- DOMAIN-SUFFIX,hootsuite.com,🚀 选择代理
-- DOMAIN-SUFFIX,hudson.org,🚀 选择代理
-- DOMAIN-SUFFIX,huobi.pro,🚀 选择代理
-- DOMAIN-SUFFIX,initiummall.com,🚀 选择代理
-- DOMAIN-SUFFIX,ipfs.io,🚀 选择代理
-- DOMAIN-SUFFIX,issuu.com,🚀 选择代理
-- DOMAIN-SUFFIX,japantimes.co.jp,🚀 选择代理
-- DOMAIN-SUFFIX,jiji.com,🚀 选择代理
-- DOMAIN-SUFFIX,jinx.com,🚀 选择代理
-- DOMAIN-SUFFIX,jkforum.net,🚀 选择代理
-- DOMAIN-SUFFIX,joinmastodon.org,🚀 选择代理
-- DOMAIN-SUFFIX,kakao.com,🚀 选择代理
-- DOMAIN-SUFFIX,lihkg.com,🚀 选择代理
-- DOMAIN-SUFFIX,mail.ru,🚀 选择代理
-- DOMAIN-SUFFIX,matters.news,🚀 选择代理
-- DOMAIN-SUFFIX,medium.com,🚀 选择代理
-- DOMAIN-SUFFIX,mega.nz,🚀 选择代理
-- DOMAIN-SUFFIX,mil,🚀 选择代理
-- DOMAIN-SUFFIX,mobile01.com,🚀 选择代理
-- DOMAIN-SUFFIX,naver.com,🚀 选择代理
-- DOMAIN-SUFFIX,nikkei.com,🚀 选择代理
-- DOMAIN-SUFFIX,nofile.io,🚀 选择代理
-- DOMAIN-SUFFIX,nyt.com,🚀 选择代理
-- DOMAIN-SUFFIX,nytchina.com,🚀 选择代理
-- DOMAIN-SUFFIX,nytcn.me,🚀 选择代理
-- DOMAIN-SUFFIX,nytco.com,🚀 选择代理
-- DOMAIN-SUFFIX,nytimes.com,🚀 选择代理
-- DOMAIN-SUFFIX,nytimg.com,🚀 选择代理
-- DOMAIN-SUFFIX,nytlog.com,🚀 选择代理
-- DOMAIN-SUFFIX,nytstyle.com,🚀 选择代理
-- DOMAIN-SUFFIX,ok.ru,🚀 选择代理
-- DOMAIN-SUFFIX,okex.com,🚀 选择代理
-- DOMAIN-SUFFIX,pcloud.com,🚀 选择代理
-- DOMAIN-SUFFIX,pinimg.com,🚀 选择代理
-- DOMAIN-SUFFIX,pixiv.net,🚀 选择代理
-- DOMAIN-SUFFIX,pureapk.com,🚀 选择代理
-- DOMAIN-SUFFIX,quora.com,🚀 选择代理
-- DOMAIN-SUFFIX,quoracdn.net,🚀 选择代理
-- DOMAIN-SUFFIX,rakuten.co.jp,🚀 选择代理
-- DOMAIN-SUFFIX,reddit.com,🚀 选择代理
-- DOMAIN-SUFFIX,redditmedia.com,🚀 选择代理
-- DOMAIN-SUFFIX,resilio.com,🚀 选择代理
-- DOMAIN-SUFFIX,reuters.com,🚀 选择代理
-- DOMAIN-SUFFIX,scmp.com,🚀 选择代理
-- DOMAIN-SUFFIX,scribd.com,🚀 选择代理
-- DOMAIN-SUFFIX,seatguru.com,🚀 选择代理
-- DOMAIN-SUFFIX,slideshare.net,🚀 选择代理
-- DOMAIN-SUFFIX,soundcloud.com,🚀 选择代理
-- DOMAIN-SUFFIX,startpage.com,🚀 选择代理
-- DOMAIN-SUFFIX,steamcommunity.com,🚀 选择代理
-- DOMAIN-SUFFIX,steemit.com,🚀 选择代理
-- DOMAIN-SUFFIX,t66y.com,🚀 选择代理
-- DOMAIN-SUFFIX,teco-hk.org,🚀 选择代理
-- DOMAIN-SUFFIX,teco-mo.org,🚀 选择代理
-- DOMAIN-SUFFIX,teddysun.com,🚀 选择代理
-- DOMAIN-SUFFIX,theinitium.com,🚀 选择代理
-- DOMAIN-SUFFIX,tineye.com,🚀 选择代理
-- DOMAIN-SUFFIX,torproject.org,🚀 选择代理
-- DOMAIN-SUFFIX,tumblr.com,🚀 选择代理
-- DOMAIN-SUFFIX,turbobit.net,🚀 选择代理
-- DOMAIN-SUFFIX,twitch.tv,🚀 选择代理
-- DOMAIN-SUFFIX,udn.com,🚀 选择代理
-- DOMAIN-SUFFIX,unseen.is,🚀 选择代理
-- DOMAIN-SUFFIX,upmedia.mg,🚀 选择代理
-- DOMAIN-SUFFIX,uptodown.com,🚀 选择代理
-- DOMAIN-SUFFIX,ustream.tv,🚀 选择代理
-- DOMAIN-SUFFIX,uwants.com,🚀 选择代理
-- DOMAIN-SUFFIX,viber.com,🚀 选择代理
-- DOMAIN-SUFFIX,videopress.com,🚀 选择代理
-- DOMAIN-SUFFIX,vimeo.com,🚀 选择代理
-- DOMAIN-SUFFIX,voxer.com,🚀 选择代理
-- DOMAIN-SUFFIX,vzw.com,🚀 选择代理
-- DOMAIN-SUFFIX,wattpad.com,🚀 选择代理
-- DOMAIN-SUFFIX,whoer.net,🚀 选择代理
-- DOMAIN-SUFFIX,wikimapia.org,🚀 选择代理
-- DOMAIN-SUFFIX,wire.com,🚀 选择代理
-- DOMAIN-SUFFIX,worldcat.org,🚀 选择代理
-- DOMAIN-SUFFIX,wsj.com,🚀 选择代理
-- DOMAIN-SUFFIX,wsj.net,🚀 选择代理
-- DOMAIN-SUFFIX,xvideos.com,🚀 选择代理
-- DOMAIN-SUFFIX,yahoo.com,🚀 选择代理
-- DOMAIN-SUFFIX,yesasia.com,🚀 选择代理
-- DOMAIN-SUFFIX,yes-news.com,🚀 选择代理
-- DOMAIN-SUFFIX,yomiuri.co.jp,🚀 选择代理
-- DOMAIN-SUFFIX,you-get.org,🚀 选择代理
-- DOMAIN-SUFFIX,zb.com,🚀 选择代理
-- DOMAIN-SUFFIX,zello.com,🚀 选择代理
-- DOMAIN-SUFFIX,zeronet.io,🚀 选择代理
-- DOMAIN,cdn-images.mailchimp.com,🚀 选择代理
-- DOMAIN,id.heroku.com,🚀 选择代理
-- DOMAIN-SUFFIX,apartmentratings.com,🌐 突破锁区
-- DOMAIN-SUFFIX,apartments.com,🌐 突破锁区
-- DOMAIN-SUFFIX,bankmobilevibe.com,🌐 突破锁区
-- DOMAIN-SUFFIX,booktopia.com.au,🌐 突破锁区
-- DOMAIN-SUFFIX,centauro.com.br,🌐 突破锁区
-- DOMAIN-SUFFIX,clearsurance.com,🌐 突破锁区
-- DOMAIN-SUFFIX,costco.com,🌐 突破锁区
-- DOMAIN-SUFFIX,crackle.com,🌐 突破锁区
-- DOMAIN-SUFFIX,dish.com,🌐 突破锁区
-- DOMAIN-SUFFIX,dmm.co.jp,🌐 突破锁区
-- DOMAIN-SUFFIX,dmm.com,🌐 突破锁区
-- DOMAIN-SUFFIX,dnvod.tv,🌐 突破锁区
-- DOMAIN-SUFFIX,esurance.com,🌐 突破锁区
-- DOMAIN-SUFFIX,extmatrix.com,🌐 突破锁区
-- DOMAIN-SUFFIX,fastpic.ru,🌐 突破锁区
-- DOMAIN-SUFFIX,flipboard.com,🌐 突破锁区
-- DOMAIN-SUFFIX,fnac.be,🌐 突破锁区
-- DOMAIN-SUFFIX,fnac.com,🌐 突破锁区
-- DOMAIN-SUFFIX,funkyimg.com,🌐 突破锁区
-- DOMAIN-SUFFIX,fxnetworks.com,🌐 突破锁区
-- DOMAIN-SUFFIX,gettyimages.com,🌐 突破锁区
-- DOMAIN-SUFFIX,jcpenney.com,🌐 突破锁区
-- DOMAIN-SUFFIX,kknews.cc,🌐 突破锁区
-- DOMAIN-SUFFIX,nationwide.com,🌐 突破锁区
-- DOMAIN-SUFFIX,nbc.com,🌐 突破锁区
-- DOMAIN-SUFFIX,nordstrom.com,🌐 突破锁区
-- DOMAIN-SUFFIX,nordstromimage.com,🌐 突破锁区
-- DOMAIN-SUFFIX,nordstromrack.com,🌐 突破锁区
-- DOMAIN-SUFFIX,read01.com,🌐 突破锁区
-- DOMAIN-SUFFIX,superpages.com,🌐 突破锁区
-- DOMAIN-SUFFIX,target.com,🌐 突破锁区
-- DOMAIN-SUFFIX,thinkgeek.com,🌐 突破锁区
-- DOMAIN-SUFFIX,tracfone.com,🌐 突破锁区
-- DOMAIN-SUFFIX,uploader.jp,🌐 突破锁区
-- DOMAIN-SUFFIX,vevo.com,🌐 突破锁区
-- DOMAIN-SUFFIX,vk.com,🌐 突破锁区
-- DOMAIN-SUFFIX,vsco.co,🌐 突破锁区
-- DOMAIN-SUFFIX,xfinity.com,🌐 突破锁区
-- DOMAIN-SUFFIX,zattoo.com,🌐 突破锁区
-- DOMAIN,abc.com,🌐 突破锁区
-- DOMAIN,abc.net.au,🌐 突破锁区
-- DOMAIN,wego.here.com,🌐 突破锁区
-- DOMAIN-SUFFIX,appsto.re,🚀 选择代理
-- DOMAIN,api-glb-sea.smoot.apple.com,🚀 选择代理
-- DOMAIN,lookup-api.apple.com,🚀 选择代理
-- DOMAIN-SUFFIX,abc.xyz,🚀 选择代理
-- DOMAIN-SUFFIX,android.com,🚀 选择代理
-- DOMAIN-SUFFIX,androidify.com,🚀 选择代理
-- DOMAIN-SUFFIX,dialogflow.com,🚀 选择代理
-- DOMAIN-SUFFIX,autodraw.com,🚀 选择代理
-- DOMAIN-SUFFIX,capitalg.com,🚀 选择代理
-- DOMAIN-SUFFIX,certificate-transparency.org,🚀 选择代理
-- DOMAIN-SUFFIX,chrome.com,🚀 选择代理
-- DOMAIN-SUFFIX,chromeexperiments.com,🚀 选择代理
-- DOMAIN-SUFFIX,chromestatus.com,🚀 选择代理
-- DOMAIN-SUFFIX,chromium.org,🚀 选择代理
-- DOMAIN-SUFFIX,creativelab5.com,🚀 选择代理
-- DOMAIN-SUFFIX,debug.com,🚀 选择代理
-- DOMAIN-SUFFIX,deepmind.com,🚀 选择代理
-- DOMAIN-SUFFIX,firebaseio.com,🚀 选择代理
-- DOMAIN-SUFFIX,getmdl.io,🚀 选择代理
-- DOMAIN-SUFFIX,ggpht.com,🚀 选择代理
-- DOMAIN-SUFFIX,gmodules.com,🚀 选择代理
-- DOMAIN-SUFFIX,godoc.org,🚀 选择代理
-- DOMAIN-SUFFIX,golang.org,🚀 选择代理
-- DOMAIN-SUFFIX,gstatic.com,🚀 选择代理
-- DOMAIN-SUFFIX,gv.com,🚀 选择代理
-- DOMAIN-SUFFIX,gwtproject.org,🚀 选择代理
-- DOMAIN-SUFFIX,itasoftware.com,🚀 选择代理
-- DOMAIN-SUFFIX,madewithcode.com,🚀 选择代理
-- DOMAIN-SUFFIX,material.io,🚀 选择代理
-- DOMAIN-SUFFIX,polymer-project.org,🚀 选择代理
-- DOMAIN-SUFFIX,shattered.io,🚀 选择代理
-- DOMAIN-SUFFIX,synergyse.com,🚀 选择代理
-- DOMAIN-SUFFIX,tensorflow.org,🚀 选择代理
-- DOMAIN-SUFFIX,tiltbrush.com,🚀 选择代理
-- DOMAIN-SUFFIX,waveprotocol.org,🚀 选择代理
-- DOMAIN-SUFFIX,waymo.com,🚀 选择代理
-- DOMAIN-SUFFIX,webmproject.org,🚀 选择代理
-- DOMAIN-SUFFIX,webrtc.org,🚀 选择代理
-- DOMAIN-SUFFIX,whatbrowser.org,🚀 选择代理
-- DOMAIN-SUFFIX,widevine.com,🚀 选择代理
-- DOMAIN-SUFFIX,x.company,🚀 选择代理
-- DOMAIN-SUFFIX,yt.be,🚀 选择代理
-- DOMAIN-SUFFIX,ytimg.com,🚀 选择代理
-- DOMAIN-SUFFIX,0rz.tw,🚀 选择代理
-- DOMAIN-SUFFIX,4bluestones.biz,🚀 选择代理
-- DOMAIN-SUFFIX,9bis.net,🚀 选择代理
-- DOMAIN-SUFFIX,allconnected.co,🚀 选择代理
-- DOMAIN-SUFFIX,aol.com,🚀 选择代理
-- DOMAIN-SUFFIX,bcc.com.tw,🚀 选择代理
-- DOMAIN-SUFFIX,bit.ly,🚀 选择代理
-- DOMAIN-SUFFIX,bitshare.com,🚀 选择代理
-- DOMAIN-SUFFIX,blog.jp,🚀 选择代理
-- DOMAIN-SUFFIX,blogimg.jp,🚀 选择代理
-- DOMAIN-SUFFIX,blogtd.org,🚀 选择代理
-- DOMAIN-SUFFIX,broadcast.co.nz,🚀 选择代理
-- DOMAIN-SUFFIX,camfrog.com,🚀 选择代理
-- DOMAIN-SUFFIX,cfos.de,🚀 选择代理
-- DOMAIN-SUFFIX,citypopulation.de,🚀 选择代理
-- DOMAIN-SUFFIX,cloudfront.net,🚀 选择代理
-- DOMAIN-SUFFIX,ctitv.com.tw,🚀 选择代理
-- DOMAIN-SUFFIX,cuhk.edu.hk,🚀 选择代理
-- DOMAIN-SUFFIX,cusu.hk,🚀 选择代理
-- DOMAIN-SUFFIX,discuss.com.hk,🚀 选择代理
-- DOMAIN-SUFFIX,edditstatic.com,🚀 选择代理
-- DOMAIN-SUFFIX,flickriver.com,🚀 选择代理
-- DOMAIN-SUFFIX,focustaiwan.tw,🚀 选择代理
-- DOMAIN-SUFFIX,free.fr,🚀 选择代理
-- DOMAIN-SUFFIX,ftchinese.com,🚀 选择代理
-- DOMAIN-SUFFIX,gigacircle.com,🚀 选择代理
-- DOMAIN-SUFFIX,gov,🚀 选择代理
-- DOMAIN-SUFFIX,hk-pub.com,🚀 选择代理
-- DOMAIN-SUFFIX,hwcdn.net,🚀 选择代理
-- DOMAIN-SUFFIX,jtvnw.net,🚀 选择代理
-- DOMAIN-SUFFIX,linksalpha.com,🚀 选择代理
-- DOMAIN-SUFFIX,manyvids.com,🚀 选择代理
-- DOMAIN-SUFFIX,myactimes.com,🚀 选择代理
-- DOMAIN-SUFFIX,newsblur.com,🚀 选择代理
-- DOMAIN-SUFFIX,now.im,🚀 选择代理
-- DOMAIN-SUFFIX,redditlist.com,🚀 选择代理
-- DOMAIN-SUFFIX,signal.org,🚀 选择代理
-- DOMAIN-SUFFIX,sparknotes.com,🚀 选择代理
-- DOMAIN-SUFFIX,streetvoice.com,🚀 选择代理
-- DOMAIN-SUFFIX,ttvnw.net,🚀 选择代理
-- DOMAIN-SUFFIX,tv.com,🚀 选择代理
-- DOMAIN-SUFFIX,twitchcdn.net,🚀 选择代理
-- DOMAIN-SUFFIX,typepad.com,🚀 选择代理
-- DOMAIN-SUFFIX,udnbkk.com,🚀 选择代理
-- DOMAIN-SUFFIX,whispersystems.org,🚀 选择代理
-- DOMAIN-SUFFIX,wikia.com,🚀 选择代理
-- DOMAIN-SUFFIX,wn.com,🚀 选择代理
-- DOMAIN-SUFFIX,wolframalpha.com,🚀 选择代理
-- DOMAIN-SUFFIX,x-art.com,🚀 选择代理
-- DOMAIN-SUFFIX,yimg.com,🚀 选择代理
-- DOMAIN-KEYWORD,dlercloud,🚀 选择代理
-- DOMAIN-SUFFIX,dler.cloud,🚀 选择代理
-- IP-CIDR,101.227.0.0/16,DIRECT
-- IP-CIDR,101.224.0.0/13,DIRECT
-- IP-CIDR,119.176.0.0/12,DIRECT
-- IP-CIDR,106.11.0.0/16,DIRECT
-- IP-CIDR,67.198.55.0/24,🚀 选择代理
-- IP-CIDR,91.108.4.0/22,🚀 选择代理
-- IP-CIDR,91.108.8.0/22,🚀 选择代理
-- IP-CIDR,91.108.12.0/22,🚀 选择代理
-- DOMAIN,developer.apple.com,🌐 突破锁区
-- DOMAIN-SUFFIX,apps.apple.com,🌐 突破锁区
-- DOMAIN,testflight.apple.com,🌐 突破锁区
-- DOMAIN,sandbox.itunes.apple.com,🌐 突破锁区
-- DOMAIN,itunes.apple.com,🌐 突破锁区
-- DOMAIN-SUFFIX,blobstore.apple.com,🌐 突破锁区
-- DOMAIN,cvws.icloud-content.com,🌐 突破锁区
-- DOMAIN-SUFFIX,music.apple.com,DIRECT
-- DOMAIN-SUFFIX,mzstatic.com,DIRECT
-- DOMAIN-SUFFIX,itunes.apple.com,DIRECT
-- DOMAIN-SUFFIX,icloud.com,DIRECT
-- DOMAIN-SUFFIX,icloud-content.com,DIRECT
-- DOMAIN-SUFFIX,aaplimg.com,DIRECT
-- DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-- DOMAIN-SUFFIX,apple.com,DIRECT
-- DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
-- DOMAIN-SUFFIX,126.com,DIRECT
-- DOMAIN-SUFFIX,127.net,DIRECT
-- DOMAIN-SUFFIX,36kr.com,DIRECT
-- DOMAIN-SUFFIX,acfun.tv,DIRECT
-- DOMAIN-SUFFIX,air-matters.com,DIRECT
-- DOMAIN-SUFFIX,aixifan.com,DIRECT
-- DOMAIN-KEYWORD,alicdn,DIRECT
-- DOMAIN-KEYWORD,alipay,DIRECT
-- DOMAIN-KEYWORD,taobao,DIRECT
-- DOMAIN-SUFFIX,autonavi.com,DIRECT
-- DOMAIN-KEYWORD,baidu,DIRECT
-- DOMAIN-SUFFIX,bdimg.com,DIRECT
-- DOMAIN-SUFFIX,bilivideo.com,DIRECT
-- DOMAIN-SUFFIX,caiyunapp.com,DIRECT
-- DOMAIN-SUFFIX,clouddn.com,DIRECT
-- DOMAIN-SUFFIX,cnbeta.com,DIRECT
-- DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
-- DOMAIN-SUFFIX,cootekservice.com,DIRECT
-- DOMAIN-SUFFIX,csdn.net,DIRECT
-- DOMAIN-SUFFIX,ctrip.com,DIRECT
-- DOMAIN-SUFFIX,dgtle.com,DIRECT
-- DOMAIN-SUFFIX,dianping.com,DIRECT
-- DOMAIN-SUFFIX,douban.com,DIRECT
-- DOMAIN-SUFFIX,easou.com,DIRECT
-- DOMAIN-SUFFIX,ele.me,DIRECT
-- DOMAIN-SUFFIX,feng.com,DIRECT
-- DOMAIN-SUFFIX,fir.im,DIRECT
-- DOMAIN-SUFFIX,frdic.com,DIRECT
-- DOMAIN-SUFFIX,g-cores.com,DIRECT
-- DOMAIN-SUFFIX,godic.net,DIRECT
-- DOMAIN-SUFFIX,gtimg.com,DIRECT
-- DOMAIN,cdn.hockeyapp.net,DIRECT
-- DOMAIN-SUFFIX,hongxiu.com,DIRECT
-- DOMAIN-SUFFIX,hxcdn.net,DIRECT
-- DOMAIN-SUFFIX,iciba.com,DIRECT
-- DOMAIN-SUFFIX,ifeng.com,DIRECT
-- DOMAIN-SUFFIX,ifengimg.com,DIRECT
-- DOMAIN-SUFFIX,jianshu.com,DIRECT
-- DOMAIN-SUFFIX,knewone.com,DIRECT
-- DOMAIN-SUFFIX,le.com,DIRECT
-- DOMAIN-SUFFIX,lecloud.com,DIRECT
-- DOMAIN-SUFFIX,lemicp.com,DIRECT
-- DOMAIN-SUFFIX,licdn.com,DIRECT
-- DOMAIN-SUFFIX,linkedin.com,DIRECT
-- DOMAIN-SUFFIX,luoo.net,DIRECT
-- DOMAIN-SUFFIX,meituan.com,DIRECT
-- DOMAIN-SUFFIX,mi.com,DIRECT
-- DOMAIN-SUFFIX,miaopai.com,DIRECT
-- DOMAIN-SUFFIX,microsoftonline.com,DIRECT
-- DOMAIN-SUFFIX,miui.com,DIRECT
-- DOMAIN-SUFFIX,miwifi.com,DIRECT
-- DOMAIN-SUFFIX,mob.com,DIRECT
-- DOMAIN-SUFFIX,netease.com,DIRECT
-- DOMAIN-SUFFIX,office.com,DIRECT
-- DOMAIN-SUFFIX,office365.com,DIRECT
-- DOMAIN-SUFFIX,oschina.net,DIRECT
-- DOMAIN-SUFFIX,ppsimg.com,DIRECT
-- DOMAIN-SUFFIX,qcloud.com,DIRECT
-- DOMAIN-SUFFIX,qdaily.com,DIRECT
-- DOMAIN-SUFFIX,qdmm.com,DIRECT
-- DOMAIN-SUFFIX,qhimg.com,DIRECT
-- DOMAIN-SUFFIX,qhres.com,DIRECT
-- DOMAIN-SUFFIX,qidian.com,DIRECT
-- DOMAIN-SUFFIX,qihucdn.com,DIRECT
-- DOMAIN-SUFFIX,qiniu.com,DIRECT
-- DOMAIN-SUFFIX,qiniucdn.com,DIRECT
-- DOMAIN-SUFFIX,qqurl.com,DIRECT
-- DOMAIN-SUFFIX,rarbg.to,DIRECT
-- DOMAIN-SUFFIX,segmentfault.com,DIRECT
-- DOMAIN-SUFFIX,sinaapp.com,DIRECT
-- DOMAIN-SUFFIX,snapdrop.net,DIRECT
-- DOMAIN-SUFFIX,sogoucdn.com,DIRECT
-- DOMAIN-SUFFIX,soku.com,DIRECT
-- DOMAIN-SUFFIX,sspai.com,DIRECT
-- DOMAIN-SUFFIX,suning.com,DIRECT
-- DOMAIN-SUFFIX,tenpay.com,DIRECT
-- DOMAIN-SUFFIX,tianyancha.com,DIRECT
-- DOMAIN-SUFFIX,tudou.com,DIRECT
-- DOMAIN-SUFFIX,umetrip.com,DIRECT
-- DOMAIN-SUFFIX,upaiyun.com,DIRECT
-- DOMAIN-SUFFIX,upyun.com,DIRECT
-- DOMAIN-SUFFIX,veryzhun.com,DIRECT
-- DOMAIN-SUFFIX,weather.com,DIRECT
-- DOMAIN-SUFFIX,xiaomicp.com,DIRECT
-- DOMAIN-SUFFIX,ximalaya.com,DIRECT
-- DOMAIN-SUFFIX,xunlei.com,DIRECT
-- DOMAIN-SUFFIX,yhd.com,DIRECT
-- DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
-- DOMAIN-SUFFIX,yinxiang.com,DIRECT
-- DOMAIN-SUFFIX,youdao.com,DIRECT
-- DOMAIN-SUFFIX,zealer.com,DIRECT
-- DOMAIN-SUFFIX,zoho.com,DIRECT
-- DOMAIN-SUFFIX,9to5mac.com,🚀 选择代理
-- DOMAIN-SUFFIX,adblockplus.org,🚀 选择代理
-- DOMAIN-SUFFIX,adobe.com,🚀 选择代理
-- DOMAIN-SUFFIX,alfredapp.com,🚀 选择代理
-- DOMAIN-SUFFIX,amplitude.com,🚀 选择代理
-- DOMAIN-SUFFIX,ampproject.org,🚀 选择代理
-- DOMAIN-SUFFIX,angularjs.org,🚀 选择代理
-- DOMAIN-SUFFIX,aolcdn.com,🚀 选择代理
-- DOMAIN-SUFFIX,appledaily.com,🚀 选择代理
-- DOMAIN-SUFFIX,appshopper.com,🚀 选择代理
-- DOMAIN-SUFFIX,arcgis.com,🚀 选择代理
-- DOMAIN-SUFFIX,armorgames.com,🚀 选择代理
-- DOMAIN-SUFFIX,aspnetcdn.com,🚀 选择代理
-- DOMAIN-SUFFIX,att.com,🚀 选择代理
-- DOMAIN-SUFFIX,awsstatic.com,🚀 选择代理
-- DOMAIN-SUFFIX,azureedge.net,🚀 选择代理
-- DOMAIN-SUFFIX,azurewebsites.net,🚀 选择代理
-- DOMAIN-SUFFIX,bintray.com,🚀 选择代理
-- DOMAIN-SUFFIX,bit.com,🚀 选择代理
-- DOMAIN-SUFFIX,bitbucket.org,🚀 选择代理
-- DOMAIN-SUFFIX,bjango.com,🚀 选择代理
-- DOMAIN-SUFFIX,bkrtx.com,🚀 选择代理
-- DOMAIN-SUFFIX,blog.com,🚀 选择代理
-- DOMAIN-SUFFIX,blogcdn.com,🚀 选择代理
-- DOMAIN-SUFFIX,blogsmithmedia.com,🚀 选择代理
-- DOMAIN-SUFFIX,box.net,🚀 选择代理
-- DOMAIN-SUFFIX,cachefly.net,🚀 选择代理
-- DOMAIN-SUFFIX,cl.ly,🚀 选择代理
-- DOMAIN-SUFFIX,cloudflare.com,🚀 选择代理
-- DOMAIN-SUFFIX,cloudmagic.com,🚀 选择代理
-- DOMAIN-SUFFIX,cmail19.com,🚀 选择代理
-- DOMAIN-SUFFIX,cnet.com,🚀 选择代理
-- DOMAIN-SUFFIX,cocoapods.org,🚀 选择代理
-- DOMAIN-SUFFIX,comodoca.com,🚀 选择代理
-- DOMAIN-SUFFIX,crashlytics.com,🚀 选择代理
-- DOMAIN-SUFFIX,culturedcode.com,🚀 选择代理
-- DOMAIN-SUFFIX,d.pr,🚀 选择代理
-- DOMAIN-SUFFIX,danilo.to,🚀 选择代理
-- DOMAIN-SUFFIX,dayone.me,🚀 选择代理
-- DOMAIN-SUFFIX,db.tt,🚀 选择代理
-- DOMAIN-SUFFIX,deskconnect.com,🚀 选择代理
-- DOMAIN-SUFFIX,disq.us,🚀 选择代理
-- DOMAIN-SUFFIX,disquscdn.com,🚀 选择代理
-- DOMAIN-SUFFIX,dnsimple.com,🚀 选择代理
-- DOMAIN-SUFFIX,docker.com,🚀 选择代理
-- DOMAIN-SUFFIX,dribbble.com,🚀 选择代理
-- DOMAIN-SUFFIX,droplr.com,🚀 选择代理
-- DOMAIN-SUFFIX,dueapp.com,🚀 选择代理
-- DOMAIN-SUFFIX,dytt8.net,🚀 选择代理
-- DOMAIN-SUFFIX,edgekey.net,🚀 选择代理
-- DOMAIN-SUFFIX,edgesuite.net,🚀 选择代理
-- DOMAIN-SUFFIX,engadget.com,🚀 选择代理
-- DOMAIN-SUFFIX,entrust.net,🚀 选择代理
-- DOMAIN-SUFFIX,eurekavpt.com,🚀 选择代理
-- DOMAIN-SUFFIX,evernote.com,🚀 选择代理
-- DOMAIN-SUFFIX,fabric.io,🚀 选择代理
-- DOMAIN-SUFFIX,fast.com,🚀 选择代理
-- DOMAIN-SUFFIX,fastly.net,🚀 选择代理
-- DOMAIN-SUFFIX,fc2.com,🚀 选择代理
-- DOMAIN-SUFFIX,feedburner.com,🚀 选择代理
-- DOMAIN-SUFFIX,feedsportal.com,🚀 选择代理
-- DOMAIN-SUFFIX,fiftythree.com,🚀 选择代理
-- DOMAIN-SUFFIX,flexibits.com,🚀 选择代理
-- DOMAIN-SUFFIX,g.co,🚀 选择代理
-- DOMAIN-SUFFIX,gabia.net,🚀 选择代理
-- DOMAIN-SUFFIX,geni.us,🚀 选择代理
-- DOMAIN-SUFFIX,gfx.ms,🚀 选择代理
-- DOMAIN-SUFFIX,ghostnoteapp.com,🚀 选择代理
-- DOMAIN-SUFFIX,git.io,🚀 选择代理
-- DOMAIN-SUFFIX,globalsign.com,🚀 选择代理
-- DOMAIN-SUFFIX,godaddy.com,🚀 选择代理
-- DOMAIN-SUFFIX,gongm.in,🚀 选择代理
-- DOMAIN-SUFFIX,goo.gl,🚀 选择代理
-- DOMAIN-SUFFIX,goodreaders.com,🚀 选择代理
-- DOMAIN-SUFFIX,gravatar.com,🚀 选择代理
-- DOMAIN-SUFFIX,hockeyapp.net,🚀 选择代理
-- DOMAIN-SUFFIX,hotmail.com,🚀 选择代理
-- DOMAIN-SUFFIX,icons8.com,🚀 选择代理
-- DOMAIN-SUFFIX,ifixit.com,🚀 选择代理
-- DOMAIN-SUFFIX,ift.tt,🚀 选择代理
-- DOMAIN-SUFFIX,ifttt.com,🚀 选择代理
-- DOMAIN-SUFFIX,iherb.com,🚀 选择代理
-- DOMAIN-SUFFIX,imageshack.us,🚀 选择代理
-- DOMAIN-SUFFIX,img.ly,🚀 选择代理
-- DOMAIN-SUFFIX,imgur.com,🚀 选择代理
-- DOMAIN-SUFFIX,imore.com,🚀 选择代理
-- DOMAIN-SUFFIX,instapaper.com,🚀 选择代理
-- DOMAIN-SUFFIX,ipn.li,🚀 选择代理
-- DOMAIN-SUFFIX,is.gd,🚀 选择代理
-- DOMAIN-SUFFIX,itgonglun.com,🚀 选择代理
-- DOMAIN-SUFFIX,itun.es,🚀 选择代理
-- DOMAIN-SUFFIX,ixquick.com,🚀 选择代理
-- DOMAIN-SUFFIX,j.mp,🚀 选择代理
-- DOMAIN-SUFFIX,js.revsci.net,🚀 选择代理
-- DOMAIN-SUFFIX,jshint.com,🚀 选择代理
-- DOMAIN-SUFFIX,justgetflux.com,🚀 选择代理
-- DOMAIN-SUFFIX,kat.cr,🚀 选择代理
-- DOMAIN-SUFFIX,klip.me,🚀 选择代理
-- DOMAIN-SUFFIX,libsyn.com,🚀 选择代理
-- DOMAIN-SUFFIX,linode.com,🚀 选择代理
-- DOMAIN-SUFFIX,lithium.com,🚀 选择代理
-- DOMAIN-SUFFIX,littlehj.com,🚀 选择代理
-- DOMAIN-SUFFIX,live.net,🚀 选择代理
-- DOMAIN-SUFFIX,livefilestore.com,🚀 选择代理
-- DOMAIN-SUFFIX,macid.co,🚀 选择代理
-- DOMAIN-SUFFIX,macromedia.com,🚀 选择代理
-- DOMAIN-SUFFIX,macrumors.com,🚀 选择代理
-- DOMAIN-SUFFIX,mashable.com,🚀 选择代理
-- DOMAIN-SUFFIX,mathjax.org,🚀 选择代理
-- DOMAIN-SUFFIX,mega.co.nz,🚀 选择代理
-- DOMAIN-SUFFIX,megaupload.com,🚀 选择代理
-- DOMAIN-SUFFIX,mindnode.com,🚀 选择代理
-- DOMAIN-SUFFIX,modmyi.com,🚀 选择代理
-- DOMAIN-SUFFIX,myfontastic.com,🚀 选择代理
-- DOMAIN-SUFFIX,name.com,🚀 选择代理
-- DOMAIN-SUFFIX,nextmedia.com,🚀 选择代理
-- DOMAIN-SUFFIX,nsstatic.net,🚀 选择代理
-- DOMAIN-SUFFIX,nssurge.com,🚀 选择代理
-- DOMAIN-SUFFIX,omnigroup.com,🚀 选择代理
-- DOMAIN-SUFFIX,ooyala.com,🚀 选择代理
-- DOMAIN-SUFFIX,openvpn.net,🚀 选择代理
-- DOMAIN-SUFFIX,orkut.com,🚀 选择代理
-- DOMAIN-SUFFIX,osxdaily.com,🚀 选择代理
-- DOMAIN-SUFFIX,ow.ly,🚀 选择代理
-- DOMAIN-SUFFIX,paddleapi.com,🚀 选择代理
-- DOMAIN-SUFFIX,parallels.com,🚀 选择代理
-- DOMAIN-SUFFIX,parse.com,🚀 选择代理
-- DOMAIN-SUFFIX,pdfexpert.com,🚀 选择代理
-- DOMAIN-SUFFIX,pinboard.in,🚀 选择代理
-- DOMAIN-SUFFIX,pixelmator.com,🚀 选择代理
-- DOMAIN-SUFFIX,playpcesor.com,🚀 选择代理
-- DOMAIN-KEYWORD,playstation,🚀 选择代理
-- DOMAIN-SUFFIX,pushwoosh.com,🚀 选择代理
-- DOMAIN-SUFFIX,rime.im,🚀 选择代理
-- DOMAIN-SUFFIX,servebom.com,🚀 选择代理
-- DOMAIN-SUFFIX,sharethis.com,🚀 选择代理
-- DOMAIN-SUFFIX,shazam.com,🚀 选择代理
-- DOMAIN-SUFFIX,skype.com,🌐 突破锁区
-- DOMAIN-SUFFIX,smartmailcloud.com,🚀 选择代理
-- DOMAIN-SUFFIX,sndcdn.com,🚀 选择代理
-- DOMAIN-SUFFIX,sourceforge.net,🚀 选择代理
-- DOMAIN-SUFFIX,squarespace.com,🚀 选择代理
-- DOMAIN-SUFFIX,sstatic.net,🚀 选择代理
-- DOMAIN-SUFFIX,st.luluku.pw,🚀 选择代理
-- DOMAIN-SUFFIX,stackoverflow.com,🚀 选择代理
-- DOMAIN-SUFFIX,staticflickr.com,🚀 选择代理
-- DOMAIN-SUFFIX,symauth.com,🚀 选择代理
-- DOMAIN-SUFFIX,symcb.com,🚀 选择代理
-- DOMAIN-SUFFIX,symcd.com,🚀 选择代理
-- DOMAIN-SUFFIX,tapbots.com,🚀 选择代理
-- DOMAIN-SUFFIX,tapbots.net,🚀 选择代理
-- DOMAIN-SUFFIX,techcrunch.com,🚀 选择代理
-- DOMAIN-SUFFIX,techsmith.com,🚀 选择代理
-- DOMAIN-SUFFIX,thepiratebay.org,🚀 选择代理
-- DOMAIN-SUFFIX,theverge.com,🚀 选择代理
-- DOMAIN-SUFFIX,time.com,🚀 选择代理
-- DOMAIN-SUFFIX,timeinc.net,🚀 选择代理
-- DOMAIN-SUFFIX,tiny.cc,🚀 选择代理
-- DOMAIN-SUFFIX,tinypic.com,🚀 选择代理
-- DOMAIN-SUFFIX,tmblr.co,🚀 选择代理
-- DOMAIN-SUFFIX,todoist.com,🚀 选择代理
-- DOMAIN-SUFFIX,trello.com,🚀 选择代理
-- DOMAIN-SUFFIX,trustasiassl.com,🚀 选择代理
-- DOMAIN-SUFFIX,tumblr.co,🚀 选择代理
-- DOMAIN-SUFFIX,tweetdeck.com,🚀 选择代理
-- DOMAIN-SUFFIX,tweetmarker.net,🚀 选择代理
-- DOMAIN-SUFFIX,txmblr.com,🚀 选择代理
-- DOMAIN-SUFFIX,typekit.net,🚀 选择代理
-- DOMAIN-SUFFIX,ubertags.com,🚀 选择代理
-- DOMAIN-SUFFIX,ublock.org,🚀 选择代理
-- DOMAIN-SUFFIX,ubnt.com,🚀 选择代理
-- DOMAIN-SUFFIX,ulyssesapp.com,🚀 选择代理
-- DOMAIN-SUFFIX,urchin.com,🚀 选择代理
-- DOMAIN-SUFFIX,usertrust.com,🚀 选择代理
-- DOMAIN-SUFFIX,v.gd,🚀 选择代理
-- DOMAIN-SUFFIX,v2ex.com,🚀 选择代理
-- DOMAIN-SUFFIX,vimeocdn.com,🚀 选择代理
-- DOMAIN-SUFFIX,vivaldi.com,🚀 选择代理
-- DOMAIN-SUFFIX,vox-cdn.com,🚀 选择代理
-- DOMAIN-SUFFIX,vultr.com,🚀 选择代理
-- DOMAIN-SUFFIX,w.org,🚀 选择代理
-- DOMAIN-SUFFIX,webtype.com,🚀 选择代理
-- DOMAIN-SUFFIX,wikiwand.com,🚀 选择代理
-- DOMAIN-SUFFIX,wordpress.com,🚀 选择代理
-- DOMAIN-SUFFIX,workflowy.com,🚀 选择代理
-- DOMAIN-SUFFIX,wp.com,🚀 选择代理
-- DOMAIN-SUFFIX,xeeno.com,🚀 选择代理
-- DOMAIN-SUFFIX,xiti.com,🚀 选择代理
-- DOMAIN-SUFFIX,ying.com,🚀 选择代理
-- DOMAIN-SUFFIX,yoyo.org,🚀 选择代理
-- IP-CIDR,91.108.16.0/22,🚀 选择代理,no-resolve
-- IP-CIDR,91.108.56.0/22,🚀 选择代理,no-resolve
-- IP-CIDR,149.154.160.0/22,🚀 选择代理,no-resolve
-- IP-CIDR,149.154.164.0/22,🚀 选择代理,no-resolve
-- IP-CIDR,149.154.168.0/22,🚀 选择代理,no-resolve
-- IP-CIDR,149.154.172.0/22,🚀 选择代理,no-resolve
-- GEOIP,CN,❓ 疑似国内
-- DOMAIN-SUFFIX,gvt1.com,🐟 漏网之鱼
-- MATCH,🐟 漏网之鱼
-sniffer:
-  enable: true
-  skip-domain:
-  - Mijia Cloud
-  - dlg.io.mi.com
-  - +.apple.com
-  sniff:
-    HTTP:
-      override-destination: true
-      ports:
-      - 80
-      - 8080-8880
-    TLS:
-      ports:
-      - 443
-      - 8443
-tcp-concurrent: true
+- MATCH,PROXY
