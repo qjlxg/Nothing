@@ -105,6 +105,28 @@ for url in \
 done
 # 追加yaml列表内容至hijacking末尾
 cat <<EOF >>hijacking
+  - DOMAIN-SUFFIX,sdkconf.avlyun.com
+  - DOMAIN-SUFFIX,ixav-cse.avlyun.com
+  - DOMAIN-SUFFIX,miav-cse.avlyun.com
+  - DOMAIN-SUFFIX,miui-fxcse.avlyun.com
+  - DOMAIN-SUFFIX,api.sec.miui.com
+  - DOMAIN-SUFFIX,adv.sec.miui.com
+  - DOMAIN-SUFFIX,srv.sec.miui.com
+  - DOMAIN-SUFFIX,xlmc.sec.miui.com
+  - DOMAIN-SUFFIX,data.sec.miui.com
+  - DOMAIN-SUFFIX,port.sec.miui.com
+  - DOMAIN-SUFFIX,flash.sec.miui.com
+  - DOMAIN-SUFFIX,avlyun.sec.miui.com
+  - DOMAIN-SUFFIX,auth.be.sec.miui.com
+  - DOMAIN-SUFFIX,avlyun.sec.intl.miui.com
+  - DOMAIN-SUFFIX,a0.app.xiaomi.com
+  - DOMAIN-SUFFIX,hybrid.xiaomi.com
+  - DOMAIN-SUFFIX,cn.app.chat.xiaomi.net
+  - DOMAIN-SUFFIX,api.installer.xiaomi.com
+  - DOMAIN-SUFFIX,a.hl.mi.com
+  - DOMAIN-SUFFIX,api.jr.mi.com
+  - DOMAIN-SUFFIX,etl-xlmc-ssl.sandai.net
+  - DOMAIN-SUFFIX,tmfsdk.m.qq.com
   - PROCESS-NAME-REGEX,(?i)(antifraud|hicore)
   - DOMAIN-KEYWORD,96110
   - DOMAIN-KEYWORD,fqzpt
