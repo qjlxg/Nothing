@@ -20,7 +20,7 @@ proxies:
   sni: jostar-data.nl
   tls: false
   type: hysteria2
-- name: 2|рЯЗрЯ+@customv2ray+ўМ+ўЎІМ+®МЎ...
+- name: 2|Wifi-MCi-@V2ray_Raha-11
   password: 28c05d48e2f470d07a4c392c9bd43849
   port: 443
   server: quran.mci.ai
@@ -28,7 +28,23 @@ proxies:
   sni: quran.mci.ai
   tls: false
   type: hysteria2
-- name: 2|рЯ49@ConfigV2RayNG
+- name: 2|MCI-@V2ray_Raha-2
+  password: 4453aa95-c236-46a1-8066-8145ab8ebee6
+  port: 30102
+  server: 207.211.176.63
+  skip-cert-verify: true
+  sni: us13.wish.ml
+  tls: false
+  type: hysteria2
+- name: 2|IR-@V2ray_Alpha-5
+  password: 4453aa95-c236-46a1-8066-8145ab8ebee6
+  port: 30102
+  server: 207.211.189.252
+  skip-cert-verify: true
+  sni: us12.wish.ml
+  tls: false
+  type: hysteria2
+- name: 2|49@ConfigV2RayNG
   password: 4453aa95-c236-46a1-8066-8145ab8ebee6
   port: 30102
   server: us12.wish.ml
@@ -36,36 +52,12 @@ proxies:
   sni: us12.wish.ml
   tls: false
   type: hysteria2
-- name: 2|рЯМ∞48@ConfigV2RayNG
+- name: 2|🌰48@ConfigV2RayNG
   password: 4453aa95-c236-46a1-8066-8145ab8ebee6
   port: 30102
   server: us13.wish.ml
   skip-cert-verify: true
   sni: us13.wish.ml
-  tls: false
-  type: hysteria2
-- name: 2|MCI-@V2ray_Alpha-7
-  password: 51ed158e-b95b-451b-a48b-60e356de287d
-  port: 30001
-  server: 35afq4514.surfcat.store
-  skip-cert-verify: true
-  sni: 35afq4514.surfcat.store
-  tls: false
-  type: hysteria2
-- name: 2|MCI-@V2ray_Alpha-8
-  password: 51ed158e-b95b-451b-a48b-60e356de287d
-  port: 30103
-  server: 35asfq3t.surfcat.store
-  skip-cert-verify: true
-  sni: 35afq4514.surfcat.store
-  tls: false
-  type: hysteria2
-- name: 2|MCI-@V2ray_Alpha-5
-  password: 51ed158e-b95b-451b-a48b-60e356de287d
-  port: 30103
-  server: 35f235a.surfcat.store
-  skip-cert-verify: true
-  sni: 35afq4514.surfcat.store
   tls: false
   type: hysteria2
 - name: 2|MCi-@V2ray_Alpha-9
@@ -124,12 +116,90 @@ proxies:
   sni: us3.xiaoliyu.us
   tls: false
   type: hysteria2
-- name: 2|ЃрЯрЯЗ®рЯЗ¶+_+@freeconfig01
+- name: 2|WiFi-@V2ray_Raha-8
+  password: 5cdeddf6-0c70-4655-b875-810670cec256
+  port: 443
+  server: jiumaojiu-fr.legeth.xyz
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 2|WiFi-@V2ray_Raha-9
+  password: 5cdeddf6-0c70-4655-b875-810670cec256
+  port: 443
+  server: jiumaojiu-lu.legeth.xyz
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 2|MCI-@V2ray_Raha-7
+  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  port: 30102
+  server: 140.238.137.165
+  skip-cert-verify: true
+  sni: du.wish.ml
+  tls: false
+  type: hysteria2
+- name: 2|MCI-@V2ray_Raha-9
+  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  port: 30102
+  server: 144.22.223.153
+  skip-cert-verify: true
+  sni: br2.wish.ml
+  tls: false
+  type: hysteria2
+- name: 2|MCI-@V2ray_Raha-5
+  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  port: 30102
+  server: 149.130.210.148
+  skip-cert-verify: true
+  sni: us9.wish.ml
+  tls: false
+  type: hysteria2
+- name: '2|@meli_proxyy #8'
+  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  port: 30102
+  server: 193.123.76.141
+  skip-cert-verify: true
+  sni: joinBede.ELiV2ray.net
+  tls: false
+  type: hysteria2
+- name: 2|MCI-@V2ray_Raha-4
+  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  port: 30102
+  server: 193.123.82.241
+  skip-cert-verify: true
+  sni: du.wish.ml
+  tls: false
+  type: hysteria2
+- name: 2|MCI-@V2ray_Raha-6
+  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  port: 30102
+  server: 207.211.164.255
+  skip-cert-verify: true
+  sni: us11.wish.ml
+  tls: false
+  type: hysteria2
+- name: 2|MCI-@V2ray_Raha-3
+  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  port: 30102
+  server: 207.211.178.161
+  skip-cert-verify: true
+  sni: us6.wish.ml
+  tls: false
+  type: hysteria2
+- name: 2|+_+@freeconfig01
   password: 7d417084-d308-4b35-96c8-99dfb2547ec2
   port: 30102
   server: 40.233.76.38
   skip-cert-verify: true
   sni: du.wish.ml
+  tls: false
+  type: hysteria2
+- name: '2|@meli_proxyy #13'
+  password: 7d417084-d308-4b35-96c8-99dfb2547ec2
+  port: 30102
+  server: 46.17.40.42
+  skip-cert-verify: true
+  sni: elena.ru
   tls: false
   type: hysteria2
 - name: 2|MCi-@V2ray_Raha-06
@@ -212,6 +282,14 @@ proxies:
   sni: 35afq4514.surfcat.store
   tls: false
   type: hysteria2
+- name: 2|Wifi-MCi-@V2ray_Raha-8
+  password: 9d765687-536c-4626-a2e2-6a403219e381
+  port: 30103
+  server: 35f235a.surfcat.store
+  skip-cert-verify: true
+  sni: 35afq4514.surfcat.store
+  tls: false
+  type: hysteria2
 - name: 2|Ir-@V2ray_Raha-07
   obfs: salamander
   obfs-password: KevinZakarian
@@ -232,7 +310,7 @@ proxies:
   sni: 179.61.132.91
   tls: false
   type: hysteria2
-- name: 2|рЯ@proxy_shadosocksрЯЪА
+- name: 2|@proxy_shadosocks🚀
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -242,7 +320,17 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 2|рЯМ∞14@ConfigV2RayNG
+- name: 2|MCI-@V2ray_Raha-1
+  obfs: salamander
+  obfs-password: KevinZakarian
+  password: KevinZakarian
+  port: 8443
+  server: 66.23.198.35
+  skip-cert-verify: true
+  sni: kevin.serverv.net
+  tls: false
+  type: hysteria2
+- name: 2|🌰14@ConfigV2RayNG
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -259,14 +347,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 2|MCI-@V2ray_Alpha-6
-  password: d45e4297-0e1c-4e61-86e3-a2d18d3c2a0e
-  port: 26873
-  server: us.legeth.cc
-  skip-cert-verify: false
-  sni: us.legeth.cc
-  tls: false
-  type: hysteria2
 - name: '2|IR-@V2ray_Alpha-05 #1'
   obfs: salamander
   obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q
@@ -277,7 +357,7 @@ proxies:
   sni: anymath.ir
   tls: false
   type: hysteria2
-- name: 2|рЯЪА@proxy_shadosocksрЯЪА
+- name: 2|🚀@proxy_shadosocks🚀
   password: sysadmin.12345678
   port: 2025
   server: 192.227.247.92
@@ -365,7 +445,7 @@ proxies:
   sni: ss.wodeyumingliao.top
   tls: false
   type: hysteria2
-- name: 2|рЯМ∞51@ConfigV2RayNG
+- name: 2|🌰51@ConfigV2RayNG
   password: sysadmin.sysadmin
   port: 6813
   server: 154.23.175.126
@@ -408,6 +488,13 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 2|IR-@V2ray_Alpha-6
+  password: sysadmin.sysadmin
+  port: 443
+  server: 194.36.209.54
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 2|IR-@V2ray_Raha-03
   password: sysadmin.sysadmin
   port: 443
@@ -419,13 +506,6 @@ proxies:
   password: sysadmin.sysadmin
   port: 443
   server: 206.237.0.170
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 2|рЯМ∞50@ConfigV2RayNG
-  password: sysadmin.sysadmin
-  port: 443
-  server: 23.94.2.137
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -490,18 +570,26 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 3|🇯🇵 日本3|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54102
-  server: j-p04.loveroise.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 3|🇰🇷 韩国|@ripaojiedian
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54008
   server: k-r01.loveroise.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3|🇯🇵 日本|@ripaojiedian
+  password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6
+  port: 40003
+  server: soonjp.soon.guru
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3|🇯🇵 日本3|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54102
+  server: j-p04.loveroise.com
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -525,7 +613,7 @@ proxies:
   name: 3|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.143.139.72
+  server: 43.207.112.115
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -533,7 +621,7 @@ proxies:
   name: 3|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.36.86.96
+  server: 54.199.12.31
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -546,192 +634,55 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 4|CN_speednode_0004
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19027
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0005
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19026
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0006
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19025
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0007
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19009
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0008
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19023
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0009
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19002
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0010
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19008
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0011
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54032
-  server: t-wn01.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0013
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54100
-  server: j-p03.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0015
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54004
-  server: h-k03.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0016
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54096
-  server: j-p01.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0017
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19003
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0018
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54014
-  server: k-r04.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0019
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19018
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0020
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19010
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0021
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19001
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0022
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54038
-  server: t-wn04.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0023
-  password: F585FCDB-6351-48D4-82C1-599B5447A589
-  port: 40020
-  server: soontw.soon.guru
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0024
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54028
-  server: s-g03.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0025
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54098
   server: j-p02.loveroise.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0027
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19020
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0028
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19015
-  server: yy.vyunyunnode.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0029
+  name: 4|CN_speednode_0005
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54024
-  server: s-g01.loveroise.com
+  port: 54032
+  server: t-wn01.loveroise.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0030
-  password: 0cd4f4c0-9d64-48d8-a89b-ce2e85d84386
-  port: 19021
-  server: yy.vyunyunnode.top
+  name: 4|CN_speednode_0006
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54004
+  server: h-k03.loveroise.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 4|CN_speednode_0031
-  password: f0e7fd1e-0469-415f-95da-774021f16f36
-  port: 40003
-  server: soonjp.soon.guru
+  name: 4|CN_speednode_0007
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54096
+  server: j-p01.loveroise.com
   type: ss
-- cipher: aes-256-cfb
-  name: 4|SG_speednode_0043
-  password: amazonskr05
-  port: 443
-  server: 18.141.184.102
+- cipher: chacha20-ietf-poly1305
+  name: 4|CN_speednode_0008
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54028
+  server: s-g03.loveroise.com
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 4|US_speednode_0046
-  password: amazonskr05
-  port: 443
-  server: 54.203.119.192
-  type: ss
-- alpn:
-  - h3
-  - h2
-  - http%2F1.1
-  name: 4|SG_speednode_0044
+- name: 4|DE_speednode_0009
   network: tcp
-  port: 443
-  server: 152.42.238.145
-  servername: aka.ms
+  port: 14628
+  server: 157.230.20.98
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 8456babd-3b6e-4127-af39-e4cb8edda48f
+- client-fingerprint: chrome
+  name: 4|DE_speednode_0010
+  network: tcp
+  port: 8443
+  server: 89.187.169.71
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 4f0bc55f-8824-4a09-a868-33ad3dd8fa26
+  uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
 - alterId: 64
   cipher: auto
-  name: '0|Github搜索TrojanLinks #11'
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '0|Github搜索TrojanLinks #12'
+  name: '0|Github搜索TrojanLinks #3'
   network: tcp
   port: '50002'
   server: 47.104.186.133
@@ -740,43 +691,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '0|Github搜索TrojanLinks #14'
-  network: tcp
-  port: '50002'
-  server: 114.55.132.202
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '0|Github搜索TrojanLinks #20'
-  network: tcp
-  port: '59003'
-  server: 183.236.51.36
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '0|Github搜索TrojanLinks #28'
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '0|Github搜索TrojanLinks #29'
-  network: tcp
-  port: '50002'
-  server: 112.132.215.12
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '0|Github搜索TrojanLinks #30'
+  name: '0|Github搜索TrojanLinks #4'
   network: tcp
   port: '50002'
   server: 47.92.152.169
@@ -785,7 +700,25 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '0|Github搜索TrojanLinks #32'
+  name: '0|Github搜索TrojanLinks #11'
+  network: tcp
+  port: '54002'
+  server: 183.236.48.163
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '0|Github搜索TrojanLinks #17'
+  network: tcp
+  port: '50002'
+  server: 112.132.215.12
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '0|Github搜索TrojanLinks #19'
   network: tcp
   port: '50052'
   server: 183.236.48.158
@@ -794,7 +727,25 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '0|Github搜索TrojanLinks #36'
+  name: '0|Github搜索TrojanLinks #31'
+  network: tcp
+  port: '59003'
+  server: 183.236.51.36
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '0|Github搜索TrojanLinks #34'
+  network: tcp
+  port: '50002'
+  server: 114.55.132.202
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '0|Github搜索TrojanLinks #35'
   network: tcp
   port: '50002'
   server: 47.116.173.76
@@ -803,10 +754,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
+  name: '0|Github搜索TrojanLinks #43'
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
   name: 3|🇭🇰 香港3|@ripaojiedian
-  port: 32193
-  server: 120.198.71.214
+  port: 35601
+  server: 120.198.71.216
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -826,9 +786,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 3|🇺🇸 美国2|@ripaojiedian
-  port: 58831
-  server: 120.232.153.27
+  name: 3|🇭🇰 香港7|@ripaojiedian
+  port: 46602
+  server: 183.236.51.23
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -836,36 +796,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 4|CN_speednode_0002
-  port: 40565
-  server: 120.232.153.63
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 4|CN_speednode_0003
+  name: 4|CN_speednode_0001
   port: 31878
   server: 183.236.48.143
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 4|CN_speednode_0012
-  port: 41490
-  server: 183.236.48.143
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 4|CN_speednode_0014
-  port: 37614
-  server: 120.198.71.219
   skip-cert-verify: true
   tls: false
   type: vmess
